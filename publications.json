@@ -1,72 +1,506 @@
 [
   {
+    "title": "Priorities on trauma-informed design of sexual and reproductive health-related digital technologies: A modified nominal group technique",
+    "year": 2026,
+    "vancouver_citation": "Abdulai A, Goldsmith K, Hartman C, Nicol K, Esteban Ronquillo C, Recsky C, et al. Priorities on trauma-informed design of sexual and reproductive health-related digital technologies: A modified nominal group technique. DIGITAL HEALTH. 2026;12.",
+    "doi": "10.1177/20552076261431882",
+    "url": "https://doi.org/10.1177/20552076261431882"
+  },
+  {
+    "title": "Evaluation and improvement of algorithmic fairness for COVID-19 severity classification using Explainable Artificial Intelligence-based bias mitigation",
+    "year": 2026,
+    "vancouver_citation": "Nejadshamsi S, H. Chu C, McGilton KS, Li X, Ronquillo C, Abbasgholizadeh-Rahimi S. Evaluation and improvement of algorithmic fairness for COVID-19 severity classification using Explainable Artificial Intelligence-based bias mitigation. JAMIA Open. 2026;9(1).",
+    "doi": "10.1093/jamiaopen/ooaf171",
+    "url": "https://doi.org/10.1093/jamiaopen/ooaf171"
+  },
+  {
+    "title": "Education, empowerment, and elevating nursing voices: Nursing informatics leaders’ perspectives on the path forward with artificial intelligence in nursing",
+    "year": 2025,
+    "vancouver_citation": "Reading Turchioe M, Pepingco C, Ronquillo C, Ferrara SA, Topaz M, Austin R, et al. Education, empowerment, and elevating nursing voices: Nursing informatics leaders’ perspectives on the path forward with artificial intelligence in nursing. Nursing Outlook. 2025;73(5):102484.",
+    "doi": "10.1016/j.outlook.2025.102484",
+    "url": "https://doi.org/10.1016/j.outlook.2025.102484"
+  },
+  {
     "title": "Supporting professional development for early career pre-tenure nursing faculty using Narrative Reflective Process",
     "year": 2025,
-    "vancouver_citation": "Chyzzy B, Bookey-Bassett S, Ziegler E, Ronquillo CE, Schwind JK. Supporting professional development for early career pre-tenure nursing faculty using Narrative Reflective Process. J Nurs Educ Pract. 2025;15(2):73.",
+    "vancouver_citation": "Chyzzy B, Bookey-Bassett S, Ziegler E, Ronquillo CE, Schwind JK. Supporting professional development for early career pre-tenure nursing faculty using Narrative Reflective Process. Journal of Nursing Education and Practice. 2025;15(2):73.",
     "doi": "10.5430/jnep.v15n2p73",
-    "url": ""
+    "url": "https://doi.org/10.5430/jnep.v15n2p73"
   },
   {
-    "title": "Education, empowerment, and elevating nursing voices: Nursing informatics leaders' perspectives on the path forward with artificial intelligence in nursing",
-    "year": 2025,
-    "vancouver_citation": "Reading Turchioe M, Pepingco C, Ronquillo C, Ferrara SA, Topaz M, Austin R, Lytle K. Education, empowerment, and elevating nursing voices: Nursing informatics leaders' perspectives on the path forward with artificial intelligence in nursing. Nurs Outlook. 2025;73(5):102484.",
-    "doi": "10.1016/j.outlook.2025.102484",
-    "url": ""
-  },
-  {
-    "title": "Technological challenges and solutions in emergency remote teaching for nursing: An international cross-sectional survey",
+    "title": "Fairness in Classifying and Grouping Health Equity Information",
     "year": 2024,
-    "vancouver_citation": "Jeon E, Peltonen LM, Block LJ, Ronquillo C, et al. Technological challenges and solutions in emergency remote teaching for nursing: An international cross-sectional survey. Healthc Inform Res. 2024;30(1):49-59.",
-    "doi": "10.4258/hir.2024.30.1.49",
-    "url": ""
-  },
-  {
-    "title": "Fairness in classifying and grouping health equity information",
-    "year": 2024,
-    "vancouver_citation": "Jin R, Li X, Block LJ, Beschastnikh I, Currie LM, Ronquillo CE. Fairness in classifying and grouping health equity information. Stud Health Technol Inform. 2024.",
+    "vancouver_citation": "Jin R, Li X, Block LJ, Beschastnikh I, Currie LM, Ronquillo CE. Fairness in Classifying and Grouping Health Equity Information. Studies in Health Technology and Informatics. 2024.",
     "doi": "10.3233/SHTI240171",
-    "url": ""
+    "url": "https://doi.org/10.3233/SHTI240171"
   },
   {
-    "title": "Artificial intelligence-based technologies in nursing: A scoping literature review of the evidence",
-    "year": 2022,
-    "vancouver_citation": "Von Gerich H, Moen H, Block LJ, et al. Artificial intelligence-based technologies in nursing: A scoping literature review of the evidence. Int J Nurs Stud. 2022;127:104153.",
-    "doi": "10.1016/j.ijnurstu.2021.104153",
-    "url": ""
+    "title": "Mapping Trust in Nurses with Dimensions of Trustworthy Artificial Intelligence: A Scoping Review",
+    "year": 2024,
+    "vancouver_citation": "Ronquillo CE, Booth RG, Adzo Vittor W, Mendoza I, Wood N, Gomes van Berlo O, et al. Mapping Trust in Nurses with Dimensions of Trustworthy Artificial Intelligence: A Scoping Review. Studies in Health Technology and Informatics. 2024.",
+    "doi": "10.3233/SHTI240295",
+    "url": "https://doi.org/10.3233/SHTI240295"
   },
   {
-    "title": "The Untapped Potential of Nursing and Allied Health Data for Improved Representation of Social Determinants of Health and Intersectionality in AI Applications",
-    "year": 2022,
-    "vancouver_citation": "Ronquillo CE, Mitchell J, et al. The Untapped Potential of Nursing and Allied Health Data for Improved Representation of Social Determinants of Health and Intersectionality in AI Applications: A Rapid Review. Yearb Med Inform. 2022.",
-    "doi": "10.1055/s-0042-1742504",
-    "url": ""
+    "title": "Technological Challenges and Solutions in Emergency Remote Teaching for Nursing: An International Cross-Sectional Survey",
+    "year": 2024,
+    "vancouver_citation": "Jeon E, Peltonen L, Block LJ, Ronquillo C, Tayaben JL, Nibber R, et al. Technological Challenges and Solutions in Emergency Remote Teaching for Nursing: An International Cross-Sectional Survey. Healthcare Informatics Research. 2024;30(1):49-59.",
+    "doi": "10.4258/hir.2024.30.1.49",
+    "url": "https://doi.org/10.4258/hir.2024.30.1.49"
   },
   {
-    "title": "Evaluating the Representation of Disaster Hazards in SNOMED CT: Gaps and Opportunities",
+    "title": "Escenarios y situaciones de racismo y clasismo durante el cuidado de enfermería: Una revisión de la literatura",
     "year": 2023,
-    "vancouver_citation": "Block LJ, Ronquillo CE, et al. Evaluating the Representation of Disaster Hazards in SNOMED CT: Gaps and Opportunities. J Am Med Inform Assoc. 2023.",
+    "vancouver_citation": "Lozada Perezmite E, Landeros Olvera E, Galicia Aguilar RM, Esteban Ronquillo C. Escenarios y situaciones de racismo y clasismo durante el cuidado de enfermería: Una revisión de la literatura. Revista Salud y Cuidado. 2023;2(4):49.",
+    "doi": "10.36677/saludycuidado.v2i4.21985",
+    "url": "https://doi.org/10.36677/saludycuidado.v2i4.21985"
+  },
+  {
+    "title": "Evaluating the representation of disaster hazards in SNOMED CT: gaps and opportunities",
+    "year": 2023,
+    "vancouver_citation": "Lokmic-Tomkins Z, Block LJ, Davies S, Reid L, Ronquillo CE, von Gerich H, et al. Evaluating the representation of disaster hazards in SNOMED CT: gaps and opportunities. Journal of the American Medical Informatics Association. 2023;30(11):1762-1772.",
     "doi": "10.1093/jamia/ocad153",
-    "url": ""
+    "url": "https://doi.org/10.1093/jamia/ocad153"
   },
   {
-    "title": "Differing Effects of Implementation Leadership Characteristics on Nurses' Use of mHealth Technologies in Clinical Practice",
+    "title": "Differing Effects of Implementation Leadership Characteristics on Nurses’ Use of mHealth Technologies in Clinical Practice: Cross-Sectional Survey Study",
     "year": 2023,
-    "vancouver_citation": "Ronquillo CE, et al. Differing Effects of Implementation Leadership Characteristics on Nurses' Use of mHealth Technologies in Clinical Practice: Cross-Sectional Survey Study. JMIR Nurs. 2023.",
+    "vancouver_citation": "Ronquillo CE, Dahinten VS, Bungay V, Currie LM. Differing Effects of Implementation Leadership Characteristics on Nurses’ Use of mHealth Technologies in Clinical Practice: Cross-Sectional Survey Study. JMIR Nursing. 2023;6:e44435.",
     "doi": "10.2196/44435",
-    "url": ""
+    "url": "https://doi.org/10.2196/44435"
+  },
+  {
+    "title": "A Framework for Embedding Artificial Intelligence in Nursing: Education, Innovation, Collaboration, and Implementation – the ALIGN Model",
+    "year": 2023,
+    "vancouver_citation": "O'Connor S, Peltonen L, Ronquillo CE, Chu C, Topaz M, Chen LA, et al. A Framework for Embedding Artificial Intelligence in Nursing: Education, Innovation, Collaboration, and Implementation – the ALIGN Model. 2023.",
+    "doi": "10.31219/osf.io/3b8pc",
+    "url": "https://doi.org/10.31219/osf.io/3b8pc"
+  },
+  {
+    "title": "Differing Effects of Implementation Leadership Characteristics on Nurses’ Use of mHealth Technologies in Clinical Practice: Cross-Sectional Survey Study (Preprint)",
+    "year": 2022,
+    "vancouver_citation": "Ronquillo CE, Dahinten VS, Bungay V, Currie LM. Differing Effects of Implementation Leadership Characteristics on Nurses’ Use of mHealth Technologies in Clinical Practice: Cross-Sectional Survey Study (Preprint). 2022.",
+    "doi": "10.2196/preprints.44435",
+    "url": "https://doi.org/10.2196/preprints.44435"
+  },
+  {
+    "title": "A cross-sectional study of the preventive health care activities of western Canadian rural-living patients unattached to primary care providers",
+    "year": 2022,
+    "vancouver_citation": "Rush KL, Burton L, Seaton CL, Smith MA, Li EP, Ronquillo CE, et al. A cross-sectional study of the preventive health care activities of western Canadian rural-living patients unattached to primary care providers. Preventive Medicine Reports. 2022;29:101913.",
+    "doi": "10.1016/J.PMEDR.2022.101913",
+    "url": "https://doi.org/10.1016/J.PMEDR.2022.101913"
+  },
+  {
+    "title": "Artificial Intelligence -based technologies in nursing: A scoping literature review of the evidence",
+    "year": 2022,
+    "vancouver_citation": "von Gerich H, Moen H, Block LJ, Chu CH, DeForest H, Hobensack M, et al. Artificial Intelligence -based technologies in nursing: A scoping literature review of the evidence. International Journal of Nursing Studies. 2022;127:104153.",
+    "doi": "10.1016/J.IJNURSTU.2021.104153",
+    "url": "https://doi.org/10.1016/J.IJNURSTU.2021.104153"
   },
   {
     "title": "Technology Recommendations to Support Person-Centered Care in Long-Term Care Homes during the COVID-19 Pandemic and Beyond",
     "year": 2021,
-    "vancouver_citation": "Chu CH, Ronquillo C, et al. Technology Recommendations to Support Person-Centered Care in Long-Term Care Homes during the COVID-19 Pandemic and Beyond. J Aging Soc Policy. 2021;1-16.",
+    "vancouver_citation": "Chu CH, Ronquillo C, Khan S, Hung L, Boscart V. Technology Recommendations to Support Person-Centered Care in Long-Term Care Homes during the COVID-19 Pandemic and Beyond. Journal of Aging &amp; Social Policy. 2021;33(4-5):539-554.",
     "doi": "10.1080/08959420.2021.1927620",
+    "url": "https://doi.org/10.1080/08959420.2021.1927620"
+  },
+  {
+    "title": "Artificial intelligence in nursing: Priorities and opportunities from an international invitational think‐tank of the Nursing and Artificial Intelligence Leadership Collaborative",
+    "year": 2021,
+    "vancouver_citation": "Ronquillo CE, Peltonen L, Pruinelli L, Chu CH, Bakken S, Beduschi A, et al. Artificial intelligence in nursing: Priorities and opportunities from an international invitational think‐tank of the Nursing and Artificial Intelligence Leadership Collaborative. Journal of Advanced Nursing. 2021;77(9):3707-3717.",
+    "doi": "10.1111/jan.14855",
+    "url": "https://doi.org/10.1111/jan.14855"
+  },
+  {
+    "title": "COVID-19 restrictions: experiences of immigrant parents in Toronto.",
+    "year": 2021,
+    "vancouver_citation": "Guruge S, Daphne Cockwell School of Nursing, Ryerson University, Toronto, Canada, Lamaj P, Lee C, Ronquillo CE, Sidani S, et al. COVID-19 restrictions: experiences of immigrant parents in Toronto. AIMS Public Health. 2021;8(1):172-185.",
+    "doi": "10.3934/publichealth.2021013",
+    "url": "https://doi.org/10.3934/publichealth.2021013"
+  },
+  {
+    "title": "Evidence-Based Health Informatics as the Foundation for the COVID-19 Response: A Joint Call for Action",
+    "year": 2021,
+    "vancouver_citation": "Fernandez-Luque L, Kushniruk AW, Georgiou A, Basu A, Petersen C, Ronquillo C, et al. Evidence-Based Health Informatics as the Foundation for the COVID-19 Response: A Joint Call for Action. Methods of Information in Medicine. 2021;59(06):183-192.",
+    "doi": "10.1055/S-0041-1726414",
+    "url": "https://doi.org/10.1055/S-0041-1726414"
+  },
+  {
+    "title": "Health Informatics Solutions in Response to COVID-19: Preliminary Insights from an International Survey.",
+    "year": 2020,
+    "vancouver_citation": "Barakati S, Topaz M, Peltonen L, Mitchell J, Alhuwail D, Risling T, et al. Health Informatics Solutions in Response to COVID-19: Preliminary Insights from an International Survey. Studies in Health Technology and Informatics. 2020.",
+    "doi": "10.3233/shti200727",
+    "url": "https://doi.org/10.3233/shti200727"
+  },
+  {
+    "title": "A nursing informatics response to COVID‐19: Perspectives from five regions of the world",
+    "year": 2020,
+    "vancouver_citation": "Atique S, Bautista JR, Block LJ, Lee JJ, Lozada‐Perezmitre E, Nibber R, et al. A nursing informatics response to COVID‐19: Perspectives from five regions of the world. Journal of Advanced Nursing. 2020;76(10):2462-2468.",
+    "doi": "10.1111/jan.14417",
+    "url": "https://doi.org/10.1111/jan.14417"
+  },
+  {
+    "title": "Data visualization in health care: The Florence effect.",
+    "year": 2020,
+    "vancouver_citation": "O'Connor S, Waite M, Duce D, O'Donnell A, Ronquillo C. Data visualization in health care: The Florence effect. Journal of Advanced Nursing. 2020;76(7):1488-1490.",
+    "doi": "10.1111/jan.14334",
+    "url": "https://doi.org/10.1111/jan.14334"
+  },
+  {
+    "title": "Emerging Professionals' Observations of Opportunities and Challenges in Nursing Informatics",
+    "year": 2019,
+    "vancouver_citation": "Peltonen L, Nibber R, Lewis A, Block L, Pruinelli L, Topaz M, et al. Emerging Professionals’ Observations of Opportunities and Challenges in Nursing Informatics. Canadian Journal of Nursing Leadership. 2019;32(2):8-18.",
+    "doi": "10.12927/cjnl.2019.25965",
+    "url": "https://doi.org/10.12927/cjnl.2019.25965"
+  },
+  {
+    "title": "PP102 Developing A Contextually-Informed Deprescribing Intervention",
+    "year": 2019,
+    "vancouver_citation": "Ronquillo C, Stein K. PP102 Developing A Contextually-Informed Deprescribing Intervention. International Journal of Technology Assessment in Health Care. 2019;34(S1):104-105.",
+    "doi": "10.1017/S0266462318002441",
+    "url": "https://doi.org/10.1017/S0266462318002441"
+  },
+  {
+    "title": "The Nurse LEADership for Implementing Technologies - Mobile Health Model (Nurse LEAD-IT - mHealth)",
+    "year": 2019,
+    "vancouver_citation": "Ronquillo C, Dahinten V, Bungay V, Currie L. The Nurse LEADership for Implementing Technologies – Mobile Health Model (Nurse LEAD-IT – mHealth). Canadian Journal of Nursing Leadership. 2019;32(2):71-84.",
+    "doi": "10.12927/cjnl.2019.25960",
+    "url": "https://doi.org/10.12927/cjnl.2019.25960"
+  },
+  {
+    "title": "The current state of Nursing Informatics – An international cross-sectional survey",
+    "year": 2019,
+    "vancouver_citation": "Peltonen L, Pruinelli L, Ronquillo C, Nibber R, Peresmitre EL, Block L, et al. The current state of Nursing Informatics – An international cross-sectional survey. Finnish Journal of eHealth and eWelfare. 2019;11(3):220-231.",
+    "doi": "10.23996/FJHW.77584",
+    "url": "https://doi.org/10.23996/FJHW.77584"
+  },
+  {
+    "title": "Building Capacity in Student and Emerging Nursing Informatics Professionals Through Participation in an International Community of Practice.",
+    "year": 2018,
+    "vancouver_citation": "Block Lorraine, Peltonen Laura-Maria, Ronquillo Charlene, Lewis Adrienne, Nibber Raji, Pruinelli Lisiane, et al. Building Capacity in Student and Emerging Nursing Informatics Professionals Through Participation in an International Community of Practice. Studies in Health Technology and Informatics. 2018.",
+    "doi": "10.3233/978-1-61499-872-3-82",
+    "url": "https://doi.org/10.3233/978-1-61499-872-3-82"
+  },
+  {
+    "title": "The MOBile-Health and Implementation Leadership Evaluation (MOBILE) Nurse Study: Developing a Testable Conceptual Model.",
+    "year": 2018,
+    "vancouver_citation": "Ronquillo Charlene, Dahinten Susan, Bungay Vicky, Currie Leanne. The MOBile-Health and Implementation Leadership Evaluation (MOBILE) Nurse Study: Developing a Testable Conceptual Model. Studies in Health Technology and Informatics. 2018.",
+    "doi": "10.3233/978-1-61499-872-3-143",
+    "url": "https://doi.org/10.3233/978-1-61499-872-3-143"
+  },
+  {
+    "title": "4 Enhanced dissemination of evidence syntheses to support emerging new models of care",
+    "year": 2018,
+    "vancouver_citation": "Ronquillo C, Turner A, Baxter S, Bunn F, Sheaff R, Pearson M, et al. 4 Enhanced dissemination of evidence syntheses to support emerging new models of care. Workshops. 2018:A2.2-A3.",
+    "doi": "10.1136/BMJEBM-2018-111024.4",
+    "url": "https://doi.org/10.1136/BMJEBM-2018-111024.4"
+  },
+  {
+    "title": "An Implementation Science Perspective on Deprescribing",
+    "year": 2018,
+    "vancouver_citation": "Hudson RB. Gerontology’s Political Blind Spot. Public Policy &amp; Aging Report. 2018;28(1):4-8.",
+    "doi": "10.1093/PPAR/PRY032",
+    "url": "https://doi.org/10.1093/PPAR/PRY032"
+  },
+  {
+    "title": "Building capacity in student and emerging nursing informatics professionals through participation in an international community of practice",
+    "year": 2018,
+    "vancouver_citation": "Block Lorraine, Peltonen Laura-Maria, Ronquillo Charlene, Lewis Adrienne, Nibber Raji, Pruinelli Lisiane, et al. Building Capacity in Student and Emerging Nursing Informatics Professionals Through Participation in an International Community of Practice. Studies in Health Technology and Informatics. 2018.",
+    "doi": "10.3233/978-1-61499-872-3-82",
+    "url": "https://doi.org/10.3233/978-1-61499-872-3-82"
+  },
+  {
+    "title": "MHEALTH GEOGRAPHIES Mobile technologies and health in the Global South",
+    "year": 2018,
+    "vancouver_citation": "MHEALTH GEOGRAPHIES Mobile technologies and health in the Global South. Routledge Handbook of Health Geography. 2018.",
+    "doi": null,
     "url": ""
   },
   {
-    "title": "Nurses' Use of mHealth Functions",
-    "year": 2021,
-    "vancouver_citation": "Ronquillo C, Dahinten VS, Bungay V, Currie LM. Nurses' Use of mHealth Functions. Stud Health Technol Inform. 2021;284:280-284.",
-    "doi": "10.3233/SHTI210723",
+    "title": "The MOBile-health and implementation leadership evaluation (MOBILE) nurse study: Developing a testable conceptual model",
+    "year": 2018,
+    "vancouver_citation": "Ronquillo Charlene, Dahinten Susan, Bungay Vicky, Currie Leanne. The MOBile-Health and Implementation Leadership Evaluation (MOBILE) Nurse Study: Developing a Testable Conceptual Model. Studies in Health Technology and Informatics. 2018.",
+    "doi": "10.3233/978-1-61499-872-3-143",
+    "url": "https://doi.org/10.3233/978-1-61499-872-3-143"
+  },
+  {
+    "title": "VP113 Reframing “Disinvestment”: Appropriateness And Real-Time Data Capture",
+    "year": 2018,
+    "vancouver_citation": "Ronquillo C, Roome C, Stein K. VP113 Reframing “Disinvestment”: Appropriateness And Real-Time Data Capture. International Journal of Technology Assessment in Health Care. 2018;33(S1):201-202.",
+    "doi": "10.1017/S0266462317003713",
+    "url": "https://doi.org/10.1017/S0266462317003713"
+  },
+  {
+    "title": "Competency Recommendations for Advancing Nursing Informatics in the Next Decade: International Survey Results.",
+    "year": 2017,
+    "vancouver_citation": "Ronquillo Charlene, Topaz Maxim, Pruinelli Lisiane, Peltonen Laura-Maria, Nibber Raji. Competency Recommendations for Advancing Nursing Informatics in the Next Decade: International Survey Results. Studies in Health Technology and Informatics. 2017.",
+    "doi": "10.3233/978-1-61499-738-2-119",
+    "url": "https://doi.org/10.3233/978-1-61499-738-2-119"
+  },
+  {
+    "title": "Nursing Competencies for Multiple Modalities of Connected Health Technologies.",
+    "year": 2017,
+    "vancouver_citation": "Saranto Kaija, Ronquillo Charlene, Velez Olivia. Nursing Competencies for Multiple Modalities of Connected Health Technologies. Studies in Health Technology and Informatics. 2017.",
+    "doi": "10.3233/978-1-61499-738-2-172",
+    "url": "https://doi.org/10.3233/978-1-61499-738-2-172"
+  },
+  {
+    "title": "Competency Recommendations for Advancing Nursing Informatics in the Next Decade: International Survey Results",
+    "year": 2017,
+    "vancouver_citation": "Ronquillo Charlene, Topaz Maxim, Pruinelli Lisiane, Peltonen Laura-Maria, Nibber Raji. Competency Recommendations for Advancing Nursing Informatics in the Next Decade: International Survey Results. Studies in Health Technology and Informatics. 2017.",
+    "doi": "10.3233/978-1-61499-738-2-119",
+    "url": "https://doi.org/10.3233/978-1-61499-738-2-119"
+  },
+  {
+    "title": "Competency Recommendations for Advancing Nursing Informatics in the Next Decade: International Survey Results",
+    "year": 2017,
+    "vancouver_citation": "Ronquillo Charlene, Topaz Maxim, Pruinelli Lisiane, Peltonen Laura-Maria, Nibber Raji. Competency Recommendations for Advancing Nursing Informatics in the Next Decade: International Survey Results. Studies in Health Technology and Informatics. 2017.",
+    "doi": "10.3233/978-1-61499-738-2-119",
+    "url": "https://doi.org/10.3233/978-1-61499-738-2-119"
+  },
+  {
+    "title": "Nursing Competencies for Multiple Modalities of Connected Health Technologies",
+    "year": 2017,
+    "vancouver_citation": "Saranto Kaija, Ronquillo Charlene, Velez Olivia. Nursing Competencies for Multiple Modalities of Connected Health Technologies. Studies in Health Technology and Informatics. 2017.",
+    "doi": "10.3233/978-1-61499-738-2-172",
+    "url": "https://doi.org/10.3233/978-1-61499-738-2-172"
+  },
+  {
+    "title": "Nursing Competencies for Multiple Modalities of Connected Health Technologies",
+    "year": 2017,
+    "vancouver_citation": "Saranto Kaija, Ronquillo Charlene, Velez Olivia. Nursing Competencies for Multiple Modalities of Connected Health Technologies. Studies in Health Technology and Informatics. 2017.",
+    "doi": "10.3233/978-1-61499-738-2-172",
+    "url": "https://doi.org/10.3233/978-1-61499-738-2-172"
+  },
+  {
+    "title": "Supernurse: Nurses' workarounds informing the design of interactive technologies for home wound care",
+    "year": 2017,
+    "vancouver_citation": "Al-Masslawi D, Block L, Ronquillo C, Handfield S, Fels S, Lea R, et al. SuperNurse. Proceedings of the 11th EAI International Conference on Pervasive Computing Technologies for Healthcare. 2017:193-202.",
+    "doi": "10.1145/3154862.3154865",
+    "url": "https://doi.org/10.1145/3154862.3154865"
+  },
+  {
+    "title": "Nurse Informaticians Report Low Satisfaction and Multi-level Concerns with Electronic Health Records: Results from an International Survey.",
+    "year": 2016,
+    "vancouver_citation": "Nurse Informaticians Report Low Satisfaction and Multi-level Concerns with Electronic Health Records: Results from an International Survey. AMIA ... Annual Symposium proceedings. AMIA Symposium. 2016.",
+    "doi": null,
     "url": ""
+  },
+  {
+    "title": "Adoption of Speech Recognition Technology in Community Healthcare Nursing.",
+    "year": 2016,
+    "vancouver_citation": "Al-Masslawi Dawood, Block Lori, Ronquillo Charlene. Adoption of Speech Recognition Technology in Community Healthcare Nursing. Studies in Health Technology and Informatics. 2016.",
+    "doi": "10.3233/978-1-61499-658-3-649",
+    "url": "https://doi.org/10.3233/978-1-61499-658-3-649"
+  },
+  {
+    "title": "Adoption of speech recognition technology in community healthcare nursing",
+    "year": 2016,
+    "vancouver_citation": "Al-Masslawi Dawood, Block Lori, Ronquillo Charlene. Adoption of Speech Recognition Technology in Community Healthcare Nursing. Studies in Health Technology and Informatics. 2016.",
+    "doi": "10.3233/978-1-61499-658-3-649",
+    "url": "https://doi.org/10.3233/978-1-61499-658-3-649"
+  },
+  {
+    "title": "Advancing Nursing Informatics in the Next 5-10 Years: What Are the Next Steps?",
+    "year": 2016,
+    "vancouver_citation": "Ronquillo Charlene. Advancing Nursing Informatics in the Next 5&amp;ndash;10 Years: What Are the Next Steps?. Studies in Health Technology and Informatics. 2016.",
+    "doi": "10.3233/978-1-61499-658-3-715",
+    "url": "https://doi.org/10.3233/978-1-61499-658-3-715"
+  },
+  {
+    "title": "Advancing Nursing Informatics in the Next Decade: Recommendations from an International Survey.",
+    "year": 2016,
+    "vancouver_citation": "Ronquillo Charlene, Topaz Maxim, Pruinelli Lisiane, Peltonen Laura-Maria, Nibber Raji. Competency Recommendations for Advancing Nursing Informatics in the Next Decade: International Survey Results. Studies in Health Technology and Informatics. 2016.",
+    "doi": "10.3233/978-1-61499-738-2-119",
+    "url": "https://doi.org/10.3233/978-1-61499-738-2-119"
+  },
+  {
+    "title": "Advancing nursing informatics in the next 5-10 years: What are the next steps?",
+    "year": 2016,
+    "vancouver_citation": "Ronquillo Charlene. Advancing Nursing Informatics in the Next 5&amp;ndash;10 Years: What Are the Next Steps?. Studies in Health Technology and Informatics. 2016.",
+    "doi": "10.3233/978-1-61499-658-3-715",
+    "url": "https://doi.org/10.3233/978-1-61499-658-3-715"
+  },
+  {
+    "title": "Advancing nursing informatics in the next decade: Recommendations from an international survey",
+    "year": 2016,
+    "vancouver_citation": "Topaz Maxim, Ronquillo Charlene, Peltonen Laura-Maria, Pruinelli Lisiane, Sarmiento Raymond Francis, Badger Martha K., et al. Advancing Nursing Informatics in the Next Decade: Recommendations from an International Survey. Studies in Health Technology and Informatics. 2016.",
+    "doi": "10.3233/978-1-61499-658-3-123",
+    "url": "https://doi.org/10.3233/978-1-61499-658-3-123"
+  },
+  {
+    "title": "Current Trends in Nursing Informatics: Results of an International Survey.",
+    "year": 2016,
+    "vancouver_citation": "Peltonen Laura-Maria, Alhuwail Dari, Ali Samira, Badger Martha K., Eler Gabrielle Jacklin, Georgsson Mattias, et al. Current Trends in Nursing Informatics: Results of an International Survey. Studies in Health Technology and Informatics. 2016.",
+    "doi": "10.3233/978-1-61499-658-3-938",
+    "url": "https://doi.org/10.3233/978-1-61499-658-3-938"
+  },
+  {
+    "title": "Current trends in nursing informatics: Results of an international survey",
+    "year": 2016,
+    "vancouver_citation": "Peltonen Laura-Maria, Alhuwail Dari, Ali Samira, Badger Martha K., Eler Gabrielle Jacklin, Georgsson Mattias, et al. Current Trends in Nursing Informatics: Results of an International Survey. Studies in Health Technology and Informatics. 2016.",
+    "doi": "10.3233/978-1-61499-658-3-938",
+    "url": "https://doi.org/10.3233/978-1-61499-658-3-938"
+  },
+  {
+    "title": "Nurse Informaticians Report Low Satisfaction and Multi-level Concerns with Electronic Health Records: Results from an International Survey",
+    "year": 2016,
+    "vancouver_citation": "Nurse Informaticians Report Low Satisfaction and Multi-level Concerns with Electronic Health Records: Results from an International Survey. AMIA ... Annual Symposium proceedings. AMIA Symposium. 2016.",
+    "doi": null,
+    "url": ""
+  },
+  {
+    "title": "Nursing Informatics Research Priorities for the Future: Recommendations from an International Survey.",
+    "year": 2016,
+    "vancouver_citation": "Peltonen Laura-Maria, Topaz Maxim, Ronquillo Charlene, Pruinelli Lisiane, Sarmiento Raymond Francis, Badger Martha K., et al. Nursing Informatics Research Priorities for the Future: Recommendations from an International Survey. Studies in Health Technology and Informatics. 2016.",
+    "doi": "10.3233/978-1-61499-658-3-222",
+    "url": "https://doi.org/10.3233/978-1-61499-658-3-222"
+  },
+  {
+    "title": "Nursing informatics research priorities for the future: Recommendations from an international survey",
+    "year": 2016,
+    "vancouver_citation": "Peltonen Laura-Maria, Topaz Maxim, Ronquillo Charlene, Pruinelli Lisiane, Sarmiento Raymond Francis, Badger Martha K., et al. Nursing Informatics Research Priorities for the Future: Recommendations from an International Survey. Studies in Health Technology and Informatics. 2016.",
+    "doi": "10.3233/978-1-61499-658-3-222",
+    "url": "https://doi.org/10.3233/978-1-61499-658-3-222"
+  },
+  {
+    "title": "The Evolution of Data-Information-Knowledge-Wisdom in Nursing Informatics.",
+    "year": 2016,
+    "vancouver_citation": "Ronquillo C, Currie LM, Rodney P. The Evolution of Data-Information-Knowledge-Wisdom in Nursing Informatics. Advances in Nursing Science. 2016;39(1):E1-E18.",
+    "doi": "10.1097/ans.0000000000000107",
+    "url": "https://doi.org/10.1097/ans.0000000000000107"
+  },
+  {
+    "title": "The evolution of data-information-knowledge-wisdom in nursing informatics",
+    "year": 2016,
+    "vancouver_citation": "Ronquillo C, Currie LM, Rodney P. The Evolution of Data-Information-Knowledge-Wisdom in Nursing Informatics. Advances in Nursing Science. 2016;39(1):E1-E18.",
+    "doi": "10.1097/ANS.0000000000000107",
+    "url": "https://doi.org/10.1097/ANS.0000000000000107"
+  },
+  {
+    "title": "Using Rapid Prototyping to Design a Smoking Cessation Website with End-Users.",
+    "year": 2016,
+    "vancouver_citation": "Ronquillo Charlene, Currie Leanne, Rowsell Derek, Phillips J. Craig. Using Rapid Prototyping to Design a Smoking Cessation Website with End-Users. Studies in Health Technology and Informatics. 2016.",
+    "doi": "10.3233/978-1-61499-658-3-940",
+    "url": "https://doi.org/10.3233/978-1-61499-658-3-940"
+  },
+  {
+    "title": "Using rapid prototyping to design a smoking cessation website with end-users",
+    "year": 2016,
+    "vancouver_citation": "Ronquillo Charlene, Currie Leanne, Rowsell Derek, Phillips J. Craig. Using Rapid Prototyping to Design a Smoking Cessation Website with End-Users. Studies in Health Technology and Informatics. 2016.",
+    "doi": "10.3233/978-1-61499-658-3-940",
+    "url": "https://doi.org/10.3233/978-1-61499-658-3-940"
+  },
+  {
+    "title": "Central trends in nursing informatics: students' reflections from International Congress on Nursing Informatics 2014 (Taipei, Taiwan).",
+    "year": 2015,
+    "vancouver_citation": "TOPAZ M, RONQUILLO C, PRUINELLI L, RAMOS R, PELTONEN L, SIIRALA E, et al. Central Trends in Nursing Informatics. CIN: Computers, Informatics, Nursing. 2015;33(3):85-89.",
+    "doi": "10.1097/cin.0000000000000139",
+    "url": "https://doi.org/10.1097/cin.0000000000000139"
+  },
+  {
+    "title": "Central Trends in Nursing Informatics",
+    "year": 2015,
+    "vancouver_citation": "TOPAZ M, RONQUILLO C, PRUINELLI L, RAMOS R, PELTONEN L, SIIRALA E, et al. Central Trends in Nursing Informatics. CIN: Computers, Informatics, Nursing. 2015;33(3):85-89.",
+    "doi": "10.1097/cin.0000000000000139",
+    "url": "https://doi.org/10.1097/cin.0000000000000139"
+  },
+  {
+    "title": "Access to internet in rural and remote Canada",
+    "year": 2014,
+    "vancouver_citation": "Currie Leanne M., Ronquillo Charlene, Dick Tania. Access to Internet in Rural and Remote Canada. Studies in Health Technology and Informatics. 2014.",
+    "doi": "10.3233/978-1-61499-415-2-407",
+    "url": "https://doi.org/10.3233/978-1-61499-415-2-407"
+  },
+  {
+    "title": "Access to internet in rural and remote Canada.",
+    "year": 2014,
+    "vancouver_citation": "Currie Leanne M., Ronquillo Charlene, Dick Tania. Access to Internet in Rural and Remote Canada. Studies in Health Technology and Informatics. 2014.",
+    "doi": "10.3233/978-1-61499-415-2-407",
+    "url": "https://doi.org/10.3233/978-1-61499-415-2-407"
+  },
+  {
+    "title": "Bridging research and practice through the Nursing Research Facilitator Program in British Columbia.",
+    "year": 2013,
+    "vancouver_citation": "Plamondon K, Ronquillo C, Axen L, Black A, Cummings L, Chakraborty B. Bridging Research and Practice through the Nursing Research Facilitator Program in British Columbia. Nursing Leadership. 2013;26(4):32-43.",
+    "doi": "10.12927/cjnl.2013.23631",
+    "url": "https://doi.org/10.12927/cjnl.2013.23631"
+  },
+  {
+    "title": "Bridging Research and Practice through the Nursing Research Facilitator Program in British Columbia",
+    "year": 2013,
+    "vancouver_citation": "Plamondon K, Ronquillo C, Axen L, Black A, Cummings L, Chakraborty B. Bridging Research and Practice through the Nursing Research Facilitator Program in British Columbia. Nursing Leadership. 2013;26(4):32-43.",
+    "doi": "10.12927/cjnl.2013.23631",
+    "url": "https://doi.org/10.12927/cjnl.2013.23631"
+  },
+  {
+    "title": "Bridging research and practice through the Nursing Research Facilitator Program in British Columbia",
+    "year": 2013,
+    "vancouver_citation": "Plamondon K, Ronquillo C, Axen L, Black A, Cummings L, Chakraborty B. Bridging Research and Practice through the Nursing Research Facilitator Program in British Columbia. Nursing Leadership. 2013;26(4):32-43.",
+    "doi": "10.12927/cjnl.2013.23631",
+    "url": "https://doi.org/10.12927/cjnl.2013.23631"
+  },
+  {
+    "title": "Exploring the Methodological Horizons of Intersectionality",
+    "year": 2013,
+    "vancouver_citation": "Exploring the Methodological Horizons of Intersectionality. International Journal of Qualitative Methods. 2013.",
+    "doi": null,
+    "url": ""
+  },
+  {
+    "title": "Leaving the Philippines: oral histories of nurses' transition to Canadian nursing practice.",
+    "year": 2012,
+    "vancouver_citation": "Leaving the Philippines: oral histories of nurses' transition to Canadian nursing practice. 2012.",
+    "doi": null,
+    "url": ""
+  },
+  {
+    "title": "Leaving the Philippines: Oral Histories of Nurses' Transition to Canadian Nursing Practice",
+    "year": 2012,
+    "vancouver_citation": "Leaving the Philippines: Oral Histories of Nurses' Transition to Canadian Nursing Practice. Canadian Journal of Nursing Research. 2012.",
+    "doi": null,
+    "url": ""
+  },
+  {
+    "title": "Leaving the philippines: Oral histories of nurses'transition to canadian nursing practice",
+    "year": 2012,
+    "vancouver_citation": "Leaving the philippines: Oral histories of nurses'transition to canadian nursing practice. Canadian Journal of Nursing Research. 2012.",
+    "doi": null,
+    "url": ""
+  },
+  {
+    "title": "The digital divide: Trends in global mobile and broadband Internet access from 2000-2010.",
+    "year": 2012,
+    "vancouver_citation": "The digital divide: Trends in global mobile and broadband Internet access from 2000-2010. 2012.",
+    "doi": null,
+    "url": ""
+  },
+  {
+    "title": "Beyond greener pastures: exploring contexts surrounding Filipino nurse migration in Canada through oral history",
+    "year": 2011,
+    "vancouver_citation": "Ronquillo C, Boschma G, Wong ST, Quiney L. Beyond greener pastures: exploring contexts surrounding Filipino nurse migration in Canada through oral history. Nursing Inquiry. 2011;18(3):262-275.",
+    "doi": "10.1111/j.1440-1800.2011.00545.x",
+    "url": "https://doi.org/10.1111/j.1440-1800.2011.00545.x"
+  },
+  {
+    "title": "Beyond greener pastures: exploring contexts surrounding Filipino nurse migration in Canada through oral history.",
+    "year": 2011,
+    "vancouver_citation": "Ronquillo C, Boschma G, Wong ST, Quiney L. Beyond greener pastures: exploring contexts surrounding Filipino nurse migration in Canada through oral history. Nursing Inquiry. 2011;18(3):262-275.",
+    "doi": "10.1111/j.1440-1800.2011.00545.x",
+    "url": "https://doi.org/10.1111/j.1440-1800.2011.00545.x"
+  },
+  {
+    "title": "Migration and \"low-skilled\" workers in destination countries.",
+    "year": 2011,
+    "vancouver_citation": "Benach J, Muntaner C, Delclos C, Menéndez M, Ronquillo C. Migration and \"Low-Skilled\" Workers in Destination Countries. PLoS Medicine. 2011;8(6):e1001043.",
+    "doi": "10.1371/journal.pmed.1001043",
+    "url": "https://doi.org/10.1371/journal.pmed.1001043"
+  },
+  {
+    "title": "Migration and \"Low-Skilled\" Workers in Destination Countries",
+    "year": 2011,
+    "vancouver_citation": "Benach J, Muntaner C, Delclos C, Menéndez M, Ronquillo C. Migration and \"Low-Skilled\" Workers in Destination Countries. PLoS Medicine. 2011;8(6):e1001043.",
+    "doi": "10.1371/journal.pmed.1001043",
+    "url": "https://doi.org/10.1371/journal.pmed.1001043"
   }
 ]

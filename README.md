@@ -33,11 +33,11 @@ Hosted via GitHub Pages with a custom domain. See GitHub Pages documentation for
 
 ## Automated Publication Updates
 
-Publications are fetched weekly from [Google Scholar](https://scholar.google.com/citations?user=6qKKv3EAAAAJ&hl=en) via a GitHub Actions workflow.
+Publications are fetched weekly from [ORCID](https://orcid.org/0000-0002-6520-1765) via a GitHub Actions workflow.
 
 - **Schedule**: Every Monday at 06:00 UTC
 - **Manual trigger**: Go to **Actions > Update Publications > Run workflow**
-- **How it works**: A Python script uses `scholarly` to fetch publications, formats them in Vancouver citation style, enriches DOIs via CrossRef, and commits `publications.json`
+- **How it works**: A Python script fetches publications from the ORCID public API, enriches metadata via CrossRef, formats them in Vancouver citation style, and commits `publications.json`
 
 ## Updating Content
 

@@ -26,9 +26,8 @@ jobs:
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
 
-      - name: Fetch publications from Google Scholar
+      - name: Fetch publications from ORCID
         run: python scripts/fetch_publications.py
-        continue-on-error: true
         env:
           PYTHONUNBUFFERED: '1'
 
@@ -43,5 +42,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add publications.json
-          git commit -m "chore: update publications from Google Scholar"
+          git commit -m "chore: update publications from ORCID"
           git push
