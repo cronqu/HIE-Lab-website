@@ -27,30 +27,9 @@ Live at: [charleneronquillo.com](https://charleneronquillo.com)
     └── patterns/           Background patterns (SVG)
 ```
 
-## Deployment (GitHub Pages)
+## Deployment
 
-1. Push repository to GitHub
-2. Go to **Settings > Pages**
-3. Set source to **Deploy from a branch**, select **main** branch, root `/`
-4. Save
-
-## Custom Domain (charleneronquillo.com)
-
-### DNS Configuration
-
-At your domain registrar, add the following records:
-
-| Type  | Name | Value                  |
-|-------|------|------------------------|
-| A     | @    | 185.199.108.153        |
-| A     | @    | 185.199.109.153        |
-| A     | @    | 185.199.110.153        |
-| A     | @    | 185.199.111.153        |
-| CNAME | www  | `<username>.github.io` |
-
-Replace `<username>` with the GitHub username or organisation hosting the repository.
-
-After DNS propagates (up to 48 hours), enable **Enforce HTTPS** in GitHub Pages settings.
+Hosted via GitHub Pages with a custom domain. See GitHub Pages documentation for setup details.
 
 ## Automated Publication Updates
 
