@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Health Informatics Equity Lab — Research in nursing informatics, health equity, and data science led by Dr. Charlene Ronquillo at the University of British Columbia Okanagan.">
+  <title>HIE Lab | Health Informatics Equity Lab</title>
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo-colour-logomark.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <a href="#home" class="nav-logo">
+      <img src="assets/images/logo-colour-primary.svg" alt="HIE Lab">
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#director">Director</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#talks">Talks</a></li>
+      <li><a href="#opportunities">Opportunities</a></li>
+    </ul>
+  </nav>
+
+  <!-- 1. Home / Hero -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <img src="assets/images/logo-white-primary.svg" alt="Health Informatics Equity Lab" class="hero-logo">
+      <p class="hero-tagline" id="hero-tagline"></p>
+      <p class="hero-land-ack" id="hero-land-ack"></p>
+      <div class="hero-icons">
+        <img src="assets/icons/nurses.svg" alt="Nurses">
+        <img src="assets/icons/patients.svg" alt="Patients">
+        <img src="assets/icons/data.svg" alt="Data">
+        <img src="assets/icons/network.svg" alt="Networks">
+        <img src="assets/icons/hospital.svg" alt="Hospital">
+        <img src="assets/icons/home.svg" alt="Home">
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Director -->
+  <section id="director" class="section section-pattern">
+    <div class="container">
+      <div class="section-header">
+        <h2>Director</h2>
+      </div>
+      <div id="director-content"></div>
+    </div>
+  </section>
+
+  <!-- 3. Research -->
+  <section id="research" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Research</h2>
+        <p class="section-subtitle">Active studies and recent work</p>
+      </div>
+      <div id="research-content"></div>
+    </div>
+  </section>
+
+  <!-- 4. Team -->
+  <section id="team" class="section section-pattern">
+    <div class="container">
+      <div class="section-header">
+        <h2>Our Team</h2>
+      </div>
+      <div id="team-content"></div>
+    </div>
+  </section>
+
+  <!-- 5. Publications -->
+  <section id="publications" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Publications</h2>
+        <p class="section-subtitle">Automatically updated from <a href="https://scholar.google.com/citations?user=6qKKv3EAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a></p>
+      </div>
+      <div id="publications-list">
+        <p class="publications-loading">Loading publications&hellip;</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. News -->
+  <section id="news" class="section section-pattern">
+    <div class="container">
+      <div class="section-header">
+        <h2>News &amp; Highlights</h2>
+      </div>
+      <div id="news-content"></div>
+    </div>
+  </section>
+
+  <!-- 7. Talks -->
+  <section id="talks" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Talks &amp; Presentations</h2>
+        <p class="section-subtitle">Recordings of our group's talks and appearances</p>
+      </div>
+      <div id="talks-content"></div>
+    </div>
+  </section>
+
+  <!-- 8. Opportunities -->
+  <section id="opportunities" class="section section-pattern">
+    <div class="container">
+      <div class="section-header">
+        <h2>Working with Me</h2>
+      </div>
+      <div id="opportunities-content"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content container">
+      <img src="assets/images/logo-colour-badge.svg" alt="HIE Lab Badge" class="footer-badge">
+      <p class="footer-affiliation">Health Informatics Equity Lab &middot; University of British Columbia &ndash; Okanagan</p>
+      <p class="footer-copyright">&copy; <span id="footer-year"></span> HIE Lab. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,450 @@
+{
+  "hero": {
+    "tagline": "The goal of our work is to centre the human experiences and values to improve equity and thoughtful, meaningful, and inclusive technology use in healthcare.",
+    "land_acknowledgement": "Racialized settler on the unceded and traditional territories of the Syilx Okanagan"
+  },
+  "director": {
+    "name": "Charlene E. Ronquillo",
+    "credentials": "RN, PhD",
+    "pronouns": "she/they/siya",
+    "title": "Assistant Professor",
+    "identities": ["Filipina scholar", "Registered Nurse", "Health Informatician"],
+    "affiliation": "University of British Columbia \u2013 Okanagan",
+    "department": "School of Nursing, Faculty of Health and Social Development",
+    "address": "ART360 (Arts Building)\n1147 Research Road\nKelowna, BC Canada V1V 1V7",
+    "photo": "assets/images/director.jpg",
+    "bio": [
+      "The HIE Lab\u2019s work is interdisciplinary and underpinned by critical theories and implementation science. A key aim in our research is to ensure meaningful inclusion of non-dominant groups in the conceptualization, design, development, and implementation of health technologies in health systems.",
+      "Charlene has expertise in mixed methods, participatory, and co-production approaches, HCI, and employing critical perspectives throughout the technology lifecycle. Charlene has experience with various aspects of health information technology in health systems and nursing, including nursing informatics competencies, usability research, person-centred design and development, rapid and exploratory prototyping, and technology adoption and usage."
+    ],
+    "affiliations": [
+      {
+        "title": "Affiliated Investigator",
+        "org": "Interior Health Authority",
+        "url": "https://www.interiorhealth.ca/"
+      },
+      {
+        "title": "Affiliated Investigator",
+        "org": "Vancouver Coastal Health Research Institute",
+        "url": "https://www.vchri.ca/"
+      },
+      {
+        "title": "Co-lead and founding member",
+        "org": "Nursing and Artificial Intelligence Leadership (NAIL) Collaborative",
+        "url": "https://www.nailcollab.org/"
+      },
+      {
+        "title": "Ethical AI Co-lead",
+        "org": "UBC Data Science and Health (DASH) Cluster",
+        "url": "https://datascienceandhealth.ubc.ca/"
+      },
+      {
+        "title": "EDI Co-lead",
+        "org": "Canadian Primary Care Research Network (CPCRN)",
+        "url": "https://cpcrn-rcrsp.ca/"
+      }
+    ],
+    "links": {
+      "email": "healthinformatics.equity@ubc.ca",
+      "twitter": "https://www.twitter.com/CERONQU",
+      "orcid": "http://orcid.org/0000-0002-6520-1765",
+      "linkedin": "https://www.linkedin.com/in/cronquillo/",
+      "google_scholar": "https://scholar.google.com/citations?user=6qKKv3EAAAAJ&hl=en"
+    },
+    "funding_acknowledgement": "My work is/has been funded by AMS Healthcare, Social Sciences and Humanities Research Council of Canada, Canadian Nurses Foundation, the Brocher Foundation, Roche Canada, UBC Health Innovation Funding Investment (HIFI), UBC Okanagan Multidisciplinary Undergraduate Research Projects in Health (MURPH), UBC SoTL, Ryerson FCS Covid-19 Rapid Response Grant, UBC School of Nursing Funds."
+  },
+  "projects": {
+    "active": [
+      {
+        "title": "Mapping trust in nurses with dimensions of trustworthy artificial intelligence: A scoping review",
+        "status": "Finalizing publication",
+        "funding": "UBC Hampton Fund Research Grant (2022\u201325)",
+        "co_investigators": "Booth, R., Janke, R., Chan, R., Recsky, C.",
+        "description": "Is it possible for artificial intelligence (AI) models to demonstrate trustworthiness in ways that the world\u2019s consistently most trusted professionals \u2013 nurses \u2013 are thought to do? Or is it that some dimensions of trustworthiness are only demonstrable by humans? This scoping review and thematic analysis will map and synthesize the evidence on nursing trust and understand parallels to computational understandings of trustworthiness, in order to envision novel approaches to developing trustworthy AI."
+      },
+      {
+        "title": "Identifying patient-validated compassion and equity concepts in community care clinical notes through natural language processing",
+        "status": "Drafting manuscripts",
+        "funding": "AMS Healthcare",
+        "co_investigators": "",
+        "description": "In this project, we build on the Health Equity Documentation study to develop and test compassion and equity-grounded natural language processing (NLP) application to leverage otherwise unused community nursing clinical notes.",
+        "url": "https://www.ams-inc.on.ca/project/identifying-patient%e2%80%90validated-compassion-and-equity-concepts-in-community-care-clinical-notes-through-natural-language-processing/"
+      },
+      {
+        "title": "Thinking Aloud with AI: Nursing Students\u2019 Cognitive Processes Using GenAI for Clinical Reasoning",
+        "status": "Developing ethics",
+        "funding": "UBC SoTL Seed Program",
+        "co_investigators": "Wilson, R., Willson, M., Garcia Chua, R., Moralejo, L., Kennedy L., Sturgess, K.",
+        "description": "This project explores how undergraduate nursing students use generative AI tools like ChatGPT while working on complex clinical tasks, such as creating care plans or responding to patient emergencies."
+      },
+      {
+        "title": "Stakeholder perspectives and impacts of explainable artificial intelligence: A case study in a British Columbia health authority",
+        "status": "Recruiting participants and data analysis",
+        "funding": "SSHRC Insight Development Grant (2023\u20132025); UBC HIFI Awards (2022\u201323)",
+        "co_investigators": "Conati, C., Currie, L.M., Hamarneh, G., Janke, R., Li, X., Block, L., Beschastnikh, I.",
+        "description": "This study employs realist methods to explore considerations for health systems operations and clinician end-user implications of developing and implementing explainable AI and clinical decision support tools."
+      },
+      {
+        "title": "Pre-processing community nursing and allied health data for equity-informed artificial intelligence for interdisciplinary wound care",
+        "status": "Project wrap-up",
+        "funding": "",
+        "co_investigators": "",
+        "description": "Health equity information about patients are often captured in narrative clinical notes by nurses and allied health professionals in electronic health records. This project aims to complete the resource-intensive data pre-processing step to enable the use of data from two electronic health records to develop equity-informed AI applications."
+      },
+      {
+        "title": "Capturing health equity in community nursing electronic documentation",
+        "status": "Finalizing publications",
+        "funding": "",
+        "co_investigators": "",
+        "description": "In this project, we aim to understand community health nurses\u2019 conceptualizations and documentation of health equity in electronic health records to establish the foundation for future work using natural language processing to build machine learning predictive risk models."
+      }
+    ],
+    "past": [
+      {
+        "title": "A mobile makerspace to support inclusive patient and community-led technology solutions for rural health and wellness",
+        "funding": "UBCO MURPH Program (2021\u20132022)",
+        "co_investigators": "Li, E., Rush, K."
+      },
+      {
+        "title": "Designing and developing a cost-effective, immersive-technology based veinfinding device to solve difficult intravenous access in healthcare settings",
+        "funding": "UBC HIFI Awards (2022\u201323)",
+        "co_investigators": "Milani, A. (NPI), Ronquillo, C., Tam, R., Lo, V., Krishnamurthy, R., Zavahir, A."
+      },
+      {
+        "title": "Artificial Intelligence for Nursing: Ethical, Legal and Social Implications",
+        "funding": "Brocher Foundation (Switzerland)",
+        "co_investigators": "Topaz M., Pruinelli L., Peltonen L.M., Nibber R., DeForest H.",
+        "url": "https://youtu.be/qwarza836Zg?t=320"
+      },
+      {
+        "title": "Adoption of speech recognition technology in community healthcare nursing",
+        "funding": "UBC Nursing Helen Shore Nursing Endowment Fund",
+        "co_investigators": "Al-Masslawi, D., Block, L."
+      },
+      {
+        "title": "Barriers, facilitators, and outcomes of a novel interdisciplinary eHealth clinical system to improve pediatric sleep care pathways in British Columbia",
+        "funding": "UBC HIFI Awards (2022\u201323)",
+        "co_investigators": "Keys, E. (NPI), Ipsirogu, O., Wensley, D., Gabriel, D., Kuo, C., Brown, M.G., Ronquillo, C., Abalde, Q., McWilliams, S."
+      },
+      {
+        "title": "The Impact of COVID-19 on Health Informatics",
+        "funding": "Ryerson FCS COVID-19 Rapid Response Research Grant",
+        "co_investigators": "Topaz, M., Peltonen L.M., Alhuwail D., Mitchell J., Risling T."
+      },
+      {
+        "title": "AI-empowered real-time COVID-19 Symptom Monitoring and Prediction among Senior Residents",
+        "funding": "ROCHE COVID-19 Innovation Challenge",
+        "co_investigators": "Rahimi, A.S. (NPI), Chu, C.H., Ronquillo, C., McGilton K."
+      },
+      {
+        "title": "Social distancing struggles of apartment-dwelling immigrants",
+        "funding": "Ryerson FCS COVID-19 Rapid Response Research Grant",
+        "co_investigators": "Guruge S. (NPI), Sidani S., Lee C., Ronquillo C."
+      },
+      {
+        "title": "MOBile-health and Implementation Leadership Evaluation (MOBILE) Nurse Study",
+        "funding": "UBC Nursing Helen Shore Nursing Endowment Fund",
+        "co_investigators": "Currie L., Dahinten S., Bungay V."
+      },
+      {
+        "title": "Understanding stakeholders\u2019 perspectives on implementing deprescribing in care homes (STOPPING)",
+        "funding": "NIHR Research for Patient Benefit (UK)",
+        "co_investigators": "Warmoth, K. (NPI), Stein K., Day J.K., Cockroft E."
+      }
+    ]
+  },
+  "team": {
+    "values": "Above all, we value doing good work with good people.",
+    "core_values": ["Compassion", "Justice", "Equity", "Humility", "Diversity", "Inclusion", "Transparency", "Interdisciplinarity"],
+    "description": "We work as a collaborative and value the unique and diverse contributions each person brings. We work on interesting problems to help technology be used for good. We are interested in developing thoughtful and inclusive technologies that are meaningful and useful to people.",
+    "current": [
+      {
+        "name": "Dr. Chantelle Recsky",
+        "pronouns": "she/they",
+        "role": "Research Associate",
+        "photo": "",
+        "bio": "Dr. Recsky is a Registered Nurse and her areas of interest include health information technologies, quality and safety, and knowledge translation, as well as supporting students to gain knowledge and experience in research."
+      },
+      {
+        "name": "Nicole Ketter",
+        "pronouns": "she/her",
+        "role": "Research Manager",
+        "photo": "",
+        "bio": "Nicole earned her MSc in Rehabilitation Science from UBC, beginning in the lab as a work-study student in 2022 before stepping into the role of research manager in 2023. While her thesis focused on chronic disease multimorbidity prevention and management, she is particularly drawn to the dynamic intersection of technology and health research explored in the HIE lab. Nicole enjoys mentoring students and contributing to the lab\u2019s supportive, team-oriented culture. Outside the lab, she loves hiking and swimming with her dog, Ollie."
+      },
+      {
+        "name": "Ruinan Jin",
+        "pronouns": "he/him",
+        "role": "PhD Trainee",
+        "photo": "",
+        "bio": "Ruinan is currently a graduate student in Electrical and Computer Engineering at UBC. He previously earned a BSc in Computer Science, during which he spent over two years working at the HIE lab. His research centres on wound infection prediction and health equity in this process, and he is especially interested in exploring cutting-edge machine learning engineering techniques."
+      },
+      {
+        "name": "Andrea Burrows",
+        "pronouns": "she/her",
+        "role": "PhD Candidate",
+        "photo": "",
+        "bio": "Andrea is a Registered Nurse and Graduate Student working on her Ph.D. at UBCO in health informatics. She is a mother of two curious and active boys. In parallel with her studies, Andrea works for the Interior Health Research Department as a Manager of Research to create and foster linkages between health system actors and community partners."
+      },
+      {
+        "name": "Naureen Mukhi",
+        "pronouns": "she/her",
+        "role": "Masters Trainee",
+        "photo": "",
+        "bio": "Naureen is a Registered Nurse and Graduate Research Assistant working on her Masters in Nursing at UBC Okanagan. Her thesis is on investigating health system stakeholders\u2019 perspectives and use of Explainable Artificial Intelligence (XAI) for clinical decision support tools. Naureen has recently completed her diploma in Digital Health and Data Analytics from the Michener Institute of Education in Ontario."
+      },
+      {
+        "name": "Josephine Nanyonjo",
+        "pronouns": "she/her",
+        "role": "Masters Trainee",
+        "photo": "",
+        "bio": "Josephine is deeply committed to addressing the persistent health inequities that exist globally. As a Registered Nurse, Josephine has dedicated the past few years to improving healthcare in rural and underserved areas of Uganda, utilising her knowledge, skills, and time to make a tangible impact. Josephine is particularly enthusiastic about the potential of using technology to provide innovative solutions to this enduring global challenge."
+      },
+      {
+        "name": "Jianan Wang",
+        "pronouns": "she/her",
+        "role": "Visiting PhD Candidate",
+        "photo": "",
+        "bio": "Jianan is a nursing PhD student at Zhejiang University, China, and is currently a visiting international research student at UBCO. She received a China Scholarship Council (CSC) Scholarship (2025\u201326) to support her time at UBCO. Her research focuses on the ethical implications of information technology in the nursing field."
+      },
+      {
+        "name": "Kate Sturgess",
+        "pronouns": "she/her",
+        "role": "Research Assistant",
+        "photo": "",
+        "bio": "Kate is a current nursing student at UBCO and originally from Calgary, Alberta. Kate is hoping to pursue a master\u2019s in nursing specialising in research. She grew up ski racing and loves to spend time in the mountains between classes."
+      },
+      {
+        "name": "Vanessa Lo",
+        "pronouns": "she/her",
+        "role": "Research Assistant",
+        "photo": "",
+        "bio": "Vanessa is a Registered Nurse passionate about medical device development and integrating digital technologies into healthcare. She is also interested in working with vulnerable populations to minimise health disparities so that more equitable care can be provided to all members of the community."
+      },
+      {
+        "name": "Winnifred Adzo Vittor",
+        "pronouns": "she/her",
+        "role": "Research Assistant",
+        "photo": "",
+        "bio": "Winnifred is a Registered Nurse and a prospective MSN student from Ghana with interest in nursing informatics. She looks forward to learning how technology can be integrated into health, especially nursing."
+      },
+      {
+        "name": "Amrit Kaur Dhami",
+        "pronouns": "she/her",
+        "role": "Research Assistant",
+        "photo": "",
+        "bio": "Amrit is currently in their third year of nursing and thrilled to be a part of the research team. She is deeply committed to fostering a supportive and inclusive community within the team. She believes that research provides an excellent opportunity to contribute to the enhancement of nursing experiences."
+      },
+      {
+        "name": "Abubakari Mohammed Sherif",
+        "pronouns": "he/him",
+        "role": "Research Assistant",
+        "photo": "",
+        "bio": "Abubakari Mohammed Sherif is a Registered Nurse from Ghana with an interest in improving electronic health records in rural communities in Ghana. He is a prospective graduate student."
+      },
+      {
+        "name": "Jannatul Ferdous Shapnil",
+        "pronouns": "she/her",
+        "role": "Research Assistant",
+        "photo": "",
+        "bio": "Jannatul is a registered doctor in Bangladesh under the Bangladesh Medical and Dental Council. Their primary research focus is equitable healthcare and health informatics. Jannatul is also a cat parent to Kai and likes watching cat memes."
+      }
+    ],
+    "furry": [
+      {
+        "name": "Maya T. Butts",
+        "breed": "Shiba Inu",
+        "role": "The actual PI",
+        "likes": "playing ball on the beach, cheese, attention from strangers, extreme temperatures (scorching hot and freezing cold), taking myself for a walk",
+        "dislikes": "fireworks, fruit, baths, affection"
+      }
+    ],
+    "alumni": [
+      { "name": "Mahtab Matin", "role": "Research Assistant, PhD School of Nursing" },
+      { "name": "Jane Shi", "role": "Research Assistant, MSc Electrical and Computer Engineering" },
+      { "name": "Nicole Favor", "role": "Research Assistant, BSN Student" },
+      { "name": "Isabella Mendoza", "role": "Research Assistant, BSc Computer Science Student" },
+      { "name": "Sarah Schumacher", "role": "Research Assistant, BSN Student" },
+      { "name": "Mehak Mundi", "role": "Research Assistant, BSN Student" },
+      { "name": "Kenna Hunter", "role": "Research Assistant, BSN Student" },
+      { "name": "Reagan Chicoine", "role": "Research Assistant, BSN Graduate" },
+      { "name": "Sharon Ilesanmi", "role": "Research Assistant, BSN Graduate" },
+      { "name": "Ammar Zavahir", "role": "Research Assistant" },
+      { "name": "Ashish Giri", "role": "2021\u201322 MURPH Scholar" },
+      { "name": "Emily Mayzes-Kotulla", "role": "2021\u201322 MURPH Scholar" },
+      { "name": "Dawson Penner", "role": "2021\u201322 MURPH Scholar" }
+    ]
+  },
+  "news": [
+    {
+      "date": "2025-09",
+      "text": "We\u2019re excited to welcome Dr. Hilal Yildirim from Inonu University (Turkey) as a visiting scientist for one year."
+    },
+    {
+      "date": "2025-06",
+      "text": "Charlene was elected President-Elect of the Canadian Nursing Informatics Association (CNIA)."
+    },
+    {
+      "date": "2025-06",
+      "text": "The lab launched the Thinking Aloud with AI study, exploring how nursing students use generative AI for clinical reasoning, supported by a UBC SoTL Seed Grant."
+    },
+    {
+      "date": "2025-05",
+      "text": "New publication in Journal of Nursing Scholarship: The Overlooked Dark Side of Generative AI in Nursing.",
+      "url": "https://sigmapubs.onlinelibrary.wiley.com/doi/10.1111/jnu.70016"
+    },
+    {
+      "date": "2025-05",
+      "text": "Congratulations to Amrit and Kate for their fantastic presentation at WRCASN titled, \u201cStudent Research Experiences in the Integration of AI Technologies and Its Relevance to Nursing Education.\u201d"
+    },
+    {
+      "date": "2025-04",
+      "text": "We\u2019re excited to welcome Dr. Clarissa Bohrer da Silva as a visiting postdoc. She joins us from the Universidade do Estado de Santa Catarina in Chapec\u00f3, Brazil."
+    },
+    {
+      "date": "2025-01",
+      "text": "Naureen is awarded a SSHRC CGS-M Award for her Masters thesis work. Congratulations!",
+      "url": "https://www.nserc-crsng.gc.ca/students-etudiants/pg-cs/cgsm-bescm_eng.asp"
+    },
+    {
+      "date": "2025-01",
+      "text": "Andrea completes a major program milestone and achieves PhD Candidacy. Congratulations!"
+    },
+    {
+      "date": "2024-11",
+      "text": "Charlene and the NAIL Collaborative host the Embedding nursing expertise in artificial intelligence-based health technology development workshop at Fondation Brocher in Hermance, Switzerland.",
+      "url": "https://fondation-brocher.ch/event/embedding-nursing-expertise-in-artificial-intelligence-based-health-technology-development-2/"
+    },
+    {
+      "date": "2024-10",
+      "text": "Charlene gave a keynote at the 2024 Health Research and AI: A CMDO Symposium in Montreal, QC.",
+      "url": "https://aicmdo.my.canva.site/eng"
+    },
+    {
+      "date": "2024-08",
+      "text": "Charlene gave her first international keynote and presented a paper and 2 posters at NI2024 in Manchester, UK.",
+      "url": "https://ni2024.org/"
+    },
+    {
+      "date": "2024-07",
+      "text": "Charlene and members of the NAIL Collaborative were invited as experts to the \u201cArtificial Intelligence in Reality (AIR) Roundtable for Nursing and Midwifery,\u201d organized by NHS England."
+    },
+    {
+      "date": "2024-06",
+      "text": "Charlene is Co-I on a newly funded UBCO Eminence Research Cluster: Data Safety and AI Literacy (2024\u201327).",
+      "url": "https://research.ok.ubc.ca/research-excellence/research-clusters/data-safety-ai-literacy/"
+    },
+    {
+      "date": "2023-08",
+      "text": "Two new publications: Evaluating the Representation of Disaster Hazards in SNOMED CT (JAMIA) and Differing Effects of Implementation Leadership on Nurses\u2019 Use of mHealth (JMIR Nursing)."
+    },
+    {
+      "date": "2023-08",
+      "text": "Charlene and the NAIL Collaborative are awarded Artificial Intelligence Journal (Elsevier) funding for the workshop on Ethical, Social, and Legal Implications of Using Generative AI in Healthcare."
+    },
+    {
+      "date": "2023-07",
+      "text": "Sharon, Nicole, and Charlene give 5 presentations at CNIA 2023 (Calgary, AB) and at the International Council of Nurses Congress 2023 (Montreal, QC)."
+    },
+    {
+      "date": "2023-06",
+      "text": "Charlene and Dr. Xiaoxiao Li are awarded the UBC Collaborative Research Mobility Award to support collaboration across the UBC Vancouver and Okanagan campuses."
+    },
+    {
+      "date": "2023-06",
+      "text": "Our team is awarded a Social Sciences and Humanities Research Council of Canada (SSHRC) Insight Development Grant."
+    },
+    {
+      "date": "2023-05",
+      "text": "Charlene receives the 2023 UBC School of Nursing Recent Alumni Award."
+    },
+    {
+      "date": "2023-05",
+      "text": "Charlene and the NAIL Collaborative receive support from Fondation Brocher (Hermance, Switzerland) to host the nursing AI workshop in November 2024."
+    }
+  ],
+  "talks": [
+    {
+      "title": "Canadian Primary Care Research Network (CPCRN) Learning Series",
+      "description": "Discussion about Meaningful equity, diversity, and inclusion efforts in the CPCRN Network",
+      "youtube_id": "NpptgBfYUNg"
+    },
+    {
+      "title": "Health Data Foundations and Equitable AI",
+      "description": "Invited talk to kick off the AI Meets Ethics Series of the UBC Data Science and Health (DASH) Cluster",
+      "youtube_id": ""
+    },
+    {
+      "title": "Health Equity Documentation Project: Preliminary Findings",
+      "description": "Presentation at the 2022 BC Rural Health Research Exchange",
+      "youtube_id": ""
+    },
+    {
+      "title": "Using Artificial Intelligence in Nursing: Priorities, opportunities, and recommendations",
+      "description": "Invited talk at AAAiH Nursing and AI Webinar 2021, from the NAIL Collaborative",
+      "youtube_id": ""
+    }
+  ],
+  "opportunities": {
+    "intro": "Across all levels of collaboration and supervision, I encourage applicants from underrepresented groups in nursing research and academia to apply to work with me.",
+    "collaboration_text": "I welcome inquiries from health authorities, health systems stakeholders, NGOs, communities/community-organisations, and industry interested in health equity and health technologies to email me (healthinformatics.equity@ubc.ca) if you would like to work together.",
+    "postdoc_text": "Local and remote collaborations are welcomed. Please email me.",
+    "grad_status": "I am not accepting graduate students for the 2025 and 2026 academic intakes.",
+    "grad_general": "Applying to pursue graduate studies is not a decision to take lightly. Preparing a strong graduate application package takes time and initial relationship building with your potential supervisor. As a general guide, I do not entertain supervision inquiries made within 1 month of the application deadline.",
+    "grad_interest": "I am keen to mentor and support high-calibre thesis-stream Masters and PhD students who have a strong interest in research in the field of nursing and health informatics.",
+    "grad_programs": [
+      { "name": "UBC Interdisciplinary Graduate Studies (IGS) Global Studies Stream", "url": "https://gradstudies.ok.ubc.ca/igs/global-studies/" },
+      { "name": "UBCO School of Nursing Graduate Programs", "url": "https://nursing.ok.ubc.ca/graduate/" }
+    ],
+    "phd_requirements": [
+      "You should have a foundational understanding of nursing/health informatics (courses or work experience)",
+      "Already obtained a Master\u2019s degree in nursing, health informatics, or a related field",
+      "Published at least one peer-reviewed paper in a health informatics journal"
+    ],
+    "undergrad_text": "I encourage UBCO Nursing students interested in completing a Y4 research preceptorship to contact me. I occasionally offer funded research internships, work study, or co-op positions.",
+    "application_requirements": [
+      "A short description of the project you are interested in and how your background aligns with the project aims",
+      "Your background in health or nursing informatics, including supporting publications (required for PhD applicants)",
+      "Copies of unofficial transcripts",
+      "Your CV and copy of a recent publication or other writing sample",
+      "Please put \u201c[HIE!Lab]\u201d in your subject line"
+    ],
+    "application_video": "https://youtu.be/B3oANa67Iq4"
+  },
+  "teaching": [
+    {
+      "year": "2025",
+      "courses": [
+        "NRSG 543 \u2013 Nursing Leadership and Management in Practice (UBC-O)",
+        "NRSG 504 \u2013 Finding and Integrating Knowledge for Evidence-Informed Practice (UBC-O)"
+      ]
+    },
+    {
+      "year": "2022\u20132023",
+      "courses": [
+        "NRSG 504 \u2013 Finding and Integrating Knowledge for Evidence-Informed Practice (UBC-O)"
+      ]
+    },
+    {
+      "year": "2020\u20132021",
+      "courses": [
+        "MN8932 \u2013 Nursing Informatics (Toronto Metropolitan University)",
+        "MN8902 \u2013 Qualitative Research Methods (Toronto Metropolitan University)"
+      ]
+    },
+    {
+      "year": "2019\u20132020",
+      "courses": [
+        "PPN 101 \u2013 Professional Practice in Nursing 1 (Toronto Metropolitan University)",
+        "NSE112 \u2013 Professional Development 1 (Toronto Metropolitan University)",
+        "NSE 11B \u2013 Nursing Theory (Toronto Metropolitan University)"
+      ]
+    },
+    {
+      "year": "2018",
+      "courses": [
+        "Health and Clinical Informatics (University of Exeter)"
+      ]
+    }
+  ]
+}
