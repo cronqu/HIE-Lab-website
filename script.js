@@ -104,12 +104,26 @@ function buildDirectorLinks(links) {
 // Research / Projects
 // ──────────────────────────────────────────
 
+function extractLatestYear(text) {
+  if (!text) return 0;
+  const matches = text.match(/\b(20\d{2})\b/g);
+  if (!matches) return 0;
+  return Math.max(...matches.map(Number));
+}
+
 function renderResearch(projects) {
   if (!projects) return;
   const container = document.getElementById('research-content');
-  let html = '<div class="projects-grid">';
 
-  (projects.active || []).forEach(p => {
+  const active = [...(projects.active || [])].sort((a, b) =>
+    extractLatestYear(b.funding) - extractLatestYear(a.funding)
+  );
+  const past = [...(projects.past || [])].sort((a, b) =>
+    extractLatestYear(b.funding) - extractLatestYear(a.funding)
+  );
+
+  let html = '<div class="projects-grid">';
+  active.forEach(p => {
     html += `
       <div class="project-card">
         <h3>${esc(p.title)}</h3>
@@ -120,12 +134,11 @@ function renderResearch(projects) {
         ${p.url ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">Learn more</a>` : ''}
       </div>`;
   });
-
   html += '</div>';
 
-  if (projects.past && projects.past.length) {
+  if (past.length) {
     html += '<h3 class="past-projects-title">Collaborations &amp; Past Projects</h3>';
-    projects.past.forEach(p => {
+    past.forEach(p => {
       html += `
         <div class="past-project-item">
           <h4>${esc(p.title)}${p.url ? ` <a href="${esc(p.url)}" target="_blank" rel="noopener">[Link]</a>` : ''}</h4>
@@ -236,17 +249,30 @@ function renderPublications(pubs, container) {
 
   pubs.sort((a, b) => (b.year || 0) - (a.year || 0));
 
+  const currentYear = new Date().getFullYear();
+  const oldestYear = currentYear - 5;
+
+  // Group by year, filter to last 5 years
   const grouped = {};
   pubs.forEach(pub => {
-    const year = pub.year || 'Undated';
+    const year = pub.year || 0;
+    if (year < oldestYear) return;
     if (!grouped[year]) grouped[year] = [];
     grouped[year].push(pub);
   });
 
+  // Sort years descending
+  const years = Object.keys(grouped).sort((a, b) => b - a);
+
   let html = '';
-  for (const [year, items] of Object.entries(grouped)) {
+  years.forEach(year => {
+    const items = grouped[year];
+    // Show all for current year, max 2 for prior years
+    const display = (parseInt(year) === currentYear) ? items : items.slice(0, 2);
+    const hidden = items.length - display.length;
+
     html += `<h3 class="pub-year">${esc(String(year))}</h3><ol class="pub-list">`;
-    items.forEach(pub => {
+    display.forEach(pub => {
       const doiLink = pub.doi
         ? ` <a href="https://doi.org/${esc(pub.doi)}" class="pub-doi" target="_blank" rel="noopener">[DOI]</a>`
         : '';
@@ -256,7 +282,10 @@ function renderPublications(pubs, container) {
       html += `<li class="pub-item"><span class="pub-citation">${esc(pub.vancouver_citation || pub.title || '')}</span>${doiLink}${urlLink}</li>`;
     });
     html += '</ol>';
-  }
+    if (hidden > 0) {
+      html += `<p class="pub-more">+ ${hidden} more publication${hidden > 1 ? 's' : ''}</p>`;
+    }
+  });
 
   container.innerHTML = html;
 }

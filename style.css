@@ -216,10 +216,9 @@ h4 { font-size: 1.1rem; }
 }
 
 .hero-icons img {
-  width: 48px;
-  height: 48px;
-  filter: brightness(0) invert(1);
-  opacity: 0.6;
+  width: 56px;
+  height: 56px;
+  opacity: 0.85;
 }
 
 /* 6. Section Base */
@@ -509,8 +508,8 @@ h4 { font-size: 1.1rem; }
 
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 24px;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
   margin-bottom: 48px;
 }
 
@@ -519,6 +518,8 @@ h4 { font-size: 1.1rem; }
   border-radius: var(--border-radius);
   overflow: hidden;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: row;
   transition: transform var(--transition), box-shadow var(--transition);
 }
 
@@ -528,18 +529,20 @@ h4 { font-size: 1.1rem; }
 }
 
 .team-photo {
-  width: 100%;
-  aspect-ratio: 1;
+  width: 100px;
+  min-width: 100px;
+  height: 100px;
   object-fit: cover;
 }
 
 .team-photo-placeholder {
-  width: 100%;
-  aspect-ratio: 1;
+  width: 100px;
+  min-width: 100px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-family: var(--font-heading);
   color: var(--colour-white);
 }
@@ -551,14 +554,15 @@ h4 { font-size: 1.1rem; }
 .team-card:nth-child(5n+5) .team-photo-placeholder { background: var(--colour-yellow); color: var(--colour-dark-purple); }
 
 .team-info {
-  padding: 20px;
+  padding: 12px 16px;
+  min-width: 0;
 }
 
 .team-name {
   font-family: var(--font-heading);
   color: var(--colour-dark-purple);
-  font-size: 1.1rem;
-  margin-bottom: 2px;
+  font-size: 0.95rem;
+  margin-bottom: 1px;
 }
 
 .team-pronouns {
@@ -568,15 +572,19 @@ h4 { font-size: 1.1rem; }
 
 .team-role {
   color: var(--colour-teal);
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   font-weight: 400;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 
 .team-bio {
-  font-size: 0.88rem;
-  line-height: 1.6;
+  font-size: 0.8rem;
+  line-height: 1.5;
   color: var(--colour-body-text);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 /* Furry members */
@@ -660,6 +668,13 @@ h4 { font-size: 1.1rem; }
 .pub-doi:hover,
 .pub-link:hover {
   color: var(--colour-pink);
+}
+
+.pub-more {
+  color: var(--colour-muted);
+  font-size: 0.85rem;
+  font-style: italic;
+  margin: -4px 0 16px 28px;
 }
 
 .publications-loading,
