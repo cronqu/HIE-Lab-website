@@ -24,76 +24,95 @@
         "url": "https://www.interiorhealth.ca/"
       },
       {
-        "title": "Affiliated Investigator",
         "org": "Vancouver Coastal Health Research Institute",
         "url": "https://www.vchri.ca/"
       },
       {
-        "title": "Co-lead and founding member",
+        "org": "Fraser Health Authority",
+        "url": "www.fraserhealth.ca/research/"
+      },
+      {
+        "title": "President-Elect",
+        "org": "Canadian Nursing Informatics Association (CNIA)",
+        "url": "https://cnia.ca/"
+      },
+      {
+        "title": "Co-Director and Co-Founder",
         "org": "Nursing and Artificial Intelligence Leadership (NAIL) Collaborative",
         "url": "https://www.nailcollab.org/"
       },
       {
-        "title": "Ethical AI Co-lead",
+        "title": "Canadian Co-Director",
+        "org": "AI Nurses Network",
+        "url": "https://www.ai-nurses.com/"
+      },
+      {
+        "title": "Research Advisory Panel Co-Lead",
+        "org": "International Medical Informatics Association - Nursing Informatics Interest Group",
+        "url": "https://imia-medinfo.org/wp/sig-ni-nursing-informatics/"
+      },
+      {
+        "title": "EDI AI Co-lead",
         "org": "UBC Data Science and Health (DASH) Cluster",
         "url": "https://datascienceandhealth.ubc.ca/"
       },
-      {
-        "title": "EDI Co-lead",
-        "org": "Canadian Primary Care Research Network (CPCRN)",
-        "url": "https://cpcrn-rcrsp.ca/"
-      }
     ],
     "links": {
-      "email": "healthinformatics.equity@ubc.ca",
-      "twitter": "https://www.twitter.com/CERONQU",
+      "email": "healthinformatics [dot] equity [at] ubc [dot] ca",
       "orcid": "http://orcid.org/0000-0002-6520-1765",
       "linkedin": "https://www.linkedin.com/in/cronquillo/",
       "google_scholar": "https://scholar.google.com/citations?user=6qKKv3EAAAAJ&hl=en"
     },
-    "funding_acknowledgement": "My work is/has been funded by AMS Healthcare, Social Sciences and Humanities Research Council of Canada, Canadian Nurses Foundation, the Brocher Foundation, Roche Canada, UBC Health Innovation Funding Investment (HIFI), UBC Okanagan Multidisciplinary Undergraduate Research Projects in Health (MURPH), UBC SoTL, Ryerson FCS Covid-19 Rapid Response Grant, UBC School of Nursing Funds."
+    "funding_acknowledgement": "My work is/has been funded by AMS Healthcare, Brocher Foundation, Canadian Nurses Foundation, Roche Canada, Social Sciences and Humanities Research Council of Canada, UBC Internal Grants"
   },
   "projects": {
     "active": [
       {
-        "title": "Mapping trust in nurses with dimensions of trustworthy artificial intelligence: A scoping review",
-        "status": "Finalizing publication",
-        "funding": "UBC Hampton Fund Research Grant (2022\u201325)",
-        "co_investigators": "Booth, R., Janke, R., Chan, R., Recsky, C.",
-        "description": "Is it possible for artificial intelligence (AI) models to demonstrate trustworthiness in ways that the world\u2019s consistently most trusted professionals \u2013 nurses \u2013 are thought to do? Or is it that some dimensions of trustworthiness are only demonstrable by humans? This scoping review and thematic analysis will map and synthesize the evidence on nursing trust and understand parallels to computational understandings of trustworthiness, in order to envision novel approaches to developing trustworthy AI."
-      },
-      {
-        "title": "Identifying patient-validated compassion and equity concepts in community care clinical notes through natural language processing",
-        "status": "Drafting manuscripts",
-        "funding": "AMS Healthcare",
-        "co_investigators": "",
-        "description": "In this project, we build on the Health Equity Documentation study to develop and test compassion and equity-grounded natural language processing (NLP) application to leverage otherwise unused community nursing clinical notes.",
-        "url": "https://www.ams-inc.on.ca/project/identifying-patient%e2%80%90validated-compassion-and-equity-concepts-in-community-care-clinical-notes-through-natural-language-processing/"
+        "title": "LANTERN: Learning and AI Navigation for Transformative Education and Research in Nursing",
+        "status": "Starting up",
+        "funding": "UBC SoTL Seed Program",
+        "co_investigators": "Burton, L., Douglas-Campbell, K., Harvey, C., Lawrence, R., Munro, T., Nanyonjo, J., Rush, K., Wilson, R.",
+        "description": "The LANTERN project addresses the unique needs of graduate nursing students by developing educator-designed and controlled AI agent ensemble to foster development of critical thinking through Socratic dialogue."
       },
       {
         "title": "Thinking Aloud with AI: Nursing Students\u2019 Cognitive Processes Using GenAI for Clinical Reasoning",
         "status": "Developing ethics",
         "funding": "UBC SoTL Seed Program",
         "co_investigators": "Wilson, R., Willson, M., Garcia Chua, R., Moralejo, L., Kennedy L., Sturgess, K.",
-        "description": "This project explores how undergraduate nursing students use generative AI tools like ChatGPT while working on complex clinical tasks, such as creating care plans or responding to patient emergencies."
+        "description": "This project aims to understand cognitive processes involved when undergraduate nursing students use generative AI tools when working on complex clinical reasoning tasks."
       },
       {
         "title": "Stakeholder perspectives and impacts of explainable artificial intelligence: A case study in a British Columbia health authority",
-        "status": "Recruiting participants and data analysis",
+        "status": "Data collection & prelimnary analyses",
         "funding": "SSHRC Insight Development Grant (2023\u20132025); UBC HIFI Awards (2022\u201323)",
         "co_investigators": "Conati, C., Currie, L.M., Hamarneh, G., Janke, R., Li, X., Block, L., Beschastnikh, I.",
         "description": "This study employs realist methods to explore considerations for health systems operations and clinician end-user implications of developing and implementing explainable AI and clinical decision support tools."
       },
       {
+        "title": "Mapping trust in nurses with dimensions of trustworthy artificial intelligence: A scoping review",
+        "status": "Study completed; Developing knowledge outputs",
+        "funding": "UBC Hampton Fund Research Grant (2022\u201325)",
+        "co_investigators": "Booth, R., Janke, R., Chan, R., Recsky, C.",
+        "description": "Is it possible for artificial intelligence (AI) models to demonstrate trustworthiness in ways that the world\u2019s consistently most trusted professionals \u2013 nurses \u2013 are thought to do? Or is it that some dimensions of trustworthiness are only demonstrable by humans? This scoping review and thematic analysis will map and synthesize the evidence on nursing trust and understand parallels to computational understandings of trustworthiness, in order to envision novel approaches to developing trustworthy AI."
+      },
+      {
+        "title": "Identifying patient-validated compassion and equity concepts in community care clinical notes through natural language processing",
+        "status": "Study completed; Developing knowledge outputs",
+        "funding": "AMS Healthcare",
+        "co_investigators": "",
+        "description": "This study develops and validates patient and clinician-validated compassion and equity concepts to determine their prevalence in community nursing progress notes using natural language processing.",
+        "url": "https://www.ams-inc.on.ca/project/identifying-patient%e2%80%90validated-compassion-and-equity-concepts-in-community-care-clinical-notes-through-natural-language-processing/"
+      },
+      {
         "title": "Pre-processing community nursing and allied health data for equity-informed artificial intelligence for interdisciplinary wound care",
-        "status": "Project wrap-up",
+        "status": "Study completed; Developing knowledge outputs",
         "funding": "",
         "co_investigators": "",
         "description": "Health equity information about patients are often captured in narrative clinical notes by nurses and allied health professionals in electronic health records. This project aims to complete the resource-intensive data pre-processing step to enable the use of data from two electronic health records to develop equity-informed AI applications."
       },
       {
         "title": "Capturing health equity in community nursing electronic documentation",
-        "status": "Finalizing publications",
+        "status": "Study completed; Developing knowledge outputs",
         "funding": "",
         "co_investigators": "",
         "description": "In this project, we aim to understand community health nurses\u2019 conceptualizations and documentation of health equity in electronic health records to establish the foundation for future work using natural language processing to build machine learning predictive risk models."
