@@ -3,7 +3,7 @@
     "tagline": "The goal of our work is to centre the human experiences and values to improve equity and thoughtful, meaningful, and inclusive technology use in healthcare.",
     "land_acknowledgement": "Racialized settler on the unceded and traditional territories of the Syilx Okanagan"
   },
-  "director": {
+  "HIE Lab Lead": {
     "name": "Charlene E. Ronquillo",
     "credentials": "RN, PhD",
     "pronouns": "she/they/siya",
@@ -21,13 +21,9 @@
       {
         "title": "Affiliated Investigator",
         "org": "Interior Health Authority",
-        "url": "https://www.interiorhealth.ca/"
-      },
-      {
+        "url": "https://www.interiorhealth.ca/",
         "org": "Vancouver Coastal Health Research Institute",
-        "url": "https://www.vchri.ca/"
-      },
-      {
+        "url": "https://www.vchri.ca/",
         "org": "Fraser Health Authority",
         "url": "www.fraserhealth.ca/research/"
       },
