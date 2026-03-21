@@ -181,20 +181,6 @@
         "bio": "Dr. Recsky is a Registered Nurse and her areas of interest include health information technologies, quality and safety, and knowledge translation, as well as supporting students to gain knowledge and experience in research."
       },
       {
-        "name": "Nicole Ketter",
-        "pronouns": "she/her",
-        "role": "Research Manager",
-        "photo": "",
-        "bio": "Nicole earned her MSc in Rehabilitation Science from UBC, beginning in the lab as a work-study student in 2022 before stepping into the role of research manager in 2023. While her thesis focused on chronic disease multimorbidity prevention and management, she is particularly drawn to the dynamic intersection of technology and health research explored in the HIE lab. Nicole enjoys mentoring students and contributing to the lab\u2019s supportive, team-oriented culture. Outside the lab, she loves hiking and swimming with her dog, Ollie."
-      },
-      {
-        "name": "Ruinan Jin",
-        "pronouns": "he/him",
-        "role": "PhD Trainee",
-        "photo": "",
-        "bio": "Ruinan is currently a graduate student in Electrical and Computer Engineering at UBC. He previously earned a BSc in Computer Science, during which he spent over two years working at the HIE lab. His research centres on wound infection prediction and health equity in this process, and he is especially interested in exploring cutting-edge machine learning engineering techniques."
-      },
-      {
         "name": "Andrea Burrows",
         "pronouns": "she/her",
         "role": "PhD Candidate",
@@ -220,7 +206,7 @@
         "pronouns": "she/her",
         "role": "Visiting PhD Candidate",
         "photo": "",
-        "bio": "Jianan is a nursing PhD student at Zhejiang University, China, and is currently a visiting international research student at UBCO. She received a China Scholarship Council (CSC) Scholarship (2025\u201326) to support her time at UBCO. Her research focuses on the ethical implications of information technology in the nursing field."
+        "bio": "Jianan is a nursing PhD student at Zhejiang University, China, and is currently a visiting international research student at UBCO. She received a China ship Council (CSC) ship (2025\u201326) to support her time at UBCO. Her research focuses on the ethical implications of information technology in the nursing field."
       },
       {
         "name": "Kate Sturgess",
@@ -230,40 +216,12 @@
         "bio": "Kate is a current nursing student at UBCO and originally from Calgary, Alberta. Kate is hoping to pursue a master\u2019s in nursing specialising in research. She grew up ski racing and loves to spend time in the mountains between classes."
       },
       {
-        "name": "Vanessa Lo",
-        "pronouns": "she/her",
-        "role": "Research Assistant",
-        "photo": "",
-        "bio": "Vanessa is a Registered Nurse passionate about medical device development and integrating digital technologies into healthcare. She is also interested in working with vulnerable populations to minimise health disparities so that more equitable care can be provided to all members of the community."
-      },
-      {
-        "name": "Winnifred Adzo Vittor",
-        "pronouns": "she/her",
-        "role": "Research Assistant",
-        "photo": "",
-        "bio": "Winnifred is a Registered Nurse and a prospective MSN student from Ghana with interest in nursing informatics. She looks forward to learning how technology can be integrated into health, especially nursing."
-      },
-      {
         "name": "Amrit Kaur Dhami",
         "pronouns": "she/her",
         "role": "Research Assistant",
         "photo": "",
         "bio": "Amrit is currently in their third year of nursing and thrilled to be a part of the research team. She is deeply committed to fostering a supportive and inclusive community within the team. She believes that research provides an excellent opportunity to contribute to the enhancement of nursing experiences."
       },
-      {
-        "name": "Abubakari Mohammed Sherif",
-        "pronouns": "he/him",
-        "role": "Research Assistant",
-        "photo": "",
-        "bio": "Abubakari Mohammed Sherif is a Registered Nurse from Ghana with an interest in improving electronic health records in rural communities in Ghana. He is a prospective graduate student."
-      },
-      {
-        "name": "Jannatul Ferdous Shapnil",
-        "pronouns": "she/her",
-        "role": "Research Assistant",
-        "photo": "",
-        "bio": "Jannatul is a registered doctor in Bangladesh under the Bangladesh Medical and Dental Council. Their primary research focus is equitable healthcare and health informatics. Jannatul is also a cat parent to Kai and likes watching cat memes."
-      }
     ],
     "furry": [
       {
@@ -275,16 +233,21 @@
       }
     ],
     "alumni": [
-      { "name": "Mahtab Matin", "role": "Research Assistant, PhD School of Nursing" },
-      { "name": "Jane Shi", "role": "Research Assistant, MSc Electrical and Computer Engineering" },
-      { "name": "Nicole Favor", "role": "Research Assistant, BSN Student" },
-      { "name": "Isabella Mendoza", "role": "Research Assistant, BSc Computer Science Student" },
-      { "name": "Sarah Schumacher", "role": "Research Assistant, BSN Student" },
-      { "name": "Mehak Mundi", "role": "Research Assistant, BSN Student" },
-      { "name": "Kenna Hunter", "role": "Research Assistant, BSN Student" },
-      { "name": "Reagan Chicoine", "role": "Research Assistant, BSN Graduate" },
-      { "name": "Sharon Ilesanmi", "role": "Research Assistant, BSN Graduate" },
-      { "name": "Ammar Zavahir", "role": "Research Assistant" },
+      { "name": "Nicole Ketter", "role": "Research Manager, MSc, UBCO Rehabilitation Science"},
+      { "name": "Winnifred Adzo Vittor, Volunteer Research Assistant"},
+      { "name": "Ruinan Jin", "role": "Research Collaborator, PhD Student, UBCV Electrical and Computer Engineering"},
+      { "name": "Jannatul Ferdous Shapnil, Volunteer Research Assistant"},
+      { "name": "Mahtab Matin", "role": "Research Assistant, PhD, UBCO School of Nursing"},
+      { "name": "Jane Shi", "role": "Research Assistant, MSc, UBCV Electrical and Computer Engineering" },
+      { "name": "Vanessa Lo, Research Assistant, 4th Year Nursing Preceptor Mentee, UBCO BSN"},
+      { "name": "Nicole Favor", "role": "Research Assistant, UBCO BSN Student" },
+      { "name": "Isabella Mendoza", "role": "Research Assistant, UBCO BSc Computer Science" },
+      { "name": "Sarah Schumacher", "role": "Research Assistant, UBCO BSN Student" },
+      { "name": "Mehak Mundi", "role": "Research Assistant, UBCO BSN Student" },
+      { "name": "Kenna Hunter", "role": "Research Assistant, UBCO BSN Student" },
+      { "name": "Reagan Chicoine", "role": "Research Assistant, UBCO BSN Graduate" },
+      { "name": "Sharon Ilesanmi", "role": "Research Assistant, UBCO BSN Graduate" },
+      { "name": "Ammar Zavahir", "role": "Research Assistant, UBCO BSc Computer Science"},
       { "name": "Ashish Giri", "role": "2021\u201322 MURPH Scholar" },
       { "name": "Emily Mayzes-Kotulla", "role": "2021\u201322 MURPH Scholar" },
       { "name": "Dawson Penner", "role": "2021\u201322 MURPH Scholar" }
