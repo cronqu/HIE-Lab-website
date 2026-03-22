@@ -8,18 +8,19 @@
     "credentials": "RN, PhD",
     "pronouns": "she/they/siya",
     "title": "Assistant Professor",
-    "identities": [
+    "identities": {
       "Filipina scholar",
       "Registered Nurse",
-      "Health Informatician"
-    ],
+      "Health Informatician"}
+  },
+  {
     "affiliation": "University of British Columbia – Okanagan",
     "department": "School of Nursing, Faculty of Health and Social Development",
     "address": "ART360 (Arts Building)\n1147 Research Road\nKelowna, BC Canada V1V 1V7",
     "photo": "assets/images/director.jpg",
     "bio": [
       "The HIE Lab’s work is interdisciplinary and underpinned by critical theories and implementation science. A key aim in our research is to ensure meaningful inclusion of non-dominant groups in the conceptualization, design, development, and implementation of health technologies in health systems.",
-      "Charlene has expertise in mixed methods, participatory, and co-production approaches, HCI, and employing critical perspectives throughout the technology lifecycle. Charlene has experience with various aspects of health information technology in health systems and nursing, including nursing informatics competencies, usability research, person-centred design and development, rapid and exploratory prototyping, and technology adoption and usage."
+      "Charlene has expertise in mixed methods, participatory, and co-production approaches, HCI, and employing critical perspectives throughout the technology lifecycle. Charlene has experience with various aspects of health information technology in health systems and nursing, including nursing informatics competencies, usability research, person-centred design and development, rapid and exploratory prototyping, and technology adoption and usage."}
     ],
     "affiliations": [
       {
@@ -91,30 +92,24 @@
         "co_investigators": "Booth, R., Janke, R., Chan, R., Recsky, C.",
         "description": "Is it possible for artificial intelligence (AI) models to demonstrate trustworthiness in ways that the world’s consistently most trusted professionals – nurses – are thought to do? Or is it that some dimensions of trustworthiness are only demonstrable by humans? This scoping review and thematic analysis will map and synthesize the evidence on nursing trust and understand parallels to computational understandings of trustworthiness, in order to envision novel approaches to developing trustworthy AI."
       },
-      {
+    ],
+    "past": [
+       {
         "title": "Identifying patient-validated compassion and equity concepts in community care clinical notes through natural language processing",
-        "status": "Study completed; Developing knowledge outputs",
         "funding": "AMS Healthcare",
         "co_investigators": "",
-        "description": "This study develops and validates patient and clinician-validated compassion and equity concepts to determine their prevalence in community nursing progress notes using natural language processing.",
-        "url": "https://www.ams-inc.on.ca/project/identifying-patient%e2%80%90validated-compassion-and-equity-concepts-in-community-care-clinical-notes-through-natural-language-processing/"
       },
       {
         "title": "Pre-processing community nursing and allied health data for equity-informed artificial intelligence for interdisciplinary wound care",
         "status": "Study completed; Developing knowledge outputs",
         "funding": "",
         "co_investigators": "",
-        "description": "Health equity information about patients are often captured in narrative clinical notes by nurses and allied health professionals in electronic health records. This project aims to complete the resource-intensive data pre-processing step to enable the use of data from two electronic health records to develop equity-informed AI applications."
       },
       {
         "title": "Capturing health equity in community nursing electronic documentation",
-        "status": "Study completed; Developing knowledge outputs",
         "funding": "",
         "co_investigators": "",
-        "description": "In this project, we aim to understand community health nurses’ conceptualizations and documentation of health equity in electronic health records to establish the foundation for future work using natural language processing to build machine learning predictive risk models."
       }
-    ],
-    "past": [
       {
         "title": "A mobile makerspace to support inclusive patient and community-led technology solutions for rural health and wellness",
         "funding": "UBCO MURPH Program (2021–2022)",
@@ -129,7 +124,6 @@
         "title": "Artificial Intelligence for Nursing: Ethical, Legal and Social Implications",
         "funding": "Brocher Foundation (Switzerland)",
         "co_investigators": "Topaz M., Pruinelli L., Peltonen L.M., Nibber R., DeForest H.",
-        "url": "https://youtu.be/qwarza836Zg?t=320"
       },
       {
         "title": "Adoption of speech recognition technology in community healthcare nursing",
@@ -211,13 +205,6 @@
         "bio": "Josephine is deeply committed to addressing the persistent health inequities that exist globally. As a Registered Nurse, Josephine has dedicated the past few years to improving healthcare in rural and underserved areas of Uganda, utilising her knowledge, skills, and time to make a tangible impact. Josephine is particularly enthusiastic about the potential of using technology to provide innovative solutions to this enduring global challenge."
       },
       {
-        "name": "Jianan Wang",
-        "pronouns": "she/her",
-        "role": "Visiting PhD Candidate",
-        "photo": "",
-        "bio": "Jianan is a nursing PhD student at Zhejiang University, China, and is currently a visiting international research student at UBCO. She received a China ship Council (CSC) ship (2025–26) to support her time at UBCO. Her research focuses on the ethical implications of information technology in the nursing field."
-      },
-      {
         "name": "Kate Sturgess",
         "pronouns": "she/her",
         "role": "Research Assistant",
@@ -231,8 +218,22 @@
         "photo": "",
         "bio": "Amrit is currently in their third year of nursing and thrilled to be a part of the research team. She is deeply committed to fostering a supportive and inclusive community within the team. She believes that research provides an excellent opportunity to contribute to the enhancement of nursing experiences."
       }
+      {
+        "name": "Jianan Wang",
+        "pronouns": "she/her",
+        "role": "Visiting PhD Candidate",
+        "photo": "",
+        "bio": "Jianan is a nursing PhD student at Zhejiang University, China, and is currently a visiting international research student at UBCO. She received a China ship Council (CSC) ship (2025–26) to support her time at UBCO. Her research focuses on the ethical implications of information technology in the nursing field."
+      },
+      {
+        "name": "Dr. Hilal Yildirim",
+        "pronouns": "she/her",
+        "role": "Visiting Scientist",
+        "photo": "",
+        "bio": "Jianan is a nursing PhD student at Zhejiang University, China, and is currently a visiting international research student at UBCO. She received a China ship Council (CSC) ship (2025–26) to support her time at UBCO. Her research focuses on the ethical implications of information technology in the nursing field."
+      },
     ],
-    "furry": [
+    "furry team members": [
       {
         "name": "Maya T. Butts",
         "breed": "Shiba Inu",
@@ -247,14 +248,16 @@
         "role": "Research Manager, MSc, UBCO Rehabilitation Science"
       },
       {
-        "name": "Winnifred Adzo Vittor, Volunteer Research Assistant"
+        "name": "Winnifred Adzo Vittor", 
+        "role": "Volunteer Research Assistant"
       },
       {
         "name": "Ruinan Jin",
         "role": "Research Collaborator, PhD Student, UBCV Electrical and Computer Engineering"
       },
       {
-        "name": "Jannatul Ferdous Shapnil, Volunteer Research Assistant"
+        "name": "Jannatul Ferdous Shapnil",
+        "role": "Volunteer Research Assistant"
       },
       {
         "name": "Mahtab Matin",
@@ -265,7 +268,12 @@
         "role": "Research Assistant, MSc, UBCV Electrical and Computer Engineering"
       },
       {
-        "name": "Vanessa Lo, Research Assistant, 4th Year Nursing Preceptor Mentee, UBCO BSN"
+        "name": "Geneveave Barbo",
+        "role": "Volunteer Research Assistant, McGill University Nursing"
+      },
+      {
+        "name": "Vanessa Lo",
+        "role": "Research Assistant, 4th Year Nursing Preceptor Mentee, UBCO BSN"
       },
       {
         "name": "Nicole Favor",
@@ -457,7 +465,7 @@
   },
   "teaching": [
     {
-      "year": "2025",
+      "year": "2025-2026",
       "courses": [
         "NRSG 543 – Nursing Leadership and Management in Practice (UBC-O)",
         "NRSG 504 – Finding and Integrating Knowledge for Evidence-Informed Practice (UBC-O)"
