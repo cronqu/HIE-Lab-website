@@ -8,19 +8,18 @@
     "credentials": "RN, PhD",
     "pronouns": "she/they/siya",
     "title": "Assistant Professor",
-    "identities": {
+    "identities": [
       "Filipina scholar",
       "Registered Nurse",
-      "Health Informatician"}
-  },
-  {
+      "Health Informatician"
+    ],
     "affiliation": "University of British Columbia – Okanagan",
     "department": "School of Nursing, Faculty of Health and Social Development",
-    "address": "ART360 (Arts Building)\n1147 Research Road\nKelowna, BC Canada V1V 1V7",
+    "address": "ART360 (Arts Building)\\n1147 Research Road\\nKelowna, BC Canada V1V 1V7",
     "photo": "assets/images/director.jpg",
     "bio": [
-      "The HIE Lab’s work is interdisciplinary and underpinned by critical theories and implementation science. A key aim in our research is to ensure meaningful inclusion of non-dominant groups in the conceptualization, design, development, and implementation of health technologies in health systems.",
-      "Charlene has expertise in mixed methods, participatory, and co-production approaches, HCI, and employing critical perspectives throughout the technology lifecycle. Charlene has experience with various aspects of health information technology in health systems and nursing, including nursing informatics competencies, usability research, person-centred design and development, rapid and exploratory prototyping, and technology adoption and usage."}
+      "The HIE Lab's work is interdisciplinary and underpinned by critical theories and implementation science. A key aim in our research is to ensure meaningful inclusion of non-dominant groups in the conceptualization, design, development, and implementation of health technologies in health systems.",
+      "Charlene has expertise in mixed methods, participatory, and co-production approaches, HCI, and employing critical perspectives throughout the technology lifecycle. Charlene has experience with various aspects of health information technology in health systems and nursing, including nursing informatics competencies, usability research, person-centred design and development, rapid and exploratory prototyping, and technology adoption and usage."
     ],
     "affiliations": [
       {
@@ -72,7 +71,7 @@
         "description": "The LANTERN project addresses the unique needs of graduate nursing students by developing educator-designed and controlled AI agent ensemble to foster development of critical thinking through Socratic dialogue."
       },
       {
-        "title": "Thinking Aloud with AI: Nursing Students’ Cognitive Processes Using GenAI for Clinical Reasoning",
+        "title": "Thinking Aloud with AI: Nursing Students' Cognitive Processes Using GenAI for Clinical Reasoning",
         "status": "Developing ethics",
         "funding": "UBC SoTL Seed Program",
         "co_investigators": "Wilson, R., Willson, M., Garcia Chua, R., Moralejo, L., Kennedy L., Sturgess, K.",
@@ -90,26 +89,26 @@
         "status": "Study completed; Developing knowledge outputs",
         "funding": "UBC Hampton Fund Research Grant (2022–25)",
         "co_investigators": "Booth, R., Janke, R., Chan, R., Recsky, C.",
-        "description": "Is it possible for artificial intelligence (AI) models to demonstrate trustworthiness in ways that the world’s consistently most trusted professionals – nurses – are thought to do? Or is it that some dimensions of trustworthiness are only demonstrable by humans? This scoping review and thematic analysis will map and synthesize the evidence on nursing trust and understand parallels to computational understandings of trustworthiness, in order to envision novel approaches to developing trustworthy AI."
-      },
+        "description": "Is it possible for artificial intelligence (AI) models to demonstrate trustworthiness in ways that the world's consistently most trusted professionals – nurses – are thought to do? Or is it that some dimensions of trustworthiness are only demonstrable by humans? This scoping review and thematic analysis will map and synthesize the evidence on nursing trust and understand parallels to computational understandings of trustworthiness, in order to envision novel approaches to developing trustworthy AI."
+      }
     ],
     "past": [
-       {
+      {
         "title": "Identifying patient-validated compassion and equity concepts in community care clinical notes through natural language processing",
         "funding": "AMS Healthcare",
-        "co_investigators": "",
+        "co_investigators": ""
       },
       {
         "title": "Pre-processing community nursing and allied health data for equity-informed artificial intelligence for interdisciplinary wound care",
         "status": "Study completed; Developing knowledge outputs",
         "funding": "",
-        "co_investigators": "",
+        "co_investigators": ""
       },
       {
         "title": "Capturing health equity in community nursing electronic documentation",
         "funding": "",
-        "co_investigators": "",
-      }
+        "co_investigators": ""
+      },
       {
         "title": "A mobile makerspace to support inclusive patient and community-led technology solutions for rural health and wellness",
         "funding": "UBCO MURPH Program (2021–2022)",
@@ -123,7 +122,7 @@
       {
         "title": "Artificial Intelligence for Nursing: Ethical, Legal and Social Implications",
         "funding": "Brocher Foundation (Switzerland)",
-        "co_investigators": "Topaz M., Pruinelli L., Peltonen L.M., Nibber R., DeForest H.",
+        "co_investigators": "Topaz M., Pruinelli L., Peltonen L.M., Nibber R., DeForest H."
       },
       {
         "title": "Adoption of speech recognition technology in community healthcare nursing",
@@ -156,7 +155,7 @@
         "co_investigators": "Currie L., Dahinten S., Bungay V."
       },
       {
-        "title": "Understanding stakeholders’ perspectives on implementing deprescribing in care homes (STOPPING)",
+        "title": "Understanding stakeholders' perspectives on implementing deprescribing in care homes (STOPPING)",
         "funding": "NIHR Research for Patient Benefit (UK)",
         "co_investigators": "Warmoth, K. (NPI), Stein K., Day J.K., Cockroft E."
       }
@@ -195,7 +194,7 @@
         "pronouns": "she/her",
         "role": "Masters Trainee",
         "photo": "",
-        "bio": "Naureen is a Registered Nurse and Graduate Research Assistant working on her Masters in Nursing at UBC Okanagan. Her thesis is on investigating health system stakeholders’ perspectives and use of Explainable Artificial Intelligence (XAI) for clinical decision support tools. Naureen has recently completed her diploma in Digital Health and Data Analytics from the Michener Institute of Education in Ontario."
+        "bio": "Naureen is a Registered Nurse and Graduate Research Assistant working on her Masters in Nursing at UBC Okanagan. Her thesis is on investigating health system stakeholders' perspectives and use of Explainable Artificial Intelligence (XAI) for clinical decision support tools. Naureen has recently completed her diploma in Digital Health and Data Analytics from the Michener Institute of Education in Ontario."
       },
       {
         "name": "Josephine Nanyonjo",
@@ -209,7 +208,7 @@
         "pronouns": "she/her",
         "role": "Research Assistant",
         "photo": "",
-        "bio": "Kate is a current nursing student at UBCO and originally from Calgary, Alberta. Kate is hoping to pursue a master’s in nursing specialising in research. She grew up ski racing and loves to spend time in the mountains between classes."
+        "bio": "Kate is a current nursing student at UBCO and originally from Calgary, Alberta. Kate is hoping to pursue a master's in nursing specialising in research. She grew up ski racing and loves to spend time in the mountains between classes."
       },
       {
         "name": "Amrit Kaur Dhami",
@@ -217,7 +216,7 @@
         "role": "Research Assistant",
         "photo": "",
         "bio": "Amrit is currently in their third year of nursing and thrilled to be a part of the research team. She is deeply committed to fostering a supportive and inclusive community within the team. She believes that research provides an excellent opportunity to contribute to the enhancement of nursing experiences."
-      }
+      },
       {
         "name": "Jianan Wang",
         "pronouns": "she/her",
@@ -231,7 +230,7 @@
         "role": "Visiting Scientist",
         "photo": "",
         "bio": "Jianan is a nursing PhD student at Zhejiang University, China, and is currently a visiting international research student at UBCO. She received a China ship Council (CSC) ship (2025–26) to support her time at UBCO. Her research focuses on the ethical implications of information technology in the nursing field."
-      },
+      }
     ],
     "furry team members": [
       {
@@ -248,7 +247,7 @@
         "role": "Research Manager, MSc, UBCO Rehabilitation Science"
       },
       {
-        "name": "Winnifred Adzo Vittor", 
+        "name": "Winnifred Adzo Vittor",
         "role": "Volunteer Research Assistant"
       },
       {
@@ -324,7 +323,7 @@
   "news": [
     {
       "date": "2025-09",
-      "text": "We’re excited to welcome Dr. Hilal Yildirim from Inonu University (Turkey) as a visiting scientist for one year."
+      "text": "We're excited to welcome Dr. Hilal Yildirim from Inonu University (Turkey) as a visiting scientist for one year."
     },
     {
       "date": "2025-06",
@@ -341,11 +340,11 @@
     },
     {
       "date": "2025-05",
-      "text": "Congratulations to Amrit and Kate for their fantastic presentation at WRCASN titled, “Student Research Experiences in the Integration of AI Technologies and Its Relevance to Nursing Education.”"
+      "text": "Congratulations to Amrit and Kate for their fantastic presentation at WRCASN titled, \"Student Research Experiences in the Integration of AI Technologies and Its Relevance to Nursing Education.\""
     },
     {
       "date": "2025-04",
-      "text": "We’re excited to welcome Dr. Clarissa Bohrer da Silva as a visiting postdoc. She joins us from the Universidade do Estado de Santa Catarina in Chapecó, Brazil."
+      "text": "We're excited to welcome Dr. Clarissa Bohrer da Silva as a visiting postdoc. She joins us from the Universidade do Estado de Santa Catarina in Chapecó, Brazil."
     },
     {
       "date": "2025-01",
@@ -373,7 +372,7 @@
     },
     {
       "date": "2024-07",
-      "text": "Charlene and members of the NAIL Collaborative were invited as experts to the “Artificial Intelligence in Reality (AIR) Roundtable for Nursing and Midwifery,” organized by NHS England."
+      "text": "Charlene and members of the NAIL Collaborative were invited as experts to the \"Artificial Intelligence in Reality (AIR) Roundtable for Nursing and Midwifery,\" organized by NHS England."
     },
     {
       "date": "2024-06",
@@ -382,7 +381,7 @@
     },
     {
       "date": "2023-08",
-      "text": "Two new publications: Evaluating the Representation of Disaster Hazards in SNOMED CT (JAMIA) and Differing Effects of Implementation Leadership on Nurses’ Use of mHealth (JMIR Nursing)."
+      "text": "Two new publications: Evaluating the Representation of Disaster Hazards in SNOMED CT (JAMIA) and Differing Effects of Implementation Leadership on Nurses' Use of mHealth (JMIR Nursing)."
     },
     {
       "date": "2023-08",
@@ -450,7 +449,7 @@
     ],
     "phd_requirements": [
       "You should have a foundational understanding of nursing/health informatics (courses or work experience)",
-      "Already obtained a Master’s degree in nursing, health informatics, or a related field",
+      "Already obtained a Master's degree in nursing, health informatics, or a related field",
       "Published at least one peer-reviewed paper in a health informatics journal"
     ],
     "undergrad_text": "I encourage UBCO Nursing students interested in completing a Y4 research preceptorship to contact me. I occasionally offer funded research internships, work study, or co-op positions.",
@@ -459,7 +458,7 @@
       "Your background in health or nursing informatics, including supporting publications (required for PhD applicants)",
       "Copies of unofficial transcripts",
       "Your CV and copy of a recent publication or other writing sample",
-      "Please put “[HIE!Lab]” in your subject line"
+      "Please put \"[HIE!Lab]\" in your subject line"
     ],
     "application_video": "https://youtu.be/B3oANa67Iq4"
   },
