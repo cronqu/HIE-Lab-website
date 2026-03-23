@@ -28,10 +28,12 @@
         "url": "https://www.vchri.ca/"
         },
           {
+                  "title": "Affiliated Investigator",
         "org": "Fraser Health Authority",
         "url": "www.fraserhealth.ca/research/"
        },
       { "org": "Interior Health Authority",
+              "title": "Affiliated Investigator",
         "url": "https://www.interiorhealth.ca/about-ih/research/"
       },
       {
