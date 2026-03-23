@@ -26,9 +26,12 @@
         "title": "Affiliated Investigator",
         "org": "Vancouver Coastal Health Research Institute",
         "url": "https://www.vchri.ca/"
+        },
+      {
         "org": "Fraser Health Authority",
         "url": "www.fraserhealth.ca/research/"
-        "org": "Interior Health Authority",
+       },
+      { "org": "Interior Health Authority",
         "url": "https://www.interiorhealth.ca/about-ih/research/"
       },
       {
