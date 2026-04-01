@@ -506,5 +506,47 @@
         "Health and Clinical Informatics (University of Exeter)"
       ]
     }
-  ]
+  ],
+
+  "advisory": {
+    "intro": "The HIE PIE (Patient-Provider-Process Involvement Engagement) Advisory is a group of patient partners, healthcare providers, and process advisors who collaborate meaningfully in HIE Lab research. Advisory members contribute to research questions, priorities, study design, and knowledge translation — ensuring our work is grounded in lived experience and real-world practice.",
+    "members": [
+      {
+        "name": "Lyn Brooks",
+        "role": "Patient Partner",
+        "photo": "assets/images/advisory/lyn-brooks.png",
+        "bio": "Lyn is the Founder of dHub Group, an eMHIC Ambassador, and a member of the AI Ethics Advisory Panel at the Digital Governance Council in Canada. He serves as a Board Director, Advisory Council Member, and Ambassador for Ayra.forum. He is a passionate advocate for data sovereignty by design, for-profit community data commons, platform cooperativism, and the alignment of technology with humanity."
+      },
+      {
+        "name": "Chris J",
+        "role": "Patient Partner",
+        "photo": "assets/images/advisory/chris-j.png",
+        "bio": "Lifelong experience of complex chronic illness motivates Chris to participate as a patient partner in a broad range of research, quality improvement, health technology assessment, evidence syntheses, standards development and governance initiatives. With a background in instructional design, web technologies and learning management, Chris has a passion for continuous learning. She has a keen interest in health technologies including AI, digital health, virtual care, remote monitoring, health data literacy, interoperability, and learning health systems."
+      },
+      {
+        "name": "Advisory Member",
+        "role": "TBD",
+        "photo": "",
+        "bio": ""
+      },
+      {
+        "name": "Advisory Member",
+        "role": "TBD",
+        "photo": "",
+        "bio": ""
+      },
+      {
+        "name": "Advisory Member",
+        "role": "TBD",
+        "photo": "",
+        "bio": ""
+      },
+      {
+        "name": "Advisory Member",
+        "role": "TBD",
+        "photo": "",
+        "bio": ""
+      }
+    ]
+  }
 }

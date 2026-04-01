@@ -23,6 +23,7 @@ async function loadContent() {
     renderDirector(data.director);
     renderResearch(data.projects);
     renderTeam(data.team);
+    renderAdvisory(data.advisory);
     renderNews(data.news);
     renderTalks(data.talks);
     renderOpportunities(data.opportunities, data.teaching);
@@ -217,6 +218,44 @@ function renderTeam(team) {
     html += '<h3 class="alumni-section-title">Alumni</h3><div class="alumni-list">';
     team.alumni.forEach(a => {
       html += `<div class="alumni-item"><strong>${esc(a.name)}</strong> &mdash; <span>${esc(a.role || '')}</span></div>`;
+    });
+    html += '</div>';
+  }
+
+  container.innerHTML = html;
+}
+
+// ──────────────────────────────────────────
+// HIE PIE Advisory
+// ──────────────────────────────────────────
+
+function renderAdvisory(advisory) {
+  if (!advisory) return;
+  const container = document.getElementById('advisory-content');
+  let html = '';
+
+  if (advisory.intro) {
+    html += `<p class="team-intro">${esc(advisory.intro)}</p>`;
+  }
+
+  if (advisory.members && advisory.members.length) {
+    html += '<div class="team-grid">';
+    advisory.members.forEach(m => {
+      const initials = m.name.split(' ').map(n => n.charAt(0)).join('');
+      const photoHTML = m.photo
+        ? `<img src="${esc(m.photo)}" alt="${esc(m.name)}" class="team-photo"
+               onerror="this.outerHTML='<div class=\\'team-photo-placeholder\\'>${esc(initials)}</div>'">`
+        : `<div class="team-photo-placeholder">${esc(initials)}</div>`;
+
+      html += `
+        <div class="team-card">
+          ${photoHTML}
+          <div class="team-info">
+            <div class="team-name">${esc(m.name)}</div>
+            <div class="team-role">${esc(m.role || '')}</div>
+            <p class="team-bio">${esc(m.bio || '')}</p>
+          </div>
+        </div>`;
     });
     html += '</div>';
   }
