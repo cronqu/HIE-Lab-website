@@ -399,7 +399,7 @@ function renderTalks(talks) {
 
 function renderOpportunities(opp, teaching) {
   if (!opp) return;
-  const container = document.getElementById('opportunities-content');
+  const container = document.getElementById('Working With Me-content') || document.getElementById('opportunities-content');
 
   let html = '<div class="opportunities-content">';
 
