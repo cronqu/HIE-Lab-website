@@ -171,18 +171,7 @@
     ]
   },
   "team": {
-    "values": "Above all, we value doing good work with good people.",
-    "core_values": [
-      "Compassion",
-      "Justice",
-      "Equity",
-      "Humility",
-      "Diversity",
-      "Inclusion",
-      "Transparency",
-      "Interdisciplinarity"
-    ],
-    "description": "We work as a collaborative and value the unique and diverse contributions each person brings. We work on interesting problems to help technology be used for good. We are interested in developing thoughtful and inclusive technologies that are meaningful and useful to people.",
+    "description": "Above all, we value doing good work with good people. We work as a collaborative team grounded in compassion, justice, equity, humility, diversity, inclusion, transparency, and interdisciplinarity. We value the unique and diverse contributions each person brings, work on interesting problems to help technology be used for good, and strive to develop thoughtful and inclusive technologies that are meaningful and useful to people.",
     "current": [
       {
         "name": "Dr. Chantelle Recsky",
@@ -194,51 +183,51 @@
       {
         "name": "Andrea Burrows",
         "pronouns": "she/her",
-        "role": "PhD Candidate",
-        "photo": "",
-        "bio": "Andrea is a Registered Nurse and Graduate Student working on her Ph.D. at UBCO in health informatics. She is a mother of two curious and active boys. In parallel with her studies, Andrea works for the Interior Health Research Department as a Manager of Research to create and foster linkages between health system actors and community partners."
+        "role": "PhD Candidate, BScN, MSN",
+        "photo": "assets/images/team/andrea-burrows.jpg",
+        "bio": "Andrea Burrows is a Registered Nurse and Graduate Student working on her Ph.D. at the University of British Columbia (Okanagan) in health informatics. She is a mother of two curious and active boys. Leif and Eli bring a deep sense of joy to her life, encircled by their company; they enjoy being active and outside together. In parallel with her studies, Andrea works for the Interior Health Research Department as a Manager of Research to create and foster linkages between health system actors and community partners. She supports knowledge mobilization activities, facilitates navigation through research processes and supervises graduate student projects. Andrea is keen to be working with the Health Informatics Equity Lab. Her training plan includes honing research and knowledge translation skills, gaining expertise in patient-oriented research approaches and developing a research portfolio examining the interface between human and technology."
       },
       {
         "name": "Naureen Mukhi",
         "pronouns": "she/her",
-        "role": "Masters Trainee",
-        "photo": "",
-        "bio": "Naureen is a Registered Nurse and Graduate Research Assistant working on her Masters in Nursing at UBC Okanagan. Her thesis is on investigating health system stakeholders' perspectives and use of Explainable Artificial Intelligence (XAI) for clinical decision support tools. Naureen has recently completed her diploma in Digital Health and Data Analytics from the Michener Institute of Education in Ontario."
+        "role": "Masters Trainee, RN, BSN, MSN (c)",
+        "photo": "assets/images/team/naureen-mukhi.jpg",
+        "bio": "Naureen Mukhi is a Registered Nurse and Graduate Research Assistant working on her Masters in Nursing at the University of British Columbia (Okanagan). Her thesis is on investigating health system stakeholders' perspectives use of Explainable Artificial Intelligence (XAI) for clinical decision support. Naureen has recently completed her diploma in Digital Health and Data Analytics from the Michener Institute of Education in Ontario. In parallel with her studies, she also works as Clinical Informatics Specialist with the Provincial Public Health Information System team in BC. Naureen enjoys nature, running and spends time volunteering in her community prayer place."
       },
       {
         "name": "Josephine Nanyonjo",
         "pronouns": "she/her",
-        "role": "Masters Trainee",
-        "photo": "",
-        "bio": "Josephine is deeply committed to addressing the persistent health inequities that exist globally. As a Registered Nurse, Josephine has dedicated the past few years to improving healthcare in rural and underserved areas of Uganda, utilising her knowledge, skills, and time to make a tangible impact. Josephine is particularly enthusiastic about the potential of using technology to provide innovative solutions to this enduring global challenge."
+        "role": "Masters Trainee, Registered Nurse, BSN",
+        "photo": "assets/images/team/josephine-nanyonjo.png",
+        "bio": "Josephine is deeply committed to addressing the persistent health inequities that exist globally. As a Registered Nurse, she has dedicated the past few years to improving healthcare in rural and underserved areas of Uganda, utilizing her knowledge, skills, and time to make a tangible impact. She is particularly enthusiastic about the potential of technology to provide innovative solutions to this enduring global challenge. Josephine is a social person who values spending time with friends and family, and enjoys swimming, hiking and spending time in nature."
       },
       {
-        "name": "Kate Sturgess",
+        "name": "Kathryn Sturgess",
         "pronouns": "she/her",
-        "role": "Research Assistant",
-        "photo": "",
-        "bio": "Kate is a current nursing student at UBCO and originally from Calgary, Alberta. Kate is hoping to pursue a master's in nursing specialising in research. She grew up ski racing and loves to spend time in the mountains between classes."
+        "role": "Research Assistant, Student Nurse Y2",
+        "photo": "assets/images/team/kathryn-sturgess.jpg",
+        "bio": "Kathryn Sturgess is currently majoring in Nursing at UBCO. She is from Canmore, Alberta. In her free time, she loves to go skiing and biking. She is interested in pursuing a career in both research and medicine, specifically focusing on palliative care."
       },
       {
         "name": "Amrit Kaur Dhami",
         "pronouns": "she/her",
-        "role": "Research Assistant",
-        "photo": "",
-        "bio": "Amrit is currently in their third year of nursing and thrilled to be a part of the research team. She is deeply committed to fostering a supportive and inclusive community within the team. She believes that research provides an excellent opportunity to contribute to the enhancement of nursing experiences."
+        "role": "Research Assistant, Student Nurse Y3",
+        "photo": "assets/images/team/amrit-kaur-dhami.jpg",
+        "bio": "Amrit Kaur Dhami is currently in her third year of nursing and thrilled to be a part of this research team. She is deeply committed to fostering a supportive and inclusive community within the team. She believes that research provides an excellent opportunity to contribute to the enhancement of nursing experiences, advocate for the needs of our peers, and facilitate meaningful connections among students, faculty, and the broader nursing community. With her strong interpersonal skills, leadership experience, and genuine enthusiasm for the occupation she is dedicated to working as a team member. She loves spending her summers in Kelowna and enjoying the warm weather, beaches, and good company."
       },
       {
         "name": "Jianan Wang",
         "pronouns": "she/her",
         "role": "Visiting PhD Candidate",
-        "photo": "",
-        "bio": "Jianan is a nursing PhD student at Zhejiang University, China, and is currently a visiting international research student at UBCO. She received a China ship Council (CSC) ship (2025–26) to support her time at UBCO. Her research focuses on the ethical implications of information technology in the nursing field."
+        "photo": "assets/images/team/jianan-wang.jpg",
+        "bio": "Jianan is a nursing PhD student at Zhejiang University, China, and is currently a visiting international research student at UBCO. She received her B.S. in Nursing from Beijing University of Chinese Medicine, China. Her research focuses on the ethical implications of information technology in the nursing field, with a particular interest in understanding how these technologies influence nurses' behaviors."
       },
       {
         "name": "Dr. Hilal Yildirim",
         "pronouns": "she/her",
         "role": "Visiting Scientist",
         "photo": "",
-        "bio": "Jianan is a nursing PhD student at Zhejiang University, China, and is currently a visiting international research student at UBCO. She received a China ship Council (CSC) ship (2025–26) to support her time at UBCO. Her research focuses on the ethical implications of information technology in the nursing field."
+        "bio": ""
       },
       {
         "name": "Nicole Ketter",
@@ -246,6 +235,13 @@
         "role": "Research Associate",
         "photo": "",
         "bio": ""
+      },
+      {
+        "name": "Diana Shim",
+        "pronouns": "she/her",
+        "role": "Research Assistant, Student Nurse Y3",
+        "photo": "assets/images/team/diana-shim.jpg",
+        "bio": "Diana Shim is a third-year nursing student at UBC Okanagan. She has clinical experience as an Employed Student Nurse, has contributed to the Interior Health New Grad Steering Committee, and has supported students as a simulation lab monitor. She is excited to develop her skills in academic writing, literature reviews, qualitative research, and technology-enabled equity work. Outside of academics, Diana enjoys spending time with friends, baking, and cooking."
       }
     ],
     "furry team members": [
@@ -253,6 +249,7 @@
         "name": "Maya T. Butts",
         "breed": "Shiba Inu",
         "role": "The actual PI",
+        "photo": "assets/images/furry/maya.jpg",
         "likes": "playing ball on the beach, cheese, attention from strangers, extreme temperatures (scorching hot and freezing cold), taking myself for a walk",
         "dislikes": "fireworks, fruit, baths, affection"
       }
@@ -550,6 +547,21 @@
         "photo": "",
         "bio": ""
       }
+    ]
+  },
+
+  "gallery": {
+    "title": "Lab Life",
+    "photos": [
+      { "src": "assets/images/gallery/001.jpg", "alt": "HIE Lab team meeting" },
+      { "src": "assets/images/gallery/002.jpg", "alt": "HIE Lab members at conference" },
+      { "src": "assets/images/gallery/003.jpg", "alt": "HIE Lab collaborators at Brocher Foundation" },
+      { "src": "assets/images/gallery/004.jpg", "alt": "HIE Lab team dinner" },
+      { "src": "assets/images/gallery/005.jpg", "alt": "Dr. Ronquillo presenting on Health Equity and Artificial Intelligence" },
+      { "src": "assets/images/gallery/007.jpg", "alt": "HIE Lab members at CMDO research event" },
+      { "src": "assets/images/gallery/008.jpg", "alt": "HIE Lab panel discussion on AI in healthcare" },
+      { "src": "assets/images/gallery/sandpits1.jpg", "alt": "HIE Lab team at conference" },
+      { "src": "assets/images/gallery/sandpits2.jpg", "alt": "HIE Lab members at conference reception" }
     ]
   }
 }

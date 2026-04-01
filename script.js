@@ -25,6 +25,7 @@ async function loadContent() {
     renderTeam(data.team);
     renderAdvisory(data.advisory);
     renderNews(data.news);
+    renderGallery(data.gallery);
     renderTalks(data.talks);
     renderOpportunities(data.opportunities, data.teaching);
   } catch (err) {
@@ -161,16 +162,6 @@ function renderTeam(team) {
   const container = document.getElementById('team-content');
   let html = '';
 
-  if (team.values) {
-    html += `<p class="team-intro"><em>${esc(team.values)}</em></p>`;
-  }
-
-  if (team.core_values && team.core_values.length) {
-    html += '<div class="core-values">' +
-      team.core_values.map(v => `<span>${esc(v)}</span>`).join('') +
-      '</div>';
-  }
-
   if (team.description) {
     html += `<p class="team-intro">${esc(team.description)}</p>`;
   }
@@ -202,16 +193,22 @@ function renderTeam(team) {
   // Furry members
   const furry = team.furry || team['furry team members'];
   if (furry && furry.length) {
-    html += '<h3 class="furry-section-title">Furry Lab Members</h3>';
+    html += '<h3 class="furry-section-title">Furry Lab Members</h3><div class="team-grid">';
     furry.forEach(f => {
+      const photoHTML = f.photo
+        ? `<img src="${esc(f.photo)}" alt="${esc(f.name)}" class="team-photo">`
+        : `<div class="team-photo-placeholder">🐾</div>`;
       html += `
-        <div class="furry-card">
-          <div class="team-name">${esc(f.name)} <span style="color:var(--colour-muted);font-size:0.85rem">(${esc(f.breed || '')})</span></div>
-          <div class="team-role">${esc(f.role || '')}</div>
-          <p class="team-bio"><strong>Likes:</strong> ${esc(f.likes || '')}</p>
-          <p class="team-bio"><strong>Dislikes:</strong> ${esc(f.dislikes || '')}</p>
+        <div class="team-card" onclick="this.classList.toggle('expanded')">
+          ${photoHTML}
+          <div class="team-info">
+            <div class="team-name">${esc(f.name)} <span style="color:var(--colour-muted);font-size:0.85rem">(${esc(f.breed || '')})</span></div>
+            <div class="team-role">${esc(f.role || '')}</div>
+            <p class="team-bio"><strong>Likes:</strong> ${esc(f.likes || '')}<br><strong>Dislikes:</strong> ${esc(f.dislikes || '')}</p>
+          </div>
         </div>`;
     });
+    html += '</div>';
   }
 
   // Alumni
@@ -368,6 +365,62 @@ function formatNewsDate(dateStr) {
 }
 
 // ──────────────────────────────────────────
+// Photo Gallery
+// ──────────────────────────────────────────
+
+function renderGallery(gallery) {
+  if (!gallery || !gallery.photos || !gallery.photos.length) return;
+  const container = document.getElementById('gallery-content');
+  if (!container) return;
+
+  const photos = gallery.photos;
+  let currentIndex = 0;
+
+  container.innerHTML = `
+    <div class="gallery-slideshow">
+      <div class="gallery-slide">
+        <img src="${esc(photos[0].src)}" alt="${esc(photos[0].alt || '')}" class="gallery-img">
+      </div>
+      <div class="gallery-dots">
+        ${photos.map((_, i) => `<button class="gallery-dot${i === 0 ? ' active' : ''}" data-index="${i}" aria-label="Photo ${i + 1}"></button>`).join('')}
+      </div>
+    </div>`;
+
+  const slide = container.querySelector('.gallery-slide');
+  const img = slide.querySelector('.gallery-img');
+  const dots = container.querySelectorAll('.gallery-dot');
+
+  function showSlide(index) {
+    currentIndex = index;
+    img.style.opacity = '0';
+    setTimeout(() => {
+      img.src = photos[index].src;
+      img.alt = photos[index].alt || '';
+      img.style.opacity = '1';
+    }, 400);
+    dots.forEach((d, i) => d.classList.toggle('active', i === index));
+  }
+
+  dots.forEach(dot => {
+    dot.addEventListener('click', () => {
+      showSlide(parseInt(dot.dataset.index));
+      resetTimer();
+    });
+  });
+
+  let timer = setInterval(() => {
+    showSlide((currentIndex + 1) % photos.length);
+  }, 5000);
+
+  function resetTimer() {
+    clearInterval(timer);
+    timer = setInterval(() => {
+      showSlide((currentIndex + 1) % photos.length);
+    }, 5000);
+  }
+}
+
+// ──────────────────────────────────────────
 // Talks
 // ──────────────────────────────────────────
 
@@ -400,7 +453,7 @@ function renderTalks(talks) {
 
 function renderOpportunities(opp, teaching) {
   if (!opp) return;
-  const container = document.getElementById('Working With Me-content') || document.getElementById('opportunities-content');
+  const container = document.getElementById('opportunities-content');
 
   let html = '<div class="opportunities-content">';
 
