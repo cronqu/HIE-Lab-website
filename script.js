@@ -186,7 +186,7 @@ function renderTeam(team) {
         : `<div class="team-photo-placeholder">${esc(initials)}</div>`;
 
       html += `
-        <div class="team-card">
+        <div class="team-card"${m.bio ? ' data-has-bio' : ''} onclick="this.classList.toggle('expanded')">
           ${photoHTML}
           <div class="team-info">
             <div class="team-name">${esc(m.name)}</div>
@@ -200,9 +200,10 @@ function renderTeam(team) {
   }
 
   // Furry members
-  if (team.furry && team.furry.length) {
+  const furry = team.furry || team['furry team members'];
+  if (furry && furry.length) {
     html += '<h3 class="furry-section-title">Furry Lab Members</h3>';
-    team.furry.forEach(f => {
+    furry.forEach(f => {
       html += `
         <div class="furry-card">
           <div class="team-name">${esc(f.name)} <span style="color:var(--colour-muted);font-size:0.85rem">(${esc(f.breed || '')})</span></div>
@@ -248,7 +249,7 @@ function renderAdvisory(advisory) {
         : `<div class="team-photo-placeholder">${esc(initials)}</div>`;
 
       html += `
-        <div class="team-card">
+        <div class="team-card"${m.bio ? ' data-has-bio' : ''} onclick="this.classList.toggle('expanded')">
           ${photoHTML}
           <div class="team-info">
             <div class="team-name">${esc(m.name)}</div>

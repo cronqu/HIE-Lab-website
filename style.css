@@ -587,6 +587,27 @@ h4 { font-size: 1.1rem; }
   overflow: hidden;
 }
 
+.team-card.expanded {
+  flex-direction: column;
+}
+
+.team-card.expanded .team-photo,
+.team-card.expanded .team-photo-placeholder {
+  width: 100%;
+  min-width: 100%;
+  height: 160px;
+}
+
+.team-card.expanded .team-bio {
+  display: block;
+  -webkit-line-clamp: unset;
+  overflow: visible;
+}
+
+.team-card[data-has-bio] {
+  cursor: pointer;
+}
+
 /* Furry members */
 .furry-section-title,
 .alumni-section-title {
