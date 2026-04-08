@@ -183,35 +183,35 @@
       {
         "name": "Andrea Burrows",
         "pronouns": "she/her",
-        "role": "PhD Candidate, BScN, MSN",
+        "role": "PhD Candidate",
         "photo": "assets/images/team/andrea-burrows.jpg",
-        "bio": "Andrea Burrows is a Registered Nurse and Graduate Student working on her Ph.D. at the University of British Columbia (Okanagan) in health informatics. She is a mother of two curious and active boys. Leif and Eli bring a deep sense of joy to her life, encircled by their company; they enjoy being active and outside together. In parallel with her studies, Andrea works for the Interior Health Research Department as a Manager of Research to create and foster linkages between health system actors and community partners. She supports knowledge mobilization activities, facilitates navigation through research processes and supervises graduate student projects. Andrea is keen to be working with the Health Informatics Equity Lab. Her training plan includes honing research and knowledge translation skills, gaining expertise in patient-oriented research approaches and developing a research portfolio examining the interface between human and technology."
+        "bio": "Andrea is a Registered Nurse and PhD candidate in the Faculty of Health and Social Development at the University of British Columbia, Okanagan Campus. Her doctoral research explores how nurses use digital technologies to provide individualised care for families in enhanced family visiting programs from across Canada. Andrea holds a Masters of Science in Nursing from UBC and a Bachelors of Science in Nursing from the University of Alberta. Outside her research, Andrea enjoys spending time with her family."
       },
       {
         "name": "Naureen Mukhi",
         "pronouns": "she/her",
-        "role": "Masters Trainee, RN, BSN, MSN (c)",
+        "role": "Masters Trainee (thesis)",
         "photo": "assets/images/team/naureen-mukhi.jpg",
         "bio": "Naureen Mukhi is a Registered Nurse and Graduate Research Assistant working on her Masters in Nursing at the University of British Columbia (Okanagan). Her thesis is on investigating health system stakeholders' perspectives use of Explainable Artificial Intelligence (XAI) for clinical decision support. Naureen has recently completed her diploma in Digital Health and Data Analytics from the Michener Institute of Education in Ontario. In parallel with her studies, she also works as Clinical Informatics Specialist with the Provincial Public Health Information System team in BC. Naureen enjoys nature, running and spends time volunteering in her community prayer place."
       },
       {
         "name": "Josephine Nanyonjo",
         "pronouns": "she/her",
-        "role": "Masters Trainee, Registered Nurse, BSN",
+        "role": "Masters Trainee (thesis)",
         "photo": "assets/images/team/josephine-nanyonjo.png",
         "bio": "Josephine is deeply committed to addressing the persistent health inequities that exist globally. As a Registered Nurse, she has dedicated the past few years to improving healthcare in rural and underserved areas of Uganda, utilizing her knowledge, skills, and time to make a tangible impact. She is particularly enthusiastic about the potential of technology to provide innovative solutions to this enduring global challenge. Josephine is a social person who values spending time with friends and family, and enjoys swimming, hiking and spending time in nature."
       },
       {
         "name": "Kathryn Sturgess",
         "pronouns": "she/her",
-        "role": "Research Assistant, Student Nurse Y4",
+        "role": "Research Assistant, Y4 BSN Student",
         "photo": "assets/images/team/kathryn-sturgess.jpeg",
         "bio": "Kathryn Sturgess is a fourth year nursing student at UBC Okanagan, originally from Canmore, Alberta. She is interested in how artificial intelligence can be used in healthcare, with a focus on its ethical use and practical application in clinical settings. Looking ahead, Kathryn hopes to pursue a career in medicine and research, specifically within rural emergency departments."
       },
       {
         "name": "Amrit Kaur Dhami",
         "pronouns": "she/her",
-        "role": "Research Assistant, Student Nurse Y4",
+        "role": "Research Assistant, Y4 BSN Student",
         "photo": "assets/images/team/amrit-kaur-dhami.jpg",
         "bio": "Amrit Kaur Dhami is currently in her fourth year of nursing and thrilled to be a part of this research team. She is deeply committed to fostering a supportive and inclusive community within the team. She believes that research provides an excellent opportunity to contribute to the enhancement of nursing experiences, advocate for the needs of our peers, and facilitate meaningful connections among students, faculty, and the broader nursing community. With her strong interpersonal skills, leadership experience, and genuine enthusiasm for the occupation she is dedicated to working as a team member. She loves spending her summers in Kelowna and enjoying the warm weather, beaches, and good company."
       },
@@ -225,9 +225,9 @@
       {
         "name": "Dr. Hilal Yildirim",
         "pronouns": "she/her",
-        "role": "Visiting Scientist",
-        "photo": "",
-        "bio": ""
+        "role": "Visiting Scientist, Associate Professor",
+        "photo": "assets/images/team/hilal-yildirim.jpeg",
+        "bio": "Dr Hilal Yıldırım is a Visiting Scientist at the University of British Columbia Okanagan, working under the supervision of Charlene Ronquillo, whose work in digital health and health equity has been highly influential in shaping her current research direction. She is an Associate Professor in the Department of Public Health Nursing at Inonu University, Türkiye, where she continues her academic and research activities. Dr. Yıldırım has been actively engaged in academia since 2011, following her clinical experience in hospital settings between 2009 and 2011. With over a decade of experience, her work focuses on public health nursing, social determinants of health, and vulnerable populations, with a growing emphasis on healthy aging and equitable access to care. Her current research centers on digital health and remote care technologies for older adults, particularly in disaster-affected and resource-constrained settings. She is especially interested in how innovative, technology-supported approaches can enhance accessibility, usability, and continuity of care for aging populations within community and public health systems. As part of her collaboration in Canada, she contributes to research aligned with health equity and digital transformation in healthcare, aiming to develop scalable and context-sensitive solutions that respond to real-world needs. Her work bridges clinical insight, public health priorities, and emerging digital health innovations. Her recent collaborative publication examines the effectiveness of eHealth approaches for blood pressure monitoring and control in older adults, reflecting her commitment to advancing evidence-based digital health practices. Selected Publication: Yıldırım, H., Borycki, E., Mallidou, A. A., Dordunoo, D., & Yıldız, S. (2026). Examining the effectiveness of eHealth approaches to blood pressure monitoring and control in older adults: A systematic review. Educational Gerontology, 1–17. ORCID: https://orcid.org/0000-0003-3971-3799 | ResearchGate: https://www.researchgate.net/profile/Hilal-Yildirim-7/research | Web of Science: https://www.webofscience.com/wos/author/record/ABI-6245-2020."
       },
       {
         "name": "Nicole Ketter",
@@ -239,7 +239,7 @@
       {
         "name": "Diana Shim",
         "pronouns": "she/her",
-        "role": "Research Assistant, Student Nurse Y3",
+        "role": "Research Assistant, Y3 BSN Student",
         "photo": "assets/images/team/diana-shim.jpg",
         "bio": "Diana Shim is a third-year nursing student at UBC Okanagan. She has clinical experience as an Employed Student Nurse, has contributed to the Interior Health New Grad Steering Committee, and has supported students as a simulation lab monitor. She is excited to develop her skills in academic writing, literature reviews, qualitative research, and technology-enabled equity work. Outside of academics, Diana enjoys spending time with friends, baking, and cooking."
       }
