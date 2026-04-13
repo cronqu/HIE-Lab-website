@@ -231,10 +231,10 @@
       },
       {
         "name": "Nicole Ketter",
-        "pronouns": "",
+        "pronouns": "she/her",
         "role": "Research Associate",
-        "photo": "",
-        "bio": ""
+        "photo": "assets/images/team/nicole-ketter.jpg",
+        "bio": "Nicole is currently working on her BScN at the University of Calgary. She previously completed her BSc in Biology from UBCO and her MSc in Rehabilitation Sciences from UBC. She has been part of the HIE lab since 2022 and enjoys contributing to developing knowledge on responsible AI use."
       },
       {
         "name": "Diana Shim",
@@ -524,41 +524,24 @@
         "bio": "Lifelong experience of complex chronic illness motivates Chris to participate as a patient partner in a broad range of research, quality improvement, health technology assessment, evidence syntheses, standards development and governance initiatives. With a background in instructional design, web technologies and learning management, Chris has a passion for continuous learning. She has a keen interest in health technologies including AI, digital health, virtual care, remote monitoring, health data literacy, interoperability, and learning health systems."
       },
       {
-        "name": "Advisory Member",
-        "role": "TBD",
-        "photo": "",
-        "bio": ""
-      },
-      {
-        "name": "Advisory Member",
-        "role": "TBD",
-        "photo": "",
-        "bio": ""
-      },
-      {
-        "name": "Advisory Member",
-        "role": "TBD",
-        "photo": "",
-        "bio": ""
-      },
-      {
-        "name": "Advisory Member",
-        "role": "TBD",
-        "photo": "",
-        "bio": ""
+        "name": "Katie Tong",
+        "role": "Patient Partner",
+        "photo": "assets/images/team/katie-tong.jpeg",
+        "bio": "Katie is a long-time resident of the Greater Vancouver area. She began her journey as a patient partner in 2019 and has remained actively engaged in healthcare initiatives ever since."
       }
     ]
   },
 
   "gallery": {
-    "title": "Lab Life",
+    "title": "HIE Lab Life",
     "photos": [
+      { "src": "assets/images/gallery/HIELab_Apr2026.jpg", "alt": "HIE Lab at UBCO Nursing Clinical Labs"},
       { "src": "assets/images/gallery/001.jpg", "alt": "HIE Lab team meeting" },
       { "src": "assets/images/gallery/002.jpg", "alt": "HIE Lab members at conference" },
       { "src": "assets/images/gallery/003.jpg", "alt": "HIE Lab collaborators at Brocher Foundation" },
-      { "src": "assets/images/gallery/004.jpg", "alt": "HIE Lab team dinner" },
+      { "src": "assets/images/gallery/004.jpg", "alt": "HIE Lab conference dinner" },
       { "src": "assets/images/gallery/005.jpg", "alt": "Dr. Ronquillo presenting on Health Equity and Artificial Intelligence" },
-      { "src": "assets/images/gallery/007.jpg", "alt": "HIE Lab members at CMDO research event" },
+      { "src": "assets/images/gallery/007.jpg", "alt": "HIE Lab at CMDO research event" },
       { "src": "assets/images/gallery/008.jpg", "alt": "HIE Lab panel discussion on AI in healthcare" },
       { "src": "assets/images/gallery/sandpits1.jpg", "alt": "HIE Lab team at conference" },
       { "src": "assets/images/gallery/sandpits2.jpg", "alt": "HIE Lab members at conference reception" }
