@@ -509,7 +509,7 @@
   ],
 
   "advisory": {
-    "intro": "The HIE PIE (Patient-Provider-Process Involvement Engagement) Advisory is a group of patient partners, healthcare providers, and process advisors who collaborate meaningfully in HIE Lab research. Advisory members contribute to research questions, priorities, study design, and knowledge translation — ensuring our work is grounded in lived experience and real-world practice.",
+    "intro": "The HIE PIE (Patient/Provider/Process Involvement Engagement) Advisory is a group of patient partners, healthcare providers, and process advisors who collaborate meaningfully in HIE Lab research. Advisory members contribute to research questions, priorities, study design, and knowledge translation — ensuring our work is grounded in lived experience and real-world practice.",
     "members": [
       {
         "name": "Lyn Brooks",
@@ -528,6 +528,12 @@
         "role": "Patient Partner",
         "photo": "assets/images/team/katie-tong.jpeg",
         "bio": "Katie is a long-time resident of the Greater Vancouver area. She began her journey as a patient partner in 2019 and has remained actively engaged in healthcare initiatives ever since."
+      },
+      {
+        "name": "Michel White",
+        "role": "Patient Partner",
+        "photo": "assets/images/team/michel-white.jpeg",
+        "bio": "Michel is a patient partner who had surgery over 40 years ago on a large adenoma on her pituitary gland. Tumor grew back and she had six weeks of radiation therapy. She now has panhypopituitarism. Michel has also had both knees replaced and a meningioma removed. Michel is also a caregiver as her daughter had a double lung transplant three years ago. She is much more than her medical condition, speaking for herself and other patients who can’t or don’t know how to speak for themselves. She has been involved in many committees over the last twenty-five years that she has been a patient partner, including two cohorts with the Physician Quality Improvement and then the steering committee. Every day is a gift. Yesterday is gone, it’s history. Tomorrow isn’t here yet, it’s a mystery. That’s why today is called The Present – it’s a gift – unwrap it carefully and be Thankful for every day."
       }
     ]
   },
