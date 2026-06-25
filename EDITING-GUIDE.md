@@ -1,6 +1,43 @@
 # Editing Guide
 
-This guide explains how to update the HIE Lab website without any programming knowledge. All editable content lives in a single file: **`content.json`**.
+## Easiest way: the Content Editor UI
+
+Visit **[charleneronquillo.com/admin.html](https://charleneronquillo.com/admin.html)** to update the website using forms instead of editing JSON directly. This is the recommended way — no JSON errors, no syntax to remember.
+
+### First-time setup
+
+1. **Create a GitHub Personal Access Token** at [github.com/settings/personal-access-tokens/new](https://github.com/settings/personal-access-tokens/new)
+   - Token name: anything, e.g. "HIE Lab Editor"
+   - Expiration: 1 year (or whatever you prefer — you'll need to re-create it when it expires)
+   - Resource owner: your GitHub account
+   - Repository access: **Only select repositories** → choose **cronqu/HIE-Lab-website**
+   - Repository permissions → **Contents** → **Read and write**
+   - Click *Generate token* and **copy it immediately** (you can't see it again)
+2. Open [charleneronquillo.com/admin.html](https://charleneronquillo.com/admin.html)
+3. Paste the token in the Connect dialog and click **Connect**
+
+The token is stored only in your browser (localStorage). Sign out to forget it.
+
+### Using the editor
+
+- Pick a tab on the left (News, Team, Research, etc.).
+- Add, edit, or delete items using the forms. Drag-order using the ↑ ↓ buttons.
+- Click **Save changes** at the top right when ready. The live site updates within a couple of minutes.
+- If you close the tab with unsaved changes, your work is saved as a draft and offered back next time you open the editor.
+
+### Inline links in News text
+
+To make a word or phrase clickable in a news entry, write `[label](https://url)`. For example:
+
+`New publication with the [AI-Nurses Network](https://www.ai-nurses.com/) in...`
+
+renders as: "New publication with the AI-Nurses Network in..." where *AI-Nurses Network* is a link.
+
+---
+
+## Manual editing (advanced)
+
+If you'd rather edit `content.json` directly on GitHub, the rest of this guide explains how. All editable content lives in a single file: **`content.json`**.
 
 ## How to Edit content.json
 
