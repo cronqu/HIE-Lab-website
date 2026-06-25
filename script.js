@@ -344,13 +344,27 @@ function renderNews(news) {
       <div class="news-item">
         <div class="news-date">${esc(dateLabel)}</div>
         <div class="news-text">
-          ${esc(item.text || '')}
+          ${renderInlineLinks(item.text || '')}
           ${item.url ? `<br><a href="${esc(item.url)}" target="_blank" rel="noopener">Read more &rarr;</a>` : ''}
         </div>
       </div>`;
   });
   html += '</div>';
   container.innerHTML = html;
+}
+
+function renderInlineLinks(text) {
+  const re = /\[([^\]]+)\]\(([^)]+)\)/g;
+  const parts = [];
+  let lastIdx = 0;
+  let m;
+  while ((m = re.exec(text)) !== null) {
+    if (m.index > lastIdx) parts.push(esc(text.slice(lastIdx, m.index)));
+    parts.push(`<a href="${esc(m[2])}" target="_blank" rel="noopener">${esc(m[1])}</a>`);
+    lastIdx = m.index + m[0].length;
+  }
+  if (lastIdx < text.length) parts.push(esc(text.slice(lastIdx)));
+  return parts.join('');
 }
 
 function formatNewsDate(dateStr) {
