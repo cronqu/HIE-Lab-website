@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Full publications archive from the HIE Lab — peer-reviewed research in nursing informatics, health equity, and data science. Filter by year or search by keyword.">
+  <meta property="og:title" content="Publications | HIE Lab">
+  <meta property="og:description" content="Full archive of HIE Lab publications, automatically synced from ORCID.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://charleneronquillo.com/publications.html">
+  <meta property="og:image" content="https://charleneronquillo.com/assets/images/logo-colour-primary.svg">
+  <title>Publications | HIE Lab</title>
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo-colour-logomark.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="has-year-jump">
+
+  <nav id="navbar"></nav>
+
+  <main class="page-main">
+    <section id="publications" class="section section-pattern">
+      <div class="container">
+        <div class="section-header">
+          <h2>Publications</h2>
+          <p class="section-subtitle">Automatically updated from <a href="https://orcid.org/0000-0002-6520-1765" target="_blank" rel="noopener">ORCID</a> — filter by year or search by keyword</p>
+        </div>
+        <div id="publications-filters"></div>
+        <div id="publications-year-jump" class="year-jump-sticky"></div>
+        <div id="publications-list">
+          <p class="publications-loading">Loading publications&hellip;</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content container">
+      <img src="assets/images/logo-colour-badge.svg" alt="HIE Lab Badge" class="footer-badge">
+      <p class="footer-affiliation">Health Informatics Equity Lab &middot; University of British Columbia &ndash; Okanagan</p>
+      <p class="footer-copyright">&copy; <span id="footer-year"></span> HIE Lab. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

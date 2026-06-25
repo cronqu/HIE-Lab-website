@@ -39,6 +39,19 @@ renders as: "New publication with the AI-Nurses Network in..." where *AI-Nurses 
 
 If you'd rather edit `content.json` directly on GitHub, the rest of this guide explains how. All editable content lives in a single file: **`content.json`**.
 
+## Site Structure
+
+The site is split across these pages, all driven by `content.json` and `publications.json`:
+
+- `index.html` — Home (hero, director, recent news + publications previews, gallery, opportunities CTA)
+- `team.html` — Team members + HIE PIE Advisory
+- `research.html` — Research projects + Talks
+- `publications.html` — Full publications archive (with filters)
+- `news.html` — Full news archive (with filters)
+- `opportunities.html` — Postdocs, grad students, undergrad RAs, teaching
+
+Editing `content.json` updates every page where that content appears — for example, adding a news item shows it on both `news.html` and the recent-news preview on the home page.
+
 ## How to Edit content.json
 
 1. Go to the repository on GitHub

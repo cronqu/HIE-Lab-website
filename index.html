@@ -4,32 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Health Informatics Equity Lab — Research in nursing informatics, health equity, and data science led by Dr. Charlene Ronquillo at the University of British Columbia Okanagan.">
+  <meta property="og:title" content="HIE Lab | Health Informatics Equity Lab">
+  <meta property="og:description" content="Research in nursing informatics, health equity, and data science led by Dr. Charlene Ronquillo at UBC Okanagan.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://charleneronquillo.com/">
+  <meta property="og:image" content="https://charleneronquillo.com/assets/images/logo-colour-primary.svg">
   <title>HIE Lab | Health Informatics Equity Lab</title>
   <link rel="icon" type="image/svg+xml" href="assets/images/logo-colour-logomark.svg">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Navigation -->
-  <nav id="navbar">
-    <a href="#home" class="nav-logo">
-      <img src="assets/images/logo-colour-primary.svg" alt="HIE Lab">
-    </a>
-    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
-    <ul class="nav-links">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#director">Director</a></li>
-      <li><a href="#team">Team</a></li>
-      <li><a href="#advisory">HIE PIE</a></li>
-      <li><a href="#news">News</a></li>
-      <li><a href="#research">Research</a></li>
-      <li><a href="#publications">Publications</a></li>
-      <li><a href="#talks">Talks</a></li>
-      <li><a href="#opportunities">Opportunities</a></li>
-    </ul>
-  </nav>
+  <nav id="navbar"></nav>
 
-  <!-- 1. Home / Hero -->
+  <!-- Hero -->
   <section id="home" class="hero">
     <div class="hero-content">
       <img src="assets/images/logo-white-primary.svg" alt="Health Informatics Equity Lab" class="hero-logo">
@@ -46,7 +34,7 @@
     </div>
   </section>
 
-  <!-- 2. Director -->
+  <!-- Director -->
   <section id="director" class="section section-pattern">
     <div class="container">
       <div class="section-header">
@@ -56,39 +44,32 @@
     </div>
   </section>
 
-  <!-- 3. Team -->
-  <section id="team" class="section">
-    <div class="container">
-      <div class="section-header">
-        <h2>Our Team</h2>
-      </div>
-      <div id="team-content"></div>
-    </div>
-  </section>
-
-  <!-- 4. HIE PIE Advisory -->
-  <section id="advisory" class="section section-pattern">
-    <div class="container">
-      <div class="section-header">
-        <h2>HIE PIE Advisory</h2>
-        <p class="section-subtitle">Patient-Provider-Process Involvement &amp; Engagement</p>
-      </div>
-      <div id="advisory-content"></div>
-    </div>
-  </section>
-
-  <!-- 5. News -->
+  <!-- Recent News preview -->
   <section id="news" class="section">
     <div class="container">
       <div class="section-header">
-        <h2>News &amp; Highlights</h2>
+        <h2>Recent News</h2>
+        <p class="section-subtitle">Latest highlights from the lab</p>
       </div>
-      <div id="news-content"></div>
+      <div id="news-preview-content"></div>
     </div>
   </section>
 
-  <!-- 6. Photo Gallery -->
-  <section id="gallery" class="section section-pattern">
+  <!-- Recent Publications preview -->
+  <section id="publications" class="section section-pattern">
+    <div class="container">
+      <div class="section-header">
+        <h2>Recent Publications</h2>
+        <p class="section-subtitle">Most recent work — see the full archive for everything</p>
+      </div>
+      <div id="publications-preview">
+        <p class="publications-loading">Loading publications&hellip;</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="section">
     <div class="container">
       <div class="section-header">
         <h2>Lab Life</h2>
@@ -97,48 +78,14 @@
     </div>
   </section>
 
-  <!-- 7. Research -->
-  <section id="research" class="section">
+  <!-- CTA to Opportunities -->
+  <section class="section section-pattern">
     <div class="container">
-      <div class="section-header">
-        <h2>Research</h2>
-        <p class="section-subtitle">Active studies and recent work</p>
+      <div class="cta-card">
+        <h3>Interested in joining the lab?</h3>
+        <p>We welcome inquiries from prospective postdocs, graduate students, and undergraduate research assistants.</p>
+        <a href="opportunities.html" class="cta-btn">Working with Me &rarr;</a>
       </div>
-      <div id="research-content"></div>
-    </div>
-  </section>
-
-  <!-- 8. Publications -->
-  <section id="publications" class="section section-pattern">
-    <div class="container">
-      <div class="section-header">
-        <h2>Publications</h2>
-        <p class="section-subtitle">Automatically updated from <a href="https://orcid.org/0000-0002-6520-1765" target="_blank" rel="noopener">ORCID</a></p>
-      </div>
-      <div id="publications-list">
-        <p class="publications-loading">Loading publications&hellip;</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- 9. Talks -->
-  <section id="talks" class="section">
-    <div class="container">
-      <div class="section-header">
-        <h2>Talks &amp; Presentations</h2>
-        <p class="section-subtitle">Recordings of our group's talks and appearances</p>
-      </div>
-      <div id="talks-content"></div>
-    </div>
-  </section>
-
-  <!-- 10. Opportunities -->
-  <section id="opportunities" class="section section-pattern">
-    <div class="container">
-      <div class="section-header">
-        <h2>Working with Me</h2>
-      </div>
-      <div id="opportunities-content"></div>
     </div>
   </section>
 

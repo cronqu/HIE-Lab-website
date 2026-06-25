@@ -1,13 +1,101 @@
 /* ========================================
    HIE Lab Website — script.js
+   Multi-page architecture: each page declares
+   only the section containers it needs; render
+   functions no-op when their target is absent.
    ======================================== */
 
+const NAV_LINKS = [
+  { href: 'index.html', label: 'Home' },
+  { href: 'team.html', label: 'Team' },
+  { href: 'research.html', label: 'Research' },
+  { href: 'publications.html', label: 'Publications' },
+  { href: 'news.html', label: 'News' },
+  { href: 'index.html#gallery', label: 'Gallery' },
+  { href: 'opportunities.html', label: 'Opportunities' },
+];
+
 document.addEventListener('DOMContentLoaded', () => {
+  injectNav();
+  initNavigation();
+  injectBackToTop();
   loadContent();
   loadPublications();
-  initNavigation();
-  document.getElementById('footer-year').textContent = new Date().getFullYear();
+  const yearEl = document.getElementById('footer-year');
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
 });
+
+// ──────────────────────────────────────────
+// Navigation
+// ──────────────────────────────────────────
+
+function injectNav() {
+  const nav = document.getElementById('navbar');
+  if (!nav) return;
+
+  const path = (location.pathname.split('/').pop() || 'index.html').toLowerCase();
+  const currentPage = path === '' ? 'index.html' : path;
+
+  const linksHTML = NAV_LINKS.map(l => {
+    const [linkPage, linkHash] = l.href.split('#');
+    const samePage = linkPage.toLowerCase() === currentPage;
+    const isActive = linkHash
+      ? samePage && location.hash === '#' + linkHash
+      : samePage;
+    return `<li><a href="${l.href}"${isActive ? ' class="active"' : ''}>${l.label}</a></li>`;
+  }).join('');
+
+  nav.innerHTML = `
+    <a href="index.html" class="nav-logo">
+      <img src="assets/images/logo-colour-primary.svg" alt="HIE Lab">
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
+    <ul class="nav-links">${linksHTML}</ul>
+  `;
+}
+
+function initNavigation() {
+  const navbar = document.getElementById('navbar');
+  if (!navbar) return;
+
+  const toggle = navbar.querySelector('.nav-toggle');
+  const links = navbar.querySelector('.nav-links');
+
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 50);
+  });
+
+  if (toggle && links) {
+    toggle.addEventListener('click', () => {
+      const expanded = links.classList.toggle('active');
+      toggle.setAttribute('aria-expanded', expanded);
+    });
+
+    links.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        links.classList.remove('active');
+        toggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+  }
+}
+
+// ──────────────────────────────────────────
+// Back to top
+// ──────────────────────────────────────────
+
+function injectBackToTop() {
+  const btn = document.createElement('button');
+  btn.className = 'back-to-top';
+  btn.setAttribute('aria-label', 'Back to top');
+  btn.innerHTML = '&uarr;';
+  btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+  document.body.appendChild(btn);
+
+  window.addEventListener('scroll', () => {
+    btn.classList.toggle('visible', window.scrollY > 400);
+  });
+}
 
 // ──────────────────────────────────────────
 // Content Loading
@@ -25,6 +113,7 @@ async function loadContent() {
     renderTeam(data.team);
     renderAdvisory(data.advisory);
     renderNews(data.news);
+    renderNewsPreview(data.news);
     renderGallery(data.gallery);
     renderTalks(data.talks);
     renderOpportunities(data.opportunities, data.teaching);
@@ -39,8 +128,10 @@ async function loadContent() {
 
 function renderHero(hero) {
   if (!hero) return;
-  document.getElementById('hero-tagline').textContent = hero.tagline || '';
-  document.getElementById('hero-land-ack').textContent = hero.land_acknowledgement || '';
+  const tagline = document.getElementById('hero-tagline');
+  const landAck = document.getElementById('hero-land-ack');
+  if (tagline) tagline.textContent = hero.tagline || '';
+  if (landAck) landAck.textContent = hero.land_acknowledgement || '';
 }
 
 // ──────────────────────────────────────────
@@ -50,6 +141,7 @@ function renderHero(hero) {
 function renderDirector(d) {
   if (!d) return;
   const container = document.getElementById('director-content');
+  if (!container) return;
 
   const photoHTML = d.photo
     ? `<img src="${esc(d.photo)}" alt="${esc(d.name)}" class="director-photo"
@@ -103,7 +195,7 @@ function buildDirectorLinks(links) {
 }
 
 // ──────────────────────────────────────────
-// Research / Projects
+// Research / Projects (with filters)
 // ──────────────────────────────────────────
 
 function extractLatestYear(text) {
@@ -116,6 +208,7 @@ function extractLatestYear(text) {
 function renderResearch(projects) {
   if (!projects) return;
   const container = document.getElementById('research-content');
+  if (!container) return;
 
   const active = [...(projects.active || [])].sort((a, b) =>
     extractLatestYear(b.funding) - extractLatestYear(a.funding)
@@ -124,33 +217,87 @@ function renderResearch(projects) {
     extractLatestYear(b.funding) - extractLatestYear(a.funding)
   );
 
-  let html = '<div class="projects-grid">';
-  active.forEach(p => {
-    html += `
-      <div class="project-card">
-        <h3>${esc(p.title)}</h3>
-        ${p.status ? `<span class="project-status">${esc(p.status)}</span>` : ''}
-        ${p.funding ? `<div class="project-meta"><strong>Funding:</strong> ${esc(p.funding)}</div>` : ''}
-        ${p.co_investigators ? `<div class="project-meta"><strong>Co-Is:</strong> ${esc(p.co_investigators)}</div>` : ''}
-        <p class="project-description">${esc(p.description || '')}</p>
-        ${p.url ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">Learn more</a>` : ''}
-      </div>`;
-  });
-  html += '</div>';
+  const filterContainer = document.getElementById('research-filters');
+  const hasFilters = !!filterContainer;
+  const state = { status: 'all', query: '' };
 
-  if (past.length) {
-    html += '<h3 class="past-projects-title">Collaborations &amp; Past Projects</h3>';
-    past.forEach(p => {
-      html += `
-        <div class="past-project-item">
-          <h4>${esc(p.title)}${p.url ? ` <a href="${esc(p.url)}" target="_blank" rel="noopener">[Link]</a>` : ''}</h4>
-          ${p.funding ? `<div class="project-meta"><strong>Funding:</strong> ${esc(p.funding)}</div>` : ''}
-          ${p.co_investigators ? `<div class="project-meta"><strong>Team:</strong> ${esc(p.co_investigators)}</div>` : ''}
-        </div>`;
+  const projectMatches = (p, q) => {
+    if (!q) return true;
+    const hay = [p.title, p.description, p.funding, p.co_investigators]
+      .filter(Boolean).join(' ').toLowerCase();
+    return hay.includes(q);
+  };
+
+  function paint() {
+    const q = state.query.trim().toLowerCase();
+    const showActive = state.status === 'all' || state.status === 'active';
+    const showPast = state.status === 'all' || state.status === 'past';
+
+    const activeFiltered = showActive ? active.filter(p => projectMatches(p, q)) : [];
+    const pastFiltered = showPast ? past.filter(p => projectMatches(p, q)) : [];
+
+    let html = '';
+
+    if (activeFiltered.length) {
+      html += '<div class="projects-grid">';
+      activeFiltered.forEach(p => {
+        html += `
+          <div class="project-card">
+            <h3>${esc(p.title)}</h3>
+            ${p.status ? `<span class="project-status">${esc(p.status)}</span>` : ''}
+            ${p.funding ? `<div class="project-meta"><strong>Funding:</strong> ${esc(p.funding)}</div>` : ''}
+            ${p.co_investigators ? `<div class="project-meta"><strong>Co-Is:</strong> ${esc(p.co_investigators)}</div>` : ''}
+            <p class="project-description">${esc(p.description || '')}</p>
+            ${p.url ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">Learn more</a>` : ''}
+          </div>`;
+      });
+      html += '</div>';
+    }
+
+    if (pastFiltered.length) {
+      html += '<h3 class="past-projects-title">Collaborations &amp; Past Projects</h3>';
+      pastFiltered.forEach(p => {
+        html += `
+          <div class="past-project-item">
+            <h4>${esc(p.title)}${p.url ? ` <a href="${esc(p.url)}" target="_blank" rel="noopener">[Link]</a>` : ''}</h4>
+            ${p.funding ? `<div class="project-meta"><strong>Funding:</strong> ${esc(p.funding)}</div>` : ''}
+            ${p.co_investigators ? `<div class="project-meta"><strong>Team:</strong> ${esc(p.co_investigators)}</div>` : ''}
+          </div>`;
+      });
+    }
+
+    if (!activeFiltered.length && !pastFiltered.length) {
+      html = '<p class="filter-empty">No projects match your filters.</p>';
+    }
+
+    container.innerHTML = html;
+  }
+
+  if (hasFilters) {
+    filterContainer.innerHTML = `
+      <div class="filter-bar">
+        <input type="search" class="filter-search" placeholder="Search projects..." aria-label="Search projects">
+        <div class="filter-chips">
+          <button class="filter-chip active" data-status="all">All (${active.length + past.length})</button>
+          <button class="filter-chip" data-status="active">Active (${active.length})</button>
+          <button class="filter-chip" data-status="past">Past (${past.length})</button>
+        </div>
+      </div>
+    `;
+    const search = filterContainer.querySelector('.filter-search');
+    const chips = filterContainer.querySelectorAll('.filter-chip');
+    search.addEventListener('input', () => { state.query = search.value; paint(); });
+    chips.forEach(chip => {
+      chip.addEventListener('click', () => {
+        chips.forEach(c => c.classList.remove('active'));
+        chip.classList.add('active');
+        state.status = chip.dataset.status;
+        paint();
+      });
     });
   }
 
-  container.innerHTML = html;
+  paint();
 }
 
 // ──────────────────────────────────────────
@@ -160,13 +307,14 @@ function renderResearch(projects) {
 function renderTeam(team) {
   if (!team) return;
   const container = document.getElementById('team-content');
+  if (!container) return;
+
   let html = '';
 
   if (team.description) {
     html += `<p class="team-intro">${esc(team.description)}</p>`;
   }
 
-  // Current members
   if (team.current && team.current.length) {
     html += '<div class="team-grid">';
     team.current.forEach(m => {
@@ -190,7 +338,6 @@ function renderTeam(team) {
     html += '</div>';
   }
 
-  // Furry members
   const furry = team.furry || team['furry team members'];
   if (furry && furry.length) {
     html += '<h3 class="furry-section-title">Furry Lab Members</h3><div class="team-grid">';
@@ -211,7 +358,6 @@ function renderTeam(team) {
     html += '</div>';
   }
 
-  // Alumni
   if (team.alumni && team.alumni.length) {
     html += '<h3 class="alumni-section-title">Alumni</h3><div class="alumni-list">';
     team.alumni.forEach(a => {
@@ -230,6 +376,8 @@ function renderTeam(team) {
 function renderAdvisory(advisory) {
   if (!advisory) return;
   const container = document.getElementById('advisory-content');
+  if (!container) return;
+
   let html = '';
 
   if (advisory.intro) {
@@ -266,91 +414,172 @@ function renderAdvisory(advisory) {
 // ──────────────────────────────────────────
 
 async function loadPublications() {
-  const container = document.getElementById('publications-list');
+  const previewEl = document.getElementById('publications-preview');
+  const archiveEl = document.getElementById('publications-list');
+  if (!previewEl && !archiveEl) return;
+
   try {
     const res = await fetch('publications.json');
     if (!res.ok) throw new Error('Failed to load publications');
     const pubs = await res.json();
-    renderPublications(pubs, container);
+    pubs.sort((a, b) => (b.year || 0) - (a.year || 0));
+
+    if (previewEl) renderPublicationsPreview(pubs, previewEl);
+    if (archiveEl) initPublicationsArchive(pubs, archiveEl);
   } catch (err) {
-    container.innerHTML = '<p class="publications-error">Unable to load publications. Please try again later.</p>';
+    [previewEl, archiveEl].forEach(el => {
+      if (el) el.innerHTML = '<p class="publications-error">Unable to load publications. Please try again later.</p>';
+    });
     console.error('Publications loading error:', err);
   }
 }
 
-function renderPublications(pubs, container) {
+function renderPublicationsPreview(pubs, container, limit = 5) {
+  if (!pubs || !pubs.length) {
+    container.innerHTML = '<p class="publications-error">No publications available.</p>';
+    return;
+  }
+  const recent = pubs.slice(0, limit);
+  let html = '<ol class="pub-list">';
+  recent.forEach(pub => html += pubItemHTML(pub));
+  html += '</ol>';
+  html += `<p class="view-all"><a href="publications.html">View all publications &rarr;</a></p>`;
+  container.innerHTML = html;
+}
+
+function pubItemHTML(pub) {
+  const doiLink = pub.doi
+    ? ` <a href="https://doi.org/${esc(pub.doi)}" class="pub-doi" target="_blank" rel="noopener">[DOI]</a>`
+    : '';
+  const urlLink = pub.url && !pub.doi
+    ? ` <a href="${esc(pub.url)}" class="pub-link" target="_blank" rel="noopener">[Link]</a>`
+    : '';
+  return `<li class="pub-item"><span class="pub-citation">${esc(pub.vancouver_citation || pub.title || '')}</span>${doiLink}${urlLink}</li>`;
+}
+
+function initPublicationsArchive(pubs, container) {
   if (!pubs || !pubs.length) {
     container.innerHTML = '<p class="publications-error">No publications available.</p>';
     return;
   }
 
-  pubs.sort((a, b) => (b.year || 0) - (a.year || 0));
+  const allYears = [...new Set(pubs.map(p => p.year).filter(Boolean))].sort((a, b) => b - a);
+  const state = { years: new Set(), query: '' };
 
-  const currentYear = new Date().getFullYear();
-  const oldestYear = currentYear - 5;
+  const filterEl = document.getElementById('publications-filters');
+  const jumpEl = document.getElementById('publications-year-jump');
 
-  // Group by year, filter to last 5 years
-  const grouped = {};
-  pubs.forEach(pub => {
-    const year = pub.year || 0;
-    if (year < oldestYear) return;
-    if (!grouped[year]) grouped[year] = [];
-    grouped[year].push(pub);
-  });
-
-  // Sort years descending
-  const years = Object.keys(grouped).sort((a, b) => b - a);
-
-  let html = '';
-  years.forEach(year => {
-    const items = grouped[year];
-    // Show all for current year, max 2 for prior years
-    const display = (parseInt(year) === currentYear) ? items : items.slice(0, 2);
-    const hidden = items.length - display.length;
-
-    html += `<h3 class="pub-year">${esc(String(year))}</h3><ol class="pub-list">`;
-    display.forEach(pub => {
-      const doiLink = pub.doi
-        ? ` <a href="https://doi.org/${esc(pub.doi)}" class="pub-doi" target="_blank" rel="noopener">[DOI]</a>`
-        : '';
-      const urlLink = pub.url && !pub.doi
-        ? ` <a href="${esc(pub.url)}" class="pub-link" target="_blank" rel="noopener">[Link]</a>`
-        : '';
-      html += `<li class="pub-item"><span class="pub-citation">${esc(pub.vancouver_citation || pub.title || '')}</span>${doiLink}${urlLink}</li>`;
+  if (filterEl) {
+    filterEl.innerHTML = `
+      <div class="filter-bar">
+        <input type="search" class="filter-search" placeholder="Search publications..." aria-label="Search publications">
+        <div class="filter-chips">
+          <button class="filter-chip active" data-year="all">All years</button>
+          ${allYears.map(y => `<button class="filter-chip" data-year="${y}">${y}</button>`).join('')}
+        </div>
+      </div>
+    `;
+    const search = filterEl.querySelector('.filter-search');
+    const chips = filterEl.querySelectorAll('.filter-chip');
+    search.addEventListener('input', () => { state.query = search.value; paint(); });
+    chips.forEach(chip => {
+      chip.addEventListener('click', () => {
+        const year = chip.dataset.year;
+        if (year === 'all') {
+          chips.forEach(c => c.classList.remove('active'));
+          chip.classList.add('active');
+          state.years.clear();
+        } else {
+          filterEl.querySelector('.filter-chip[data-year="all"]').classList.remove('active');
+          chip.classList.toggle('active');
+          if (chip.classList.contains('active')) state.years.add(Number(year));
+          else state.years.delete(Number(year));
+          if (state.years.size === 0) {
+            filterEl.querySelector('.filter-chip[data-year="all"]').classList.add('active');
+          }
+        }
+        paint();
+      });
     });
-    html += '</ol>';
-    if (hidden > 0) {
-      html += `<p class="pub-more">+ ${hidden} more publication${hidden > 1 ? 's' : ''}</p>`;
-    }
-  });
+  }
 
-  container.innerHTML = html;
+  function paint() {
+    const q = state.query.trim().toLowerCase();
+    const filtered = pubs.filter(p => {
+      if (state.years.size && !state.years.has(p.year)) return false;
+      if (q && !(p.vancouver_citation || p.title || '').toLowerCase().includes(q)) return false;
+      return true;
+    });
+
+    if (!filtered.length) {
+      container.innerHTML = '<p class="filter-empty">No publications match your filters.</p>';
+      if (jumpEl) jumpEl.innerHTML = '';
+      return;
+    }
+
+    const grouped = {};
+    filtered.forEach(p => {
+      const y = p.year || 'Unknown';
+      (grouped[y] = grouped[y] || []).push(p);
+    });
+    const visibleYears = Object.keys(grouped).sort((a, b) => b - a);
+
+    let html = `<p class="archive-count">Showing ${filtered.length} publication${filtered.length === 1 ? '' : 's'}.</p>`;
+    visibleYears.forEach(year => {
+      html += `<h3 class="pub-year" id="year-${esc(String(year))}">${esc(String(year))}</h3><ol class="pub-list">`;
+      grouped[year].forEach(pub => html += pubItemHTML(pub));
+      html += '</ol>';
+    });
+    container.innerHTML = html;
+
+    if (jumpEl) {
+      jumpEl.innerHTML = `
+        <div class="year-jump-strip" role="navigation" aria-label="Jump to year">
+          <span class="year-jump-label">Jump to:</span>
+          ${visibleYears.map(y => `<button class="year-jump-btn" data-year="${esc(String(y))}">${esc(String(y))}</button>`).join('')}
+        </div>
+      `;
+      jumpEl.querySelectorAll('.year-jump-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const target = document.getElementById('year-' + btn.dataset.year);
+          if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+      });
+    }
+  }
+
+  paint();
 }
 
 // ──────────────────────────────────────────
-// News
+// News (preview + full archive with filters)
 // ──────────────────────────────────────────
 
-function renderNews(news) {
+function renderNewsPreview(news, limit = 5) {
   if (!news || !news.length) return;
-  const container = document.getElementById('news-content');
+  const container = document.getElementById('news-preview-content');
+  if (!container) return;
 
   const sorted = [...news].sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+  const recent = sorted.slice(0, limit);
 
   let html = '<div class="news-list">';
-  sorted.forEach(item => {
-    const dateLabel = formatNewsDate(item.date);
-    html += `
-      <div class="news-item">
-        <div class="news-date">${esc(dateLabel)}</div>
-        <div class="news-text">
-          ${renderInlineLinks(item.text || '')}
-          ${item.url ? `<br><a href="${esc(item.url)}" target="_blank" rel="noopener">Read more &rarr;</a>` : ''}
-        </div>
-      </div>`;
-  });
+  recent.forEach(item => html += newsItemHTML(item));
   html += '</div>';
+  html += `<p class="view-all"><a href="news.html">View all news &rarr;</a></p>`;
   container.innerHTML = html;
+}
+
+function newsItemHTML(item) {
+  const dateLabel = formatNewsDate(item.date);
+  return `
+    <div class="news-item">
+      <div class="news-date">${esc(dateLabel)}</div>
+      <div class="news-text">
+        ${renderInlineLinks(item.text || '')}
+        ${item.url ? `<br><a href="${esc(item.url)}" target="_blank" rel="noopener">Read more &rarr;</a>` : ''}
+      </div>
+    </div>`;
 }
 
 function renderInlineLinks(text) {
@@ -365,6 +594,102 @@ function renderInlineLinks(text) {
   }
   if (lastIdx < text.length) parts.push(esc(text.slice(lastIdx)));
   return parts.join('');
+}
+
+function renderNews(news) {
+  if (!news || !news.length) return;
+  const container = document.getElementById('news-content');
+  if (!container) return;
+
+  const sorted = [...news].sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+  const allYears = [...new Set(sorted.map(n => (n.date || '').slice(0, 4)).filter(Boolean))].sort((a, b) => b.localeCompare(a));
+
+  const filterEl = document.getElementById('news-filters');
+  const jumpEl = document.getElementById('news-year-jump');
+  const state = { years: new Set(), query: '' };
+
+  if (filterEl) {
+    filterEl.innerHTML = `
+      <div class="filter-bar">
+        <input type="search" class="filter-search" placeholder="Search news..." aria-label="Search news">
+        <div class="filter-chips">
+          <button class="filter-chip active" data-year="all">All years</button>
+          ${allYears.map(y => `<button class="filter-chip" data-year="${y}">${y}</button>`).join('')}
+        </div>
+      </div>
+    `;
+    const search = filterEl.querySelector('.filter-search');
+    const chips = filterEl.querySelectorAll('.filter-chip');
+    search.addEventListener('input', () => { state.query = search.value; paint(); });
+    chips.forEach(chip => {
+      chip.addEventListener('click', () => {
+        const year = chip.dataset.year;
+        if (year === 'all') {
+          chips.forEach(c => c.classList.remove('active'));
+          chip.classList.add('active');
+          state.years.clear();
+        } else {
+          filterEl.querySelector('.filter-chip[data-year="all"]').classList.remove('active');
+          chip.classList.toggle('active');
+          if (chip.classList.contains('active')) state.years.add(year);
+          else state.years.delete(year);
+          if (state.years.size === 0) {
+            filterEl.querySelector('.filter-chip[data-year="all"]').classList.add('active');
+          }
+        }
+        paint();
+      });
+    });
+  }
+
+  function paint() {
+    const q = state.query.trim().toLowerCase();
+    const filtered = sorted.filter(item => {
+      const y = (item.date || '').slice(0, 4);
+      if (state.years.size && !state.years.has(y)) return false;
+      if (q && !(item.text || '').toLowerCase().includes(q)) return false;
+      return true;
+    });
+
+    if (!filtered.length) {
+      container.innerHTML = '<p class="filter-empty">No news items match your filters.</p>';
+      if (jumpEl) jumpEl.innerHTML = '';
+      return;
+    }
+
+    const grouped = {};
+    filtered.forEach(item => {
+      const y = (item.date || '').slice(0, 4) || 'Unknown';
+      (grouped[y] = grouped[y] || []).push(item);
+    });
+    const visibleYears = Object.keys(grouped).sort((a, b) => b.localeCompare(a));
+
+    let html = `<p class="archive-count">Showing ${filtered.length} item${filtered.length === 1 ? '' : 's'}.</p>`;
+    html += '<div class="news-list">';
+    visibleYears.forEach(year => {
+      html += `<h3 class="news-year-heading" id="news-year-${esc(year)}">${esc(year)}</h3>`;
+      grouped[year].forEach(item => html += newsItemHTML(item));
+    });
+    html += '</div>';
+    container.innerHTML = html;
+
+    if (jumpEl) {
+      jumpEl.innerHTML = `
+        <div class="year-jump-strip" role="navigation" aria-label="Jump to year">
+          <span class="year-jump-label">Jump to:</span>
+          ${visibleYears.map(y => `<button class="year-jump-btn" data-year="${esc(y)}">${esc(y)}</button>`).join('')}
+        </div>
+      `;
+      jumpEl.querySelectorAll('.year-jump-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const target = document.getElementById('news-year-' + btn.dataset.year);
+          if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+      });
+    }
+  }
+
+  paint();
 }
 
 function formatNewsDate(dateStr) {
@@ -441,6 +766,7 @@ function renderGallery(gallery) {
 function renderTalks(talks) {
   if (!talks || !talks.length) return;
   const container = document.getElementById('talks-content');
+  if (!container) return;
 
   let html = '<div class="talks-grid">';
   talks.forEach(talk => {
@@ -468,6 +794,7 @@ function renderTalks(talks) {
 function renderOpportunities(opp, teaching) {
   if (!opp) return;
   const container = document.getElementById('opportunities-content');
+  if (!container) return;
 
   let html = '<div class="opportunities-content">';
 
@@ -516,7 +843,6 @@ function renderOpportunities(opp, teaching) {
     html += `<p><a href="${esc(opp.application_video)}" target="_blank" rel="noopener">Watch: Preparing a graduate school application (video)</a></p>`;
   }
 
-  // Teaching
   if (teaching && teaching.length) {
     html += '<h3>Teaching</h3><div class="teaching-list">';
     teaching.forEach(t => {
@@ -532,51 +858,6 @@ function renderOpportunities(opp, teaching) {
 
   html += '</div>';
   container.innerHTML = html;
-}
-
-// ──────────────────────────────────────────
-// Navigation
-// ──────────────────────────────────────────
-
-function initNavigation() {
-  const navbar = document.getElementById('navbar');
-  const toggle = document.querySelector('.nav-toggle');
-  const links = document.querySelector('.nav-links');
-
-  window.addEventListener('scroll', () => {
-    navbar.classList.toggle('scrolled', window.scrollY > 50);
-  });
-
-  toggle.addEventListener('click', () => {
-    const expanded = links.classList.toggle('active');
-    toggle.setAttribute('aria-expanded', expanded);
-  });
-
-  links.querySelectorAll('a').forEach(link => {
-    link.addEventListener('click', () => {
-      links.classList.remove('active');
-      toggle.setAttribute('aria-expanded', 'false');
-    });
-  });
-
-  // Active section highlighting
-  const sections = document.querySelectorAll('section[id]');
-  const navItems = document.querySelectorAll('.nav-links a');
-
-  const updateActive = () => {
-    let current = '';
-    sections.forEach(section => {
-      if (window.scrollY >= section.offsetTop - 120) {
-        current = section.id;
-      }
-    });
-    navItems.forEach(item => {
-      item.classList.toggle('active', item.getAttribute('href') === `#${current}`);
-    });
-  };
-
-  window.addEventListener('scroll', updateActive);
-  updateActive();
 }
 
 // ──────────────────────────────────────────

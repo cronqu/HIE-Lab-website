@@ -895,6 +895,234 @@ h4 { font-size: 1.1rem; }
   border-color: var(--colour-lavender);
 }
 
+/* 13c. Filters & Archive Controls */
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 24px;
+  padding: 16px;
+  background: var(--colour-white);
+  border-radius: var(--border-radius);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.filter-search {
+  flex: 1 1 220px;
+  min-width: 200px;
+  padding: 10px 14px;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--colour-body-text);
+  background: var(--colour-light-grey);
+  border: 1px solid transparent;
+  border-radius: var(--border-radius);
+  transition: border-color var(--transition), background var(--transition);
+}
+
+.filter-search:focus {
+  outline: none;
+  border-color: var(--colour-teal);
+  background: var(--colour-white);
+}
+
+.filter-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.filter-chip {
+  background: var(--colour-light-grey);
+  color: var(--colour-dark-purple);
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  padding: 6px 14px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background var(--transition), color var(--transition), border-color var(--transition);
+}
+
+.filter-chip:hover {
+  background: rgba(67, 196, 217, 0.15);
+}
+
+.filter-chip.active {
+  background: var(--colour-teal);
+  color: var(--colour-white);
+  border-color: var(--colour-teal);
+}
+
+.filter-empty {
+  text-align: center;
+  padding: 40px 16px;
+  color: var(--colour-muted);
+  font-style: italic;
+}
+
+.archive-count {
+  color: var(--colour-muted);
+  font-size: 0.85rem;
+  margin-bottom: 16px;
+}
+
+.view-all {
+  margin-top: 24px;
+  text-align: right;
+  font-size: 0.95rem;
+}
+
+.view-all a {
+  font-family: var(--font-heading);
+  color: var(--colour-pink);
+}
+
+.view-all a:hover {
+  color: var(--colour-dark-purple);
+}
+
+/* Sticky year jump */
+.year-jump-sticky {
+  position: sticky;
+  top: var(--nav-height);
+  z-index: 900;
+  background: var(--colour-white);
+  margin: 0 -24px 24px;
+  padding: 10px 24px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.year-jump-strip {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 6px;
+  overflow-x: auto;
+  align-items: center;
+  scrollbar-width: thin;
+}
+
+.year-jump-strip::-webkit-scrollbar { height: 4px; }
+.year-jump-strip::-webkit-scrollbar-thumb { background: var(--colour-teal); border-radius: 2px; }
+
+.year-jump-label {
+  font-family: var(--font-heading);
+  color: var(--colour-muted);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  margin-right: 4px;
+}
+
+.year-jump-btn {
+  background: transparent;
+  color: var(--colour-dark-purple);
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  padding: 4px 12px;
+  border: 1px solid rgba(46, 42, 106, 0.2);
+  border-radius: 14px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background var(--transition), color var(--transition), border-color var(--transition);
+}
+
+.year-jump-btn:hover {
+  background: var(--colour-teal);
+  color: var(--colour-white);
+  border-color: var(--colour-teal);
+}
+
+/* Pages with sticky year-jump need extra scroll padding */
+.has-year-jump {
+  scroll-padding-top: calc(var(--nav-height) + 56px);
+}
+
+/* News year heading on archive page */
+.news-year-heading {
+  color: var(--colour-dark-purple);
+  font-size: 1.3rem;
+  margin-top: 32px;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--colour-teal);
+}
+
+.news-year-heading:first-child {
+  margin-top: 0;
+}
+
+/* Back to top */
+.back-to-top {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--colour-dark-purple);
+  color: var(--colour-white);
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(46, 42, 106, 0.25);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(8px);
+  transition: opacity var(--transition), transform var(--transition), background var(--transition);
+  z-index: 800;
+}
+
+.back-to-top.visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.back-to-top:hover {
+  background: var(--colour-pink);
+}
+
+/* Home-page CTA card (link to opportunities) */
+.cta-card {
+  background: var(--colour-dark-purple);
+  color: var(--colour-white);
+  padding: 32px;
+  border-radius: var(--border-radius);
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.cta-card h3 {
+  color: var(--colour-white);
+  margin-bottom: 12px;
+}
+
+.cta-card p {
+  margin-bottom: 20px;
+  opacity: 0.9;
+  font-size: 0.95rem;
+}
+
+.cta-card .cta-btn {
+  display: inline-block;
+  background: var(--colour-teal);
+  color: var(--colour-white);
+  font-family: var(--font-heading);
+  padding: 12px 28px;
+  border-radius: 24px;
+  transition: background var(--transition);
+}
+
+.cta-card .cta-btn:hover {
+  background: var(--colour-pink);
+  color: var(--colour-white);
+}
+
 /* 14. Footer */
 footer {
   background: var(--colour-dark-purple);
@@ -1014,6 +1242,23 @@ footer::before {
 
   .section {
     padding: 56px 0;
+  }
+
+  .filter-bar {
+    padding: 12px;
+    gap: 12px;
+  }
+
+  .year-jump-sticky {
+    margin: 0 -20px 16px;
+    padding: 8px 20px;
+  }
+
+  .back-to-top {
+    bottom: 16px;
+    right: 16px;
+    width: 40px;
+    height: 40px;
   }
 }
 
