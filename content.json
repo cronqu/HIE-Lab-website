@@ -26,14 +26,15 @@
         "title": "Affiliated Investigator",
         "org": "Vancouver Coastal Health Research Institute",
         "url": "https://www.vchri.ca/"
-        },
-          {
-                  "title": "Affiliated Investigator",
+      },
+      {
+        "title": "Affiliated Investigator",
         "org": "Fraser Health Authority",
         "url": "www.fraserhealth.ca/research/"
-       },
-      { "org": "Interior Health Authority",
-              "title": "Affiliated Investigator",
+      },
+      {
+        "org": "Interior Health Authority",
+        "title": "Affiliated Investigator",
         "url": "https://www.interiorhealth.ca/about-ih/research/"
       },
       {
@@ -331,6 +332,10 @@
   },
   "news": [
     {
+      "date": "2026-07",
+      "text": "The [NAIL Collaborative](https://www.nailcollab.org/#events) hosts the AINurse-26: Fifth International Workshop on AI in Nursing in Ottawa, Canada, co-located with AIME 2026."
+    },
+    {
       "date": "2026-06",
       "text": "We're looking forward to slowing down a little and taking care of ourselves over the summer!"
     },
@@ -356,10 +361,6 @@
     {
       "date": "2026-05",
       "text": "Charlene is invited to give two keynotes at IV Congreso Interdisciplinar em Saúde (CONIS) Tecnologias digitais nas ciências da saúde and The III International Forum on Workforce Management and Continuing Education in Health (FIGEPS) hosted by Universidade do Estado de Santa Catarina (UDESC) and Universidade Comunitária da Região de Chapecó (Unochapecó). Chapecó, Santa Catarina, Brazil."
-    },
-    {
-      "date": "2026-04",
-      "text": "The [NAIL Collaborative](https://www.nailcollab.org/#events) will host the AINurse-26: Fifth International Workshop on AI in Nursing in Ottawa, Canada, co-located with AIME 2026."
     }
   ],
   "talks": [
@@ -452,7 +453,6 @@
       ]
     }
   ],
-
   "advisory": {
     "intro": "The HIE PIE (Patient/Provider/Process Involvement Engagement) Advisory is the HIE Lab's standing group of patient partners, healthcare providers, and process advisors who collaborate meaningfully in HIE Lab research. Advisory members are long-term HIE Lab members who contribute to research questions, priorities, study design, and knowledge translation across all our work — ensuring our work is grounded in lived experience and real-world practice.",
     "members": [
@@ -482,20 +482,49 @@
       }
     ]
   },
-
   "gallery": {
     "title": "HIE Lab Life",
     "photos": [
-      { "src": "assets/images/gallery/HIELab_Apr2026.jpg", "alt": "HIE Lab at UBCO Nursing Clinical Labs"},
-      { "src": "assets/images/gallery/001.jpg", "alt": "HIE Lab team meeting" },
-      { "src": "assets/images/gallery/002.jpg", "alt": "HIE Lab members at conference" },
-      { "src": "assets/images/gallery/003.jpg", "alt": "HIE Lab collaborators at Brocher Foundation" },
-      { "src": "assets/images/gallery/004.jpg", "alt": "HIE Lab conference dinner" },
-      { "src": "assets/images/gallery/005.jpg", "alt": "Dr. Ronquillo presenting on Health Equity and Artificial Intelligence" },
-      { "src": "assets/images/gallery/007.jpg", "alt": "HIE Lab at CMDO research event" },
-      { "src": "assets/images/gallery/008.jpg", "alt": "HIE Lab panel discussion on AI in healthcare" },
-      { "src": "assets/images/gallery/sandpits1.jpg", "alt": "HIE Lab team at conference" },
-      { "src": "assets/images/gallery/sandpits2.jpg", "alt": "HIE Lab members at conference reception" }
+      {
+        "src": "assets/images/gallery/HIELab_Apr2026.jpg",
+        "alt": "HIE Lab at UBCO Nursing Clinical Labs"
+      },
+      {
+        "src": "assets/images/gallery/001.jpg",
+        "alt": "HIE Lab team meeting"
+      },
+      {
+        "src": "assets/images/gallery/002.jpg",
+        "alt": "HIE Lab members at conference"
+      },
+      {
+        "src": "assets/images/gallery/003.jpg",
+        "alt": "HIE Lab collaborators at Brocher Foundation"
+      },
+      {
+        "src": "assets/images/gallery/004.jpg",
+        "alt": "HIE Lab conference dinner"
+      },
+      {
+        "src": "assets/images/gallery/005.jpg",
+        "alt": "Dr. Ronquillo presenting on Health Equity and Artificial Intelligence"
+      },
+      {
+        "src": "assets/images/gallery/007.jpg",
+        "alt": "HIE Lab at CMDO research event"
+      },
+      {
+        "src": "assets/images/gallery/008.jpg",
+        "alt": "HIE Lab panel discussion on AI in healthcare"
+      },
+      {
+        "src": "assets/images/gallery/sandpits1.jpg",
+        "alt": "HIE Lab team at conference"
+      },
+      {
+        "src": "assets/images/gallery/sandpits2.jpg",
+        "alt": "HIE Lab members at conference reception"
+      }
     ]
   }
 }
