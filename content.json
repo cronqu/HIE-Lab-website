@@ -1,530 +1,652 @@
 {
-  "hero": {
-    "tagline": "The goal of our work is to centre the human experiences and values to improve equity and thoughtful, meaningful, and inclusive technology use in healthcare.",
-    "land_acknowledgement": "Racialized settler on the unceded and traditional territories of the Syilx Okanagan"
-  },
-  "director": {
+  "site": {
     "name": "Charlene E. Ronquillo",
     "credentials": "RN, PhD",
-    "pronouns": "she/they/siya",
-    "title": "Assistant Professor",
-    "identities": [
-      "Filipina scholar",
-      "Registered Nurse",
-      "Health Informatician"
+    "pronouns": "she / they / siya",
+    "title": "Assistant Professor, School of Nursing",
+    "place": "UBC Okanagan, Kelowna, BC",
+    "tagline": "I study who gets left out when health systems adopt new technology — and how to build and roll it out with them instead of around them.",
+    "land": "Racialized settler on the unceded and traditional territories of the Syilx Okanagan.",
+    "address": "ART360, Arts Building\n1147 Research Road\nKelowna, BC V1V 1V7",
+    "links": [
+      {
+        "label": "ORCID",
+        "url": "http://orcid.org/0000-0002-6520-1765"
+      },
+      {
+        "label": "Scholar",
+        "url": "https://scholar.google.com/citations?user=6qKKv3EAAAAJ"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/cronquillo/"
+      }
     ],
-    "affiliation": "University of British Columbia – Okanagan",
-    "department": "School of Nursing, Faculty of Health and Social Development",
-    "address": "ART360 (Arts Building)\\n1147 Research Road\\nKelowna, BC Canada V1V 1V7",
+    "headlineImage": "Ambient Scribes",
+    "showFigures": true,
+    "abstractFields": true,
+    "marginalia": true
+  },
+  "contact": {
+    "accessKey": "b1aa8863-bf9c-4a8b-bbc9-362f61ecb7d8",
+    "invitationsNote": "Keynotes, advisory panels, health-authority and community partnerships. Usually a reply within the week.",
+    "subjects": [
+      "Speaking invitation",
+      "Supervision or student inquiry",
+      "Partnership or collaboration",
+      "Media or press",
+      "Something else"
+    ],
+    "consent": "Your message and the address you give are sent to the lab by email and are not stored on this site."
+  },
+  "types": [
+    {
+      "key": "Paper",
+      "color": "#43C4D9",
+      "fg": "#2E2A6A",
+      "format": "Peer-reviewed"
+    },
+    {
+      "key": "Talk",
+      "color": "#EE447F",
+      "fg": "#2E2A6A",
+      "format": "Invited"
+    },
+    {
+      "key": "Project",
+      "color": "#FEC415",
+      "fg": "#2E2A6A",
+      "format": "Funded study"
+    },
+    {
+      "key": "Workshop",
+      "color": "#8670B2",
+      "fg": "#ffffff",
+      "format": "Co-located"
+    },
+    {
+      "key": "Lab",
+      "color": "#2E2A6A",
+      "fg": "#ffffff",
+      "format": "Lab note"
+    }
+  ],
+  "panes": [
+    {
+      "key": "stream",
+      "label": "What’s new",
+      "title": "What’s new · everything, newest first",
+      "color": "#43C4D9"
+    },
+    {
+      "key": "research",
+      "label": "Research",
+      "title": "Active and earlier work",
+      "color": "#FEC415"
+    },
+    {
+      "key": "people",
+      "label": "People",
+      "title": "The lab",
+      "color": "#8670B2"
+    },
+    {
+      "key": "speaking",
+      "label": "Speaking",
+      "title": "Speaking · topics, fees and logistics",
+      "color": "#EE447F"
+    },
+    {
+      "key": "join",
+      "label": "Working with me",
+      "title": "Working with me",
+      "color": "#F4F1EA"
+    },
+    {
+      "key": "about",
+      "label": "About",
+      "title": "Charlene E. Ronquillo",
+      "color": "#F4F1EA"
+    }
+  ],
+  "feed": [
+    {
+      "date": "JUL 2026",
+      "type": "Workshop",
+      "title": "AINurse-26: Fifth International Workshop on AI in Nursing",
+      "venue": "Co-located with AIME 2026 · Ottawa, Canada · NAIL Collaborative",
+      "href": "https://ainurse26.nailcollab.org",
+      "actions": [
+        {
+          "label": "Workshop site",
+          "href": "https://ainurse26.nailcollab.org"
+        }
+      ]
+    },
+    {
+      "date": "JUN 2026",
+      "type": "Paper",
+      "title": "Beyond Time Saved: Implementation, Equity, and the Utility Threshold for Nursing AI Scribes",
+      "venue": "Journal of Medical Internet Research",
+      "href": "https://www.jmir.org/2026/1/e101190/",
+      "actions": [
+        {
+          "label": "Read",
+          "href": "https://www.jmir.org/2026/1/e101190/"
+        },
+        {
+          "label": "DOI",
+          "href": "https://www.jmir.org/2026/1/e101190/"
+        }
+      ]
+    },
+    {
+      "date": "JUN 2026",
+      "type": "Paper",
+      "title": "The era of agentic AI: Should nurses and midwives learn about vibe coding and AI agents for better health and care?",
+      "venue": "Nurse Education in Practice · with the AI-Nurses Network",
+      "href": "https://www.sciencedirect.com/science/article/abs/pii/S1471595326001393",
+      "actions": [
+        {
+          "label": "Read",
+          "href": "https://www.sciencedirect.com/science/article/abs/pii/S1471595326001393"
+        }
+      ]
+    },
+    {
+      "date": "JUN 2026",
+      "type": "Paper",
+      "title": "Secondary use of health data: applications, models, algorithms, and ethical considerations",
+      "venue": "AI and Ethics · with the UBCO Digital Transparency Cluster",
+      "href": "https://link.springer.com/article/10.1007/s43681-026-01017-2",
+      "actions": [
+        {
+          "label": "Read",
+          "href": "https://link.springer.com/article/10.1007/s43681-026-01017-2"
+        }
+      ]
+    },
+    {
+      "date": "JUN 2026",
+      "type": "Lab",
+      "title": "Charlene chairs the 2026 Canadian Nursing Informatics Association virtual conference",
+      "venue": "CNIA · President-Elect",
+      "href": "https://cnia.ca/",
+      "actions": [
+        {
+          "label": "CNIA",
+          "href": "https://cnia.ca/"
+        }
+      ]
+    },
+    {
+      "date": "2026 →",
+      "type": "Project",
+      "title": "LANTERN: Learning and AI Navigation for Transformative Education and Research in Nursing",
+      "venue": "UBCO Aspire-2040 Learning Transformations Fund · starting up",
+      "href": "#/research",
+      "actions": []
+    },
+    {
+      "date": "2026 →",
+      "type": "Project",
+      "title": "Thinking Aloud with AI: nursing students’ cognitive processes using GenAI for clinical reasoning",
+      "venue": "UBC SoTL Seed Program · developing ethics",
+      "href": "#/research",
+      "actions": []
+    },
+    {
+      "date": "MAY 2026",
+      "type": "Talk",
+      "title": "Two invited keynotes on digital technologies in the health sciences",
+      "venue": "CONIS and FIGEPS · UDESC and Unochapecó · Chapecó, Brazil",
+      "href": "#/stream",
+      "actions": []
+    },
+    {
+      "date": "APR 2026",
+      "type": "Lab",
+      "title": "New lab portrait at the UBCO Nursing clinical labs",
+      "venue": "Lab life",
+      "href": "#/people",
+      "actions": []
+    },
+    {
+      "date": "2023 →",
+      "type": "Project",
+      "title": "Stakeholder perspectives and impacts of explainable AI in a British Columbia health authority",
+      "venue": "SSHRC Insight Development Grant · data collection and preliminary analysis",
+      "href": "#/research",
+      "actions": []
+    },
+    {
+      "date": "2022 →",
+      "type": "Project",
+      "title": "Mapping trust in nurses with dimensions of trustworthy artificial intelligence: a scoping review",
+      "venue": "UBC Hampton Fund · developing knowledge outputs",
+      "href": "#/research",
+      "actions": []
+    },
+    {
+      "date": "2021",
+      "type": "Paper",
+      "title": "Artificial intelligence in nursing: priorities and opportunities from an international invitational think-tank",
+      "venue": "Journal of Advanced Nursing 77(7) · NAIL Collaborative",
+      "href": "https://onlinelibrary.wiley.com/doi/10.1111/jan.14855",
+      "actions": [
+        {
+          "label": "DOI",
+          "href": "https://onlinelibrary.wiley.com/doi/10.1111/jan.14855"
+        },
+        {
+          "label": "PubMed",
+          "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7612744/"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "status": "Starting up",
+      "color": "#FEC415",
+      "short": "LANTERN",
+      "title": "LANTERN: Learning and AI Navigation for Transformative Education and Research in Nursing",
+      "funding": "UBCO Aspire-2040 Learning Transformations Fund",
+      "co": "Burton, Douglas-Campbell, Harvey, Lawrence, Munro, Nanyonjo, Rush, Wilson",
+      "description": "An educator-designed and educator-controlled ensemble of AI agents that builds graduate nursing students’ critical thinking through Socratic dialogue."
+    },
+    {
+      "status": "Developing ethics",
+      "color": "#43C4D9",
+      "short": "Thinking Aloud with AI",
+      "title": "Thinking Aloud with AI: nursing students’ cognitive processes using GenAI for clinical reasoning",
+      "funding": "UBC SoTL Seed Program",
+      "co": "Wilson, Willson, Garcia Chua, Moralejo, Kennedy, Sturgess",
+      "description": "What actually happens in an undergraduate nursing student’s head when they reach for a generative AI tool during a complex clinical reasoning task."
+    },
+    {
+      "status": "Data collection",
+      "color": "#EE447F",
+      "short": "Explainable AI in a health authority",
+      "title": "Stakeholder perspectives and impacts of explainable artificial intelligence: a case study in a British Columbia health authority",
+      "funding": "SSHRC Insight Development Grant 2023–25 · UBC HIFI 2022–23",
+      "co": "Conati, Currie, Hamarneh, Janke, Li, Block, Beschastnikh",
+      "description": "Realist methods on what explainable AI and clinical decision support mean for health system operations and for the clinicians who have to use them."
+    },
+    {
+      "status": "Knowledge outputs",
+      "color": "#8670B2",
+      "short": "Trust and trustworthy AI",
+      "title": "Mapping trust in nurses with dimensions of trustworthy artificial intelligence: a scoping review",
+      "funding": "UBC Hampton Fund Research Grant 2022–25",
+      "co": "Booth, Janke, Chan, Recsky",
+      "description": "Can an AI model be trustworthy the way the world’s most trusted profession is thought to be? Or are some dimensions of trust only demonstrable by humans?"
+    }
+  ],
+  "past": [
+    {
+      "title": "Identifying patient-validated compassion and equity concepts in community care clinical notes through natural language processing",
+      "funding": "AMS Healthcare"
+    },
+    {
+      "title": "Pre-processing community nursing and allied health data for equity-informed AI in interdisciplinary wound care",
+      "funding": "Study complete"
+    },
+    {
+      "title": "Capturing health equity in community nursing electronic documentation",
+      "funding": ""
+    },
+    {
+      "title": "A mobile makerspace to support inclusive patient and community-led technology solutions for rural health",
+      "funding": "UBCO MURPH 2021–22"
+    },
+    {
+      "title": "Artificial Intelligence for Nursing: ethical, legal and social implications",
+      "funding": "Brocher Foundation, Switzerland"
+    },
+    {
+      "title": "Adoption of speech recognition technology in community healthcare nursing",
+      "funding": "Helen Shore Nursing Endowment Fund"
+    },
+    {
+      "title": "The impact of COVID-19 on health informatics",
+      "funding": "Ryerson FCS Rapid Response"
+    },
+    {
+      "title": "MOBile-health and Implementation Leadership Evaluation (MOBILE) Nurse Study",
+      "funding": "Helen Shore Nursing Endowment Fund"
+    }
+  ],
+  "team": [
+    {
+      "name": "Dr. Chantelle Recsky",
+      "role": "Research Associate",
+      "photo": "assets/images/team/chantelle-r.jpg"
+    },
+    {
+      "name": "Andrea Burrows",
+      "role": "PhD Candidate",
+      "photo": "assets/images/team/andrea-burrows.jpg"
+    },
+    {
+      "name": "Naureen Mukhi",
+      "role": "Masters Trainee, thesis",
+      "photo": "assets/images/team/naureen-mukhi.jpg"
+    },
+    {
+      "name": "Josephine Nanyonjo",
+      "role": "Masters Trainee, thesis",
+      "photo": "assets/images/team/josephine-nanyonjo.png"
+    },
+    {
+      "name": "Kathryn Sturgess",
+      "role": "Research Assistant, Y4 BSN",
+      "photo": "assets/images/team/kathryn-sturgess.jpeg"
+    },
+    {
+      "name": "Amrit Kaur Dhami",
+      "role": "Research Assistant, Y4 BSN",
+      "photo": "assets/images/team/amrit-kaur-dhami.jpg"
+    },
+    {
+      "name": "Jianan Wang",
+      "role": "Visiting PhD Candidate",
+      "photo": "assets/images/team/jianan-wang.jpg"
+    },
+    {
+      "name": "Dr. Hilal Yıldırım",
+      "role": "Visiting Scientist, Associate Professor",
+      "photo": "assets/images/team/hilal-yildirim.jpeg"
+    },
+    {
+      "name": "Nicole Ketter",
+      "role": "Research Associate",
+      "photo": "assets/images/team/nicole-ketter.jpg"
+    },
+    {
+      "name": "Diana Shim",
+      "role": "Research Assistant, Y3 BSN",
+      "photo": "assets/images/team/diana-shim.jpg"
+    }
+  ],
+  "pieIntro": "Patient/Provider/Process Involvement Engagement — the lab's standing group of patient partners, providers and process advisors. Long-term members who shape research questions, priorities, study design and knowledge translation across all of our work, keeping it grounded in lived experience and real-world practice.",
+  "pie": [
+    {
+      "name": "Lyn Brooks",
+      "role": "Patient partner",
+      "photo": "assets/images/advisory/lyn-brooks.png",
+      "color": "#43C4D9",
+      "focus": "Founder of dHub Group, eMHIC Ambassador, and a member of the AI Ethics Advisory Panel at Canada’s Digital Governance Council. Advocates for data sovereignty by design, community data commons and platform cooperativism."
+    },
+    {
+      "name": "Chris J",
+      "role": "Patient partner",
+      "photo": "assets/images/advisory/chris-j.png",
+      "color": "#EE447F",
+      "focus": "Lifelong experience of complex chronic illness, brought to research, quality improvement, health technology assessment, standards development and governance. Background in instructional design and web technologies; interests in AI, interoperability and health data literacy."
+    },
+    {
+      "name": "Katie Tong",
+      "role": "Patient partner",
+      "photo": "assets/images/team/katie-tong.jpeg",
+      "color": "#FEC415",
+      "focus": "Navigates a chronic health condition while also a parent and a caregiver to elderly parents. A corporate tech team lead by profession, a patient partner since 2019, and committed to research that weighs lived experience equally with evidence."
+    },
+    {
+      "name": "Michel White",
+      "role": "Patient partner",
+      "photo": "assets/images/advisory/michel-white.jpeg",
+      "color": "#8670B2",
+      "focus": "Twenty-five years as a patient partner across dozens of committees, including the Physician Quality Improvement steering committee. Lives with panhypopituitarism and is a transplant caregiver. Speaks for patients who cannot or do not know how to speak for themselves."
+    }
+  ],
+  "maya": {
+    "photo": "assets/images/furry/maya.jpg",
+    "name": "Maya T. Butts, Shiba Inu",
+    "likes": "playing ball on the beach, cheese, attention from strangers, extreme temperatures, taking herself for a walk.",
+    "dislikes": "fireworks, fruit, baths, affection.",
+    "alumni": "Eighteen alumni have passed through the lab since 2021."
+  },
+  "speaking": {
+    "intro": "I speak on AI, equity and nursing practice — keynotes, rounds, panels, workshops and board education. What I charge depends on who is asking and what the work is.",
+    "scaleNote": "Four bands rather than a price list. Community and patient-led work is unpaid by design and subsidised by the commercial band; if a fee is the only barrier, say so in your message and I will find a way.",
+    "topics": [
+      "AI and nursing practice",
+      "Equity in health-technology implementation",
+      "Explainable AI in health systems",
+      "AI scribes and documentation burden",
+      "Participatory design with patients and providers",
+      "Nursing informatics competencies"
+    ],
+    "audiences": [
+      "Patient or community group",
+      "University, hospital or association",
+      "Health authority or ministry",
+      "Industry, vendor or consultancy"
+    ],
+    "formats": [
+      "Virtual talk",
+      "In-person keynote",
+      "Workshop or facilitation",
+      "Panel or advisory board"
+    ],
+    "timings": [
+      "Within six weeks",
+      "Two to six months out",
+      "More than six months out"
+    ],
+    "tiers": [
+      {
+        "tier": "No fee",
+        "color": "#43C4D9",
+        "who": "Patient-led and community organisations, volunteer-run nursing chapters, student societies, public libraries, K-12 and undergraduate classes.",
+        "fee": "Honorarium waived",
+        "detail": "In person: travel and accommodation covered. Two of these a term, first come."
+      },
+      {
+        "tier": "Academic and public good",
+        "color": "#FEC415",
+        "who": "Universities, hospital rounds and grand rounds, non-profit research conferences, professional associations, health charities.",
+        "fee": "Standard rate",
+        "detail": "Virtual talks sit at the lower end of the range, in-person keynotes at the upper. Waived where the host has no honorarium budget."
+      },
+      {
+        "tier": "Public sector and health systems",
+        "color": "#EE447F",
+        "who": "Health authorities, provincial and federal ministries, Crown agencies, accreditation, regulatory and standards bodies.",
+        "fee": "Institutional rate",
+        "detail": "Virtual and in-person keynotes are quoted separately. Half-day workshops and facilitated sessions sit above both."
+      },
+      {
+        "tier": "Industry and commercial",
+        "color": "#8670B2",
+        "who": "Vendors, consultancies, for-profit conferences, sponsored webinars and podcasts, commercial advisory boards.",
+        "fee": "Commercial rate",
+        "detail": "Keynotes, workshops, advisory days and hourly consultations are each quoted on request. Fees are directed to trainee support."
+      }
+    ],
+    "notes": [
+      {
+        "head": "What moves the number",
+        "body": "A talk built from scratch or requiring new analysis carries a supplement · extra sessions, panels or media on the same day are charged as additional work · recording kept and redistributed by the host: licensed separately · multi-day facilitation quoted as a day rate."
+      },
+      {
+        "head": "Travel and logistics",
+        "body": "Fees exclude travel. In person: economy airfare, accommodation, ground transport and a per diem, booked by the host or reimbursed · cross-country and international bookings need a day either side · virtual is often the better use of everyone's budget."
+      },
+      {
+        "head": "Booking",
+        "body": "Six to eight weeks' notice preferred · commercial bookings confirm on a deposit, with the balance due after the event · cancellation inside two weeks is invoiced at half · industry fees go to trainee stipends and travel, not to me."
+      }
+    ]
+  },
+  "join": {
+    "openLabel": "Open now",
+    "openHead": "Accepting Masters thesis-stream students for the 2027 intakes.",
+    "body": "Across every level of collaboration and supervision I encourage applicants from groups underrepresented in nursing research and academia. Note: I do not take on supervision inquiries made within one month of an application deadline.",
+    "columns": [
+      {
+        "head": "Send me",
+        "body": "A short note on the project you want to work on and how your background fits · your informatics background and any publications · unofficial transcripts · CV and a writing sample.",
+        "foot": "Attach these to the form and they reach me directly."
+      },
+      {
+        "head": "PhD applicants",
+        "body": "A foundational grounding in nursing or health informatics · a completed Masters in nursing, informatics or a related field · at least one peer-reviewed paper in a health informatics journal.",
+        "foot": "UBC IGS Global Studies / UBCO Nursing Grad"
+      },
+      {
+        "head": "Everyone else",
+        "body": "Postdocs, local or remote. Health authorities, NGOs, community organisations and industry working on health equity and health technology. UBCO nursing students wanting a Y4 preceptorship.",
+        "foot": ""
+      }
+    ]
+  },
+  "about": {
     "photo": "assets/images/director.jpg",
-    "bio": [
-      "The HIE Lab's work is interdisciplinary and underpinned by critical theories and implementation science. A key aim in our research is to ensure meaningful inclusion of non-dominant groups in the conceptualization, design, development, and implementation of health technologies in health systems.",
-      "Charlene has expertise in mixed methods, participatory, and co-production approaches, HCI, and employing critical perspectives throughout the technology lifecycle. Charlene has experience with various aspects of health information technology in health systems and nursing, including nursing informatics competencies, usability research, person-centred design and development, rapid and exploratory prototyping, and technology adoption and usage."
-    ],
-    "affiliations": [
-      {
-        "title": "Affiliated Investigator",
-        "org": "Vancouver Coastal Health Research Institute",
-        "url": "https://www.vchri.ca/"
-      },
-      {
-        "title": "Affiliated Investigator",
-        "org": "Fraser Health Authority",
-        "url": "www.fraserhealth.ca/research/"
-      },
-      {
-        "org": "Interior Health Authority",
-        "title": "Affiliated Investigator",
-        "url": "https://www.interiorhealth.ca/about-ih/research/"
-      },
-      {
-        "title": "President-Elect",
-        "org": "Canadian Nursing Informatics Association (CNIA)",
-        "url": "https://cnia.ca/"
-      },
-      {
-        "title": "Co-Director and Co-Founder",
-        "org": "Nursing and Artificial Intelligence Leadership (NAIL) Collaborative",
-        "url": "https://www.nailcollab.org/"
-      },
-      {
-        "title": "Canadian Co-Director",
-        "org": "AI Nurses Network",
-        "url": "https://www.ai-nurses.com/"
-      },
-      {
-        "title": "Research Advisory Panel Co-Lead",
-        "org": "International Medical Informatics Association - Nursing Informatics Interest Group",
-        "url": "https://imia-medinfo.org/wp/sig-ni-nursing-informatics/"
-      },
-      {
-        "title": "EDI AI Co-lead",
-        "org": "UBC Data Science and Health (DASH) Cluster",
-        "url": "https://datascienceandhealth.ubc.ca/"
-      }
-    ],
-    "links": {
-      "email": "healthinformatics [dot] equity [at] ubc [dot] ca",
-      "orcid": "http://orcid.org/0000-0002-6520-1765",
-      "linkedin": "https://www.linkedin.com/in/cronquillo/",
-      "google_scholar": "https://scholar.google.com/citations?user=6qKKv3EAAAAJ&hl=en"
-    },
-    "funding_acknowledgement": "My work is/has been funded by AMS Healthcare, Brocher Foundation, Canadian Nurses Foundation, Roche Canada, Social Sciences and Humanities Research Council of Canada, UBC Internal Grants"
+    "kicker": "Filipina scholar · Registered nurse · Health informatician",
+    "lead": "The lab's work is interdisciplinary and underpinned by critical theories and implementation science, aimed at meaningful inclusion of non-dominant groups in how health technologies are conceived, designed, built and implemented.",
+    "body": "Charlene works in mixed methods, participatory and co-production approaches and HCI: nursing informatics competencies, usability research, person-centred design, rapid prototyping, and technology adoption.",
+    "funders": "Funded by AMS Healthcare, Brocher Foundation, Canadian Nurses Foundation, Roche Canada, SSHRC, and UBC internal grants.",
+    "researchQuote": "Non-dominant groups belong in the conceptualization, design and implementation of health technology — not only in its evaluation.",
+    "peopleQuote": "Above all we value doing good work with good people — compassion, justice, equity, humility, transparency, interdisciplinarity."
   },
-  "projects": {
-    "active": [
-      {
-        "title": "LANTERN: Learning and AI Navigation for Transformative Education and Research in Nursing",
-        "status": "Starting up",
-        "funding": "UBCO Aspire-2040 Learning Transformations Fund",
-        "co_investigators": "Burton, L., Douglas-Campbell, K., Harvey, C., Lawrence, R., Munro, T., Nanyonjo, J., Rush, K., Wilson, R.",
-        "description": "The LANTERN project addresses the unique needs of graduate nursing students by developing educator-designed and controlled AI agent ensemble to foster development of critical thinking through Socratic dialogue."
-      },
-      {
-        "title": "Thinking Aloud with AI: Nursing Students' Cognitive Processes Using GenAI for Clinical Reasoning",
-        "status": "Developing ethics",
-        "funding": "UBC SoTL Seed Program",
-        "co_investigators": "Wilson, R., Willson, M., Garcia Chua, R., Moralejo, L., Kennedy L., Sturgess, K.",
-        "description": "This project aims to understand cognitive processes involved when undergraduate nursing students use generative AI tools when working on complex clinical reasoning tasks."
-      },
-      {
-        "title": "Stakeholder perspectives and impacts of explainable artificial intelligence: A case study in a British Columbia health authority",
-        "status": "Data collection & prelimnary analyses",
-        "funding": "SSHRC Insight Development Grant (2023–2025); UBC HIFI Awards (2022–23)",
-        "co_investigators": "Conati, C., Currie, L.M., Hamarneh, G., Janke, R., Li, X., Block, L., Beschastnikh, I.",
-        "description": "This study employs realist methods to explore considerations for health systems operations and clinician end-user implications of developing and implementing explainable AI and clinical decision support tools."
-      },
-      {
-        "title": "Mapping trust in nurses with dimensions of trustworthy artificial intelligence: A scoping review",
-        "status": "Study completed; Developing knowledge outputs",
-        "funding": "UBC Hampton Fund Research Grant (2022–25)",
-        "co_investigators": "Booth, R., Janke, R., Chan, R., Recsky, C.",
-        "description": "Is it possible for artificial intelligence (AI) models to demonstrate trustworthiness in ways that the world's consistently most trusted professionals – nurses – are thought to do? Or is it that some dimensions of trustworthiness are only demonstrable by humans? This scoping review and thematic analysis will map and synthesize the evidence on nursing trust and understand parallels to computational understandings of trustworthiness, in order to envision novel approaches to developing trustworthy AI."
-      }
-    ],
-    "past": [
-      {
-        "title": "Identifying patient-validated compassion and equity concepts in community care clinical notes through natural language processing",
-        "funding": "AMS Healthcare",
-        "co_investigators": ""
-      },
-      {
-        "title": "Pre-processing community nursing and allied health data for equity-informed artificial intelligence for interdisciplinary wound care",
-        "status": "Study completed; Developing knowledge outputs",
-        "funding": "",
-        "co_investigators": ""
-      },
-      {
-        "title": "Capturing health equity in community nursing electronic documentation",
-        "funding": "",
-        "co_investigators": ""
-      },
-      {
-        "title": "A mobile makerspace to support inclusive patient and community-led technology solutions for rural health and wellness",
-        "funding": "UBCO MURPH Program (2021–2022)",
-        "co_investigators": "Li, E., Rush, K."
-      },
-      {
-        "title": "Designing and developing a cost-effective, immersive-technology based veinfinding device to solve difficult intravenous access in healthcare settings",
-        "funding": "UBC HIFI Awards (2022–23)",
-        "co_investigators": "Milani, A. (NPI), Ronquillo, C., Tam, R., Lo, V., Krishnamurthy, R., Zavahir, A."
-      },
-      {
-        "title": "Artificial Intelligence for Nursing: Ethical, Legal and Social Implications",
-        "funding": "Brocher Foundation (Switzerland)",
-        "co_investigators": "Topaz M., Pruinelli L., Peltonen L.M., Nibber R., DeForest H."
-      },
-      {
-        "title": "Adoption of speech recognition technology in community healthcare nursing",
-        "funding": "UBC Nursing Helen Shore Nursing Endowment Fund",
-        "co_investigators": "Al-Masslawi, D., Block, L."
-      },
-      {
-        "title": "Barriers, facilitators, and outcomes of a novel interdisciplinary eHealth clinical system to improve pediatric sleep care pathways in British Columbia",
-        "funding": "UBC HIFI Awards (2022–23)",
-        "co_investigators": "Keys, E. (NPI), Ipsirogu, O., Wensley, D., Gabriel, D., Kuo, C., Brown, M.G., Ronquillo, C., Abalde, Q., McWilliams, S."
-      },
-      {
-        "title": "The Impact of COVID-19 on Health Informatics",
-        "funding": "Ryerson FCS COVID-19 Rapid Response Research Grant",
-        "co_investigators": "Topaz, M., Peltonen L.M., Alhuwail D., Mitchell J., Risling T."
-      },
-      {
-        "title": "AI-empowered real-time COVID-19 Symptom Monitoring and Prediction among Senior Residents",
-        "funding": "ROCHE COVID-19 Innovation Challenge",
-        "co_investigators": "Rahimi, A.S. (NPI), Chu, C.H., Ronquillo, C., McGilton K."
-      },
-      {
-        "title": "Social distancing struggles of apartment-dwelling immigrants",
-        "funding": "Ryerson FCS COVID-19 Rapid Response Research Grant",
-        "co_investigators": "Guruge S. (NPI), Sidani S., Lee C., Ronquillo C."
-      },
-      {
-        "title": "MOBile-health and Implementation Leadership Evaluation (MOBILE) Nurse Study",
-        "funding": "UBC Nursing Helen Shore Nursing Endowment Fund",
-        "co_investigators": "Currie L., Dahinten S., Bungay V."
-      },
-      {
-        "title": "Understanding stakeholders' perspectives on implementing deprescribing in care homes (STOPPING)",
-        "funding": "NIHR Research for Patient Benefit (UK)",
-        "co_investigators": "Warmoth, K. (NPI), Stein K., Day J.K., Cockroft E."
-      }
-    ]
-  },
-  "team": {
-    "description": "Above all, we value doing good work with good people. We work as a collaborative team grounded in compassion, justice, equity, humility, diversity, inclusion, transparency, and interdisciplinarity. We value the unique and diverse contributions each person brings, work on interesting problems to help technology be used for good, and strive to develop thoughtful and inclusive technologies that are meaningful and useful to people.",
-    "current": [
-      {
-        "name": "Dr. Chantelle Recsky",
-        "pronouns": "she/they",
-        "role": "Research Associate",
-        "photo": "assets/images/team/chantelle-r.jpg",
-        "bio": "Dr. Recsky is a Registered Nurse and her areas of interest include health information technologies, quality and safety, and knowledge translation, as well as supporting students to gain knowledge and experience in research."
-      },
-      {
-        "name": "Andrea Burrows",
-        "pronouns": "she/her",
-        "role": "PhD Candidate",
-        "photo": "assets/images/team/andrea-burrows.jpg",
-        "bio": "Andrea is a Registered Nurse and PhD candidate in the Faculty of Health and Social Development at the University of British Columbia, Okanagan Campus. Her doctoral research explores how nurses use digital technologies to provide individualised care for families in enhanced family visiting programs from across Canada. Andrea holds a Masters of Science in Nursing from UBC and a Bachelors of Science in Nursing from the University of Alberta. Outside her research, Andrea enjoys spending time with her family."
-      },
-      {
-        "name": "Naureen Mukhi",
-        "pronouns": "she/her",
-        "role": "Masters Trainee (thesis)",
-        "photo": "assets/images/team/naureen-mukhi.jpg",
-        "bio": "Naureen Mukhi is a Registered Nurse and Graduate Research Assistant working on her Masters in Nursing at the University of British Columbia (Okanagan). Her thesis is on investigating health system stakeholders' perspectives use of Explainable Artificial Intelligence (XAI) for clinical decision support. Naureen has completed her diploma in Digital Health and Data Analytics from the Michener Institute of Education in Ontario. In parallel with her studies, she also works as Digital Health Clinical Lead at Royal Columbian Hospital with Fraser Health in BC. Naureen enjoys nature, running and spends time volunteering in her community prayer place."
-      },
-      {
-        "name": "Josephine Nanyonjo",
-        "pronouns": "she/her",
-        "role": "Masters Trainee (thesis)",
-        "photo": "assets/images/team/josephine-nanyonjo.png",
-        "bio": "Josephine is deeply committed to addressing the persistent health inequities that exist globally. As a Registered Nurse, she has dedicated the past few years to improving healthcare in rural and underserved areas of Uganda, utilizing her knowledge, skills, and time to make a tangible impact. She is particularly enthusiastic about the potential of technology to provide innovative solutions to this enduring global challenge. Josephine is a social person who values spending time with friends and family, and enjoys swimming, hiking and spending time in nature."
-      },
-      {
-        "name": "Kathryn Sturgess",
-        "pronouns": "she/her",
-        "role": "Research Assistant, Y4 BSN Student",
-        "photo": "assets/images/team/kathryn-sturgess.jpeg",
-        "bio": "Kathryn Sturgess is a fourth year nursing student at UBC Okanagan, originally from Canmore, Alberta. She is interested in how artificial intelligence can be used in healthcare, with a focus on its ethical use and practical application in clinical settings. Looking ahead, Kathryn hopes to pursue a career in medicine and research, specifically within rural emergency departments."
-      },
-      {
-        "name": "Amrit Kaur Dhami",
-        "pronouns": "she/her",
-        "role": "Research Assistant, Y4 BSN Student",
-        "photo": "assets/images/team/amrit-kaur-dhami.jpg",
-        "bio": "Amrit Kaur Dhami is currently in her fourth year of nursing and thrilled to be a part of this research team. She is deeply committed to fostering a supportive and inclusive community within the team. She believes that research provides an excellent opportunity to contribute to the enhancement of nursing experiences, advocate for the needs of our peers, and facilitate meaningful connections among students, faculty, and the broader nursing community. With her strong interpersonal skills, leadership experience, and genuine enthusiasm for the occupation she is dedicated to working as a team member. She loves spending her summers in Kelowna and enjoying the warm weather, beaches, and good company."
-      },
-      {
-        "name": "Jianan Wang",
-        "pronouns": "she/her",
-        "role": "Visiting PhD Candidate",
-        "photo": "assets/images/team/jianan-wang.jpg",
-        "bio": "Jianan is a nursing PhD student from Zhejiang University, China, and is currently a visiting international research student at UBCO. She received her B.S. in Nursing from Beijing University of Chinese Medicine, China. Her research focuses on the ethical implications of information technology in the nursing field, with a particular interest in understanding how these technologies influence nurses' behaviors."
-      },
-      {
-        "name": "Dr. Hilal Yildirim",
-        "pronouns": "she/her",
-        "role": "Visiting Scientist, Associate Professor",
-        "photo": "assets/images/team/hilal-yildirim.jpeg",
-        "bio": "Dr Hilal Yıldırım is a Visiting Scientist at the University of British Columbia Okanagan, working under the supervision of Charlene Ronquillo, whose work in digital health and health equity has been highly influential in shaping her current research direction. She is an Associate Professor in the Department of Public Health Nursing at Inonu University, Türkiye, where she continues her academic and research activities. Dr. Yıldırım has been actively engaged in academia since 2011, following her clinical experience in hospital settings between 2009 and 2011. With over a decade of experience, her work focuses on public health nursing, social determinants of health, and vulnerable populations, with a growing emphasis on healthy aging and equitable access to care. Her current research centers on digital health and remote care technologies for older adults, particularly in disaster-affected and resource-constrained settings. She is especially interested in how innovative, technology-supported approaches can enhance accessibility, usability, and continuity of care for aging populations within community and public health systems. As part of her collaboration in Canada, she contributes to research aligned with health equity and digital transformation in healthcare, aiming to develop scalable and context-sensitive solutions that respond to real-world needs. Her work bridges clinical insight, public health priorities, and emerging digital health innovations. Her recent collaborative publication examines the effectiveness of eHealth approaches for blood pressure monitoring and control in older adults, reflecting her commitment to advancing evidence-based digital health practices. Selected Publication: Yıldırım, H., Borycki, E., Mallidou, A. A., Dordunoo, D., & Yıldız, S. (2026). Examining the effectiveness of eHealth approaches to blood pressure monitoring and control in older adults: A systematic review. Educational Gerontology, 1–17. ORCID: https://orcid.org/0000-0003-3971-3799 | ResearchGate: https://www.researchgate.net/profile/Hilal-Yildirim-7/research | Web of Science: https://www.webofscience.com/wos/author/record/ABI-6245-2020."
-      },
-      {
-        "name": "Nicole Ketter",
-        "pronouns": "she/her",
-        "role": "Research Associate",
-        "photo": "assets/images/team/nicole-ketter.jpg",
-        "bio": "Nicole is currently working on her BScN at the University of Calgary. She previously completed her BSc in Biology from UBCO and her MSc in Rehabilitation Sciences from UBC. She has been part of the HIE lab since 2022 and enjoys contributing to developing knowledge on responsible AI use."
-      },
-      {
-        "name": "Diana Shim",
-        "pronouns": "she/her",
-        "role": "Research Assistant, Y3 BSN Student",
-        "photo": "assets/images/team/diana-shim.jpg",
-        "bio": "Diana Shim is a third-year nursing student at UBC Okanagan. She has clinical experience as an Employed Student Nurse, has contributed to the Interior Health New Grad Steering Committee, and has supported students as a simulation lab monitor. She is excited to develop her skills in academic writing, literature reviews, qualitative research, and technology-enabled equity work. Outside of academics, Diana enjoys spending time with friends, baking, and cooking."
-      }
-    ],
-    "furry team members": [
-      {
-        "name": "Maya T. Butts",
-        "breed": "Shiba Inu",
-        "role": "The actual PI",
-        "photo": "assets/images/furry/maya.jpg",
-        "likes": "playing ball on the beach, cheese, attention from strangers, extreme temperatures (scorching hot and freezing cold), taking myself for a walk",
-        "dislikes": "fireworks, fruit, baths, affection"
-      }
-    ],
-    "alumni": [
-      {
-        "name": "Winnifred Adzo Vittor",
-        "role": "Volunteer Research Assistant"
-      },
-      {
-        "name": "Ruinan Jin",
-        "role": "Research Collaborator, PhD Student, UBCV Electrical and Computer Engineering"
-      },
-      {
-        "name": "Jannatul Ferdous Shapnil",
-        "role": "Volunteer Research Assistant"
-      },
-      {
-        "name": "Mahtab Matin",
-        "role": "Research Assistant, PhD, UBCO School of Nursing"
-      },
-      {
-        "name": "Jane Shi",
-        "role": "Research Assistant, MSc, UBCV Electrical and Computer Engineering"
-      },
-      {
-        "name": "Geneveave Barbo",
-        "role": "Volunteer Research Assistant, McGill University Nursing"
-      },
-      {
-        "name": "Vanessa Lo",
-        "role": "Research Assistant, 4th Year Nursing Preceptor Mentee, UBCO BSN"
-      },
-      {
-        "name": "Nicole Favor",
-        "role": "Research Assistant, UBCO BSN Student"
-      },
-      {
-        "name": "Isabella Mendoza",
-        "role": "Research Assistant, UBCO BSc Computer Science"
-      },
-      {
-        "name": "Sarah Schumacher",
-        "role": "Research Assistant, UBCO BSN Student"
-      },
-      {
-        "name": "Mehak Mundi",
-        "role": "Research Assistant, UBCO BSN Student"
-      },
-      {
-        "name": "Kenna Hunter",
-        "role": "Research Assistant, UBCO BSN Student"
-      },
-      {
-        "name": "Reagan Chicoine",
-        "role": "Research Assistant, UBCO BSN Graduate"
-      },
-      {
-        "name": "Sharon Ilesanmi",
-        "role": "Research Assistant, UBCO BSN Graduate"
-      },
-      {
-        "name": "Ammar Zavahir",
-        "role": "Research Assistant, UBCO BSc Computer Science"
-      },
-      {
-        "name": "Ashish Giri",
-        "role": "2021–22 MURPH Scholar"
-      },
-      {
-        "name": "Emily Mayzes-Kotulla",
-        "role": "2021–22 MURPH Scholar"
-      },
-      {
-        "name": "Dawson Penner",
-        "role": "2021–22 MURPH Scholar"
-      }
-    ]
-  },
-  "news": [
+  "themes": [
     {
-      "date": "2026-07",
-      "text": "The [NAIL Collaborative](https://www.nailcollab.org/#events) hosts the AINurse-26: Fifth International Workshop on AI in Nursing in Ottawa, Canada, co-located with AIME 2026."
+      "src": "assets/icons/nurses.svg",
+      "label": "Nurses"
     },
     {
-      "date": "2026-06",
-      "text": "We're looking forward to slowing down a little and taking care of ourselves over the summer!"
+      "src": "assets/icons/patients.svg",
+      "label": "Patients"
     },
     {
-      "date": "2026-06",
-      "text": "Charlene chairs the 2026 Canadian Nursing Informatics Association (CNIA) Virtual Conference."
+      "src": "assets/icons/data.svg",
+      "label": "Health data"
     },
     {
-      "date": "2026-06",
-      "text": "New publication in JMIR: Beyond Time Saved: Implementation, Equity, and the Utility Threshold for Nursing AI Scribes.",
-      "url": "https://www.jmir.org/2026/1/e101190/"
+      "src": "assets/icons/network.svg",
+      "label": "Networks"
     },
     {
-      "date": "2026-06",
-      "text": "New publication with the [AI-Nurses Network](https://www.ai-nurses.com/) in Nurse Education in Practice: The era of agentic AI: Should nurses and midwives learn about vibe coding and AI agents for better health and care?",
-      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1471595326001393?via%3Dihub"
+      "src": "assets/icons/hospital.svg",
+      "label": "Systems"
     },
     {
-      "date": "2026-06",
-      "text": "New publication with the [UBCO Digital Transparency Research Excellence Cluster](https://digital-transparency.ok.ubc.ca/) in AI and Ethics: Secondary use of health data: applications, models, algorithms, and ethical considerations.",
-      "url": "https://link.springer.com/article/10.1007/s43681-026-01017-2"
-    },
-    {
-      "date": "2026-05",
-      "text": "Charlene is invited to give two keynotes at IV Congreso Interdisciplinar em Saúde (CONIS) Tecnologias digitais nas ciências da saúde and The III International Forum on Workforce Management and Continuing Education in Health (FIGEPS) hosted by Universidade do Estado de Santa Catarina (UDESC) and Universidade Comunitária da Região de Chapecó (Unochapecó). Chapecó, Santa Catarina, Brazil."
+      "src": "assets/icons/home.svg",
+      "label": "Care at home"
     }
   ],
-  "talks": [
+  "affiliations": [
     {
-      "title": "Canadian Primary Care Research Network (CPCRN) Learning Series",
-      "description": "Discussion about Meaningful equity, diversity, and inclusion efforts in the CPCRN Network",
-      "youtube_id": "NpptgBfYUNg"
+      "role": "President-Elect",
+      "org": "Canadian Nursing Informatics Association",
+      "url": "https://cnia.ca/"
     },
     {
-      "title": "Health Data Foundations and Equitable AI",
-      "description": "Invited talk to kick off the AI Meets Ethics Series of the UBC Data Science and Health (DASH) Cluster",
-      "youtube_id": ""
+      "role": "Co-Director and Co-Founder",
+      "org": "Nursing and AI Leadership (NAIL) Collaborative",
+      "url": "https://www.nailcollab.org/"
     },
     {
-      "title": "Health Equity Documentation Project: Preliminary Findings",
-      "description": "Presentation at the 2022 BC Rural Health Research Exchange",
-      "youtube_id": ""
+      "role": "Canadian Co-Director",
+      "org": "AI Nurses Network",
+      "url": "https://www.ai-nurses.com/"
     },
     {
-      "title": "Using Artificial Intelligence in Nursing: Priorities, opportunities, and recommendations",
-      "description": "Invited talk at AAAiH Nursing and AI Webinar 2021, from the NAIL Collaborative",
-      "youtube_id": ""
+      "role": "Research Advisory Co-Lead",
+      "org": "IMIA Nursing Informatics Interest Group",
+      "url": "https://imia-medinfo.org/wp/sig-ni-nursing-informatics/"
+    },
+    {
+      "role": "EDI AI Co-Lead",
+      "org": "UBC Data Science and Health (DASH) Cluster",
+      "url": "https://datascienceandhealth.ubc.ca/"
+    },
+    {
+      "role": "Affiliated Investigator",
+      "org": "Vancouver Coastal Health Research Institute",
+      "url": "https://www.vchri.ca/"
+    },
+    {
+      "role": "Affiliated Investigator",
+      "org": "Fraser Health Authority",
+      "url": "https://www.fraserhealth.ca/research/"
+    },
+    {
+      "role": "Affiliated Investigator",
+      "org": "Interior Health Authority",
+      "url": "https://www.interiorhealth.ca/about-ih/research/"
     }
   ],
-  "opportunities": {
-    "intro": "Across all levels of collaboration and supervision, I encourage applicants from underrepresented groups in nursing research and academia to apply to work with me.",
-    "collaboration_text": "I welcome inquiries from health authorities, health systems stakeholders, NGOs, communities/community-organisations, and industry interested in health equity and health technologies to email me (healthinformatics.equity@ubc.ca) if you would like to work together.",
-    "postdoc_text": "Local and remote collaborations are welcomed. Please email me.",
-    "grad_status": "I am accepting Masters thesis-stream students for the 2027 academic intakes.",
-    "grad_general": "Applying to pursue graduate studies is not a decision to take lightly. Preparing a strong graduate application package takes time and initial relationship building with your potential supervisor. As a general guide, I do not entertain supervision inquiries made within 1 month of the application deadline.",
-    "grad_interest": "I am keen to mentor and support high-calibre thesis-stream Masters and PhD students who have a strong interest in research in the field of nursing and health informatics.",
-    "grad_programs": [
-      {
-        "name": "UBC Interdisciplinary Graduate Studies (IGS) Global Studies Stream",
-        "url": "https://gradstudies.ok.ubc.ca/igs/global-studies/"
-      },
-      {
-        "name": "UBCO School of Nursing Graduate Programs",
-        "url": "https://nursing.ok.ubc.ca/graduate/"
-      }
-    ],
-    "phd_requirements": [
-      "You should have a foundational understanding of nursing/health informatics (courses or work experience)",
-      "Already obtained a Master's degree in nursing, health informatics, or a related field",
-      "Published at least one peer-reviewed paper in a health informatics journal"
-    ],
-    "undergrad_text": "I encourage UBCO Nursing students interested in completing a Y4 research preceptorship to contact me. I occasionally offer funded research internships, work study, or co-op positions.",
-    "application_requirements": [
-      "A short description of the project you are interested in and how your background aligns with the project aims",
-      "Your background in health or nursing informatics, including supporting publications (required for PhD applicants)",
-      "Copies of unofficial transcripts",
-      "Your CV and copy of a recent publication or other writing sample",
-      "Please put \"[HIE!Lab]\" in your subject line"
-    ],
-    "application_video": "https://youtu.be/B3oANa67Iq4"
-  },
-  "teaching": [
+  "gallery": [
     {
-      "year": "2025-2026",
-      "courses": [
-        "NRSG 543 – Nursing Leadership and Management in Practice (UBC-O)",
-        "NRSG 504 – Finding and Integrating Knowledge for Evidence-Informed Practice (UBC-O)"
-      ]
+      "src": "assets/images/gallery/HIELab_Apr2026.jpg",
+      "cap": "The lab at the UBCO Nursing clinical labs, April 2026",
+      "w": 300
     },
     {
-      "year": "2022–2023",
-      "courses": [
-        "NRSG 504 – Finding and Integrating Knowledge for Evidence-Informed Practice (UBC-O)"
-      ]
+      "src": "assets/images/gallery/005.jpg",
+      "cap": "Charlene presenting on health equity and artificial intelligence",
+      "w": 300
     },
     {
-      "year": "2020–2021",
-      "courses": [
-        "MN8932 – Nursing Informatics (Toronto Metropolitan University)",
-        "MN8902 – Qualitative Research Methods (Toronto Metropolitan University)"
-      ]
+      "src": "assets/images/gallery/001.jpg",
+      "cap": "Lab team meeting",
+      "w": 230
     },
     {
-      "year": "2019–2020",
-      "courses": [
-        "PPN 101 – Professional Practice in Nursing 1 (Toronto Metropolitan University)",
-        "NSE112 – Professional Development 1 (Toronto Metropolitan University)",
-        "NSE 11B – Nursing Theory (Toronto Metropolitan University)"
-      ]
+      "src": "assets/images/gallery/008.jpg",
+      "cap": "Panel discussion on AI in healthcare",
+      "w": 300
     },
     {
-      "year": "2018",
-      "courses": [
-        "Health and Clinical Informatics (University of Exeter)"
-      ]
+      "src": "assets/images/gallery/003.jpg",
+      "cap": "Collaborators at the Brocher Foundation, Switzerland",
+      "w": 300
+    },
+    {
+      "src": "assets/images/gallery/002.jpg",
+      "cap": "Lab members at conference",
+      "w": 230
+    },
+    {
+      "src": "assets/images/gallery/sandpits1.jpg",
+      "cap": "Lab team at conference",
+      "w": 300
+    },
+    {
+      "src": "assets/images/gallery/007.jpg",
+      "cap": "At the CMDO research event",
+      "w": 230
+    },
+    {
+      "src": "assets/images/gallery/sandpits2.jpg",
+      "cap": "Conference reception",
+      "w": 300
+    },
+    {
+      "src": "assets/images/gallery/004.jpg",
+      "cap": "Conference dinner",
+      "w": 230
+    },
+    {
+      "src": "assets/images/furry/maya.jpg",
+      "cap": "Maya, the actual PI",
+      "w": 190
     }
   ],
-  "advisory": {
-    "intro": "The HIE PIE (Patient/Provider/Process Involvement Engagement) Advisory is the HIE Lab's standing group of patient partners, healthcare providers, and process advisors who collaborate meaningfully in HIE Lab research. Advisory members are long-term HIE Lab members who contribute to research questions, priorities, study design, and knowledge translation across all our work — ensuring our work is grounded in lived experience and real-world practice.",
-    "members": [
-      {
-        "name": "Lyn Brooks",
-        "role": "Patient Partner",
-        "photo": "assets/images/advisory/lyn-brooks.png",
-        "bio": "Lyn is the Founder of dHub Group, an eMHIC Ambassador, and a member of the AI Ethics Advisory Panel at the Digital Governance Council in Canada. He serves as a Board Director, Advisory Council Member, and Ambassador for Ayra.forum. He is a passionate advocate for data sovereignty by design, for-profit community data commons, platform cooperativism, and the alignment of technology with humanity."
-      },
-      {
-        "name": "Chris J",
-        "role": "Patient Partner",
-        "photo": "assets/images/advisory/chris-j.png",
-        "bio": "Lifelong experience of complex chronic illness motivates Chris to participate as a patient partner in a broad range of research, quality improvement, health technology assessment, evidence syntheses, standards development and governance initiatives. With a background in instructional design, web technologies and learning management, Chris has a passion for continuous learning. She has a keen interest in health technologies including AI, digital health, virtual care, remote monitoring, health data literacy, interoperability, and learning health systems."
-      },
-      {
-        "name": "Katie Tong",
-        "role": "Patient Partner",
-        "photo": "assets/images/team/katie-tong.jpeg",
-        "bio": "Katie approaches life with insight and determination as she navigates a chronic health condition. Her perspective on the healthcare system is shaped by her overlapping roles as a patient, a parent, and a caregiver to her elderly parents. These experiences have given her a deep understanding of how individuals navigate care and build resilience across generations. Inspired by positive healthcare experiences, Katie is committed to advancing patient-centered care and strengthening healthcare systems. Drawing on her professional background as a corporate tech team lead, she brings strong collaboration and communication skills to her patient partnership work. She actively seeks out collaborative environments that integrate research and lived experience with equal emphasis, to create real-world solutions. Katie is a long-time resident of the Greater Vancouver area. She began her journey as a patient partner in 2019 and has remained actively engaged in healthcare initiatives ever since."
-      },
-      {
-        "name": "Michel White",
-        "role": "Patient Partner",
-        "photo": "assets/images/advisory/michel-white.jpeg",
-        "bio": "Michel is a patient partner who had surgery over 40 years ago on a large adenoma on her pituitary gland. Tumor grew back and she had six weeks of radiation therapy. She now has panhypopituitarism. Michel has also had both knees replaced and a meningioma removed. Michel is also a caregiver as her daughter had a double lung transplant three years ago. She is much more than her medical condition, speaking for herself and other patients who can’t or don’t know how to speak for themselves. She has been involved in many committees over the last twenty-five years that she has been a patient partner, including two cohorts with the Physician Quality Improvement and then the steering committee. Every day is a gift. Yesterday is gone, it’s history. Tomorrow isn’t here yet, it’s a mystery. That’s why today is called The Present – it’s a gift – unwrap it carefully and be Thankful for every day."
-      }
-    ]
-  },
-  "gallery": {
-    "title": "HIE Lab Life",
-    "photos": [
-      {
-        "src": "assets/images/gallery/HIELab_Apr2026.jpg",
-        "alt": "HIE Lab at UBCO Nursing Clinical Labs"
-      },
-      {
-        "src": "assets/images/gallery/001.jpg",
-        "alt": "HIE Lab team meeting"
-      },
-      {
-        "src": "assets/images/gallery/002.jpg",
-        "alt": "HIE Lab members at conference"
-      },
-      {
-        "src": "assets/images/gallery/003.jpg",
-        "alt": "HIE Lab collaborators at Brocher Foundation"
-      },
-      {
-        "src": "assets/images/gallery/004.jpg",
-        "alt": "HIE Lab conference dinner"
-      },
-      {
-        "src": "assets/images/gallery/005.jpg",
-        "alt": "Dr. Ronquillo presenting on Health Equity and Artificial Intelligence"
-      },
-      {
-        "src": "assets/images/gallery/007.jpg",
-        "alt": "HIE Lab at CMDO research event"
-      },
-      {
-        "src": "assets/images/gallery/008.jpg",
-        "alt": "HIE Lab panel discussion on AI in healthcare"
-      },
-      {
-        "src": "assets/images/gallery/sandpits1.jpg",
-        "alt": "HIE Lab team at conference"
-      },
-      {
-        "src": "assets/images/gallery/sandpits2.jpg",
-        "alt": "HIE Lab members at conference reception"
-      }
-    ]
-  }
+  "art": [
+    {
+      "title": "Ambient Scribes",
+      "local": "assets/images/headlines/FannyMaurel-DigitAmbientScribes-1280x720.png",
+      "ar": "16/9",
+      "artist": "Fanny Maurel",
+      "artistHref": "https://www.fannymaurel.fr/",
+      "coName": "Digit",
+      "coHref": "https://digital-dialogues.co.uk/",
+      "pageHref": "https://betterimagesofai.org/images?artist=FannyMaurel&title=AmbientScribes",
+      "alt": "The image shows a superimposition of colourful illustrations representing different objects in a secretariat: in the background, printed minutes. Above, the hands of a medical secretary typing on her keyboard, the hands of another stamping envelopes. The headset and foot pedal in the foreground are essential tools for typing. In the foreground, the red zig-zags typical of ambient scribe errors streak across the image."
+    }
+  ]
 }

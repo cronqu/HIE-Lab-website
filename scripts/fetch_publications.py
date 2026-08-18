@@ -4,7 +4,18 @@ Fetch publications from ORCID for Dr. Charlene Ronquillo
 and output Vancouver-style citations as JSON.
 
 Uses the ORCID public API (no authentication required).
-Enriches with CrossRef for full metadata and DOIs.
+Enriches with CrossRef for full metadata, DOIs, and precise publication dates.
+
+Changes from v2.0:
+  * CrossRef's publication date is kept to month and day precision, not just year.
+    ORCID only reliably supplies a year, which made "most recent" meaningless
+    within a year. Records now carry year/month/day plus `date` (ISO-ish string)
+    and `date_precision` so the site can sort and label by month.
+  * Output is deduplicated by normalised title. ORCID returns one group per work,
+    but the same paper can appear as several groups (preprint, ahead-of-print,
+    version of record, or duplicate submissions from different sources). Where
+    titles collide the record with a DOI and the most precise date wins.
+  * Sorting is by full date descending, not year descending.
 
 Usage: python fetch_publications.py
 Output: ../publications.json
@@ -28,11 +39,18 @@ OUTPUT_FILE = Path(__file__).parent.parent / 'publications.json'
 
 HEADERS_ORCID = {
     'Accept': 'application/json',
-    'User-Agent': 'HIELab-PubFetcher/2.0',
+    'User-Agent': 'HIELab-PubFetcher/3.0',
 }
 HEADERS_CROSSREF = {
-    'User-Agent': 'HIELab-PubFetcher/2.0 (mailto:healthinformatics.equity@ubc.ca)',
+    'User-Agent': 'HIELab-PubFetcher/3.0 (mailto:healthinformatics.equity@ubc.ca)',
 }
+
+# CrossRef date fields in order of preference. `published` is CrossRef's own
+# earliest-of-print-or-online date, which is the one that matches how people
+# think about when a paper appeared.
+DATE_KEYS = ('published', 'published-online', 'published-print', 'issued')
+
+PRECISION_RANK = {'day': 3, 'month': 2, 'year': 1}
 
 
 def fetch_orcid_works():
@@ -132,6 +150,40 @@ def search_crossref_by_title(title):
     return None
 
 
+def extract_date(meta, fallback_year=None):
+    """Pull the most precise publication date CrossRef will give us.
+
+    Returns a dict with year, month, day, precision. Month and day are None
+    when CrossRef only records a year, which is common for older records and
+    for journals that publish in issues rather than continuously.
+    """
+    if meta:
+        for key in DATE_KEYS:
+            parts = (meta.get(key) or {}).get('date-parts') or []
+            if parts and parts[0] and parts[0][0]:
+                p = parts[0]
+                year = p[0]
+                month = p[1] if len(p) > 1 else None
+                day = p[2] if len(p) > 2 else None
+                precision = 'day' if day else ('month' if month else 'year')
+                return {'year': year, 'month': month, 'day': day, 'precision': precision}
+
+    if fallback_year:
+        return {'year': fallback_year, 'month': None, 'day': None, 'precision': 'year'}
+    return {'year': None, 'month': None, 'day': None, 'precision': None}
+
+
+def iso_date(date):
+    """An ISO-ish string that sorts correctly and says how precise it is."""
+    if not date.get('year'):
+        return ''
+    if date.get('day'):
+        return f"{date['year']:04d}-{date['month']:02d}-{date['day']:02d}"
+    if date.get('month'):
+        return f"{date['year']:04d}-{date['month']:02d}"
+    return f"{date['year']:04d}"
+
+
 def format_authors_vancouver(authors):
     """Format CrossRef author list to Vancouver style."""
     if not authors:
@@ -154,7 +206,7 @@ def format_authors_vancouver(authors):
     return ', '.join(formatted)
 
 
-def format_vancouver_citation(meta, orcid_info):
+def format_vancouver_citation(meta, orcid_info, year):
     """Format a publication in Vancouver style using CrossRef or ORCID data."""
     # Use CrossRef metadata if available
     if meta:
@@ -171,13 +223,6 @@ def format_vancouver_citation(meta, orcid_info):
         container_titles = meta.get('container-title', [])
         if container_titles:
             container = container_titles[0]
-
-        year = orcid_info.get('year', '')
-        # Try CrossRef date if ORCID year missing
-        if not year:
-            date_parts = meta.get('published', {}).get('date-parts', [[]])
-            if date_parts and date_parts[0]:
-                year = date_parts[0][0]
 
         volume = meta.get('volume', '')
         issue = meta.get('issue', '')
@@ -204,7 +249,6 @@ def format_vancouver_citation(meta, orcid_info):
     if not title.endswith('.'):
         title += '.'
     journal = orcid_info.get('journal', '')
-    year = orcid_info.get('year', '')
 
     citation = title
     if journal:
@@ -212,6 +256,43 @@ def format_vancouver_citation(meta, orcid_info):
     if year:
         citation += f' {year}.'
     return citation
+
+
+def norm_title(title):
+    """Loose title key for duplicate detection: letters and digits only."""
+    return re.sub(r'[^a-z0-9]+', ' ', (title or '').lower()).strip()
+
+
+def record_score(entry):
+    """How much we trust this record when two share a title."""
+    score = 0
+    if entry.get('doi'):
+        score += 4
+    score += PRECISION_RANK.get(entry.get('date_precision'), 0)
+    if entry.get('vancouver_citation'):
+        score += 1
+    return score
+
+
+def dedupe(entries):
+    """Collapse records that describe the same work, keeping the best one."""
+    best = {}
+    for entry in entries:
+        key = norm_title(entry['title'])
+        if not key:
+            continue
+        current = best.get(key)
+        if current is None or record_score(entry) > record_score(current):
+            best[key] = entry
+    dropped = len(entries) - len(best)
+    if dropped:
+        logger.info(f'Collapsed {dropped} duplicate record(s) by title')
+    return list(best.values())
+
+
+def sort_key(entry):
+    """Newest first, by full date where CrossRef gave us one."""
+    return (entry.get('year') or 0, entry.get('month') or 0, entry.get('day') or 0)
 
 
 def process_publications(groups):
@@ -240,7 +321,9 @@ def process_publications(groups):
                     logger.info(f'  DOI found via title search: {doi}')
             time.sleep(0.5)
 
-        vancouver = format_vancouver_citation(crossref_meta, orcid_info)
+        # CrossRef is the better source for the date. ORCID's year is the fallback.
+        date = extract_date(crossref_meta, orcid_info.get('year'))
+        vancouver = format_vancouver_citation(crossref_meta, orcid_info, date.get('year'))
 
         url = ''
         if doi:
@@ -248,13 +331,17 @@ def process_publications(groups):
 
         entry = {
             'title': orcid_info['title'],
-            'year': orcid_info.get('year'),
+            'year': date.get('year'),
+            'month': date.get('month'),
+            'day': date.get('day'),
+            'date': iso_date(date),
+            'date_precision': date.get('precision'),
             'vancouver_citation': vancouver,
             'doi': doi,
             'url': url,
         }
         results.append(entry)
-        logger.info(f'  [{i + 1}/{len(groups)}] {entry["title"][:60]}')
+        logger.info(f'  [{i + 1}/{len(groups)}] {entry["date"] or "no date"}  {entry["title"][:56]}')
 
     return results
 
@@ -262,8 +349,11 @@ def process_publications(groups):
 def main():
     try:
         groups = fetch_orcid_works()
-        results = process_publications(groups)
-        results.sort(key=lambda x: x.get('year') or 0, reverse=True)
+        results = dedupe(process_publications(groups))
+        results.sort(key=sort_key, reverse=True)
+
+        with_month = sum(1 for r in results if r.get('month'))
+        logger.info(f'{with_month} of {len(results)} records have month precision')
 
         with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
             json.dump(results, f, indent=2, ensure_ascii=False)
