@@ -25,10 +25,11 @@
     "headlineImage": "Ambient Scribes",
     "showFigures": true,
     "abstractFields": true,
-    "marginalia": true
+    "marginalia": true,
+    "alumniCount": 20
   },
   "contact": {
-    "accessKey": "b1aa8863-bf9c-4a8b-bbc9-362f61ecb7d8",
+    "accessKey": "",
     "invitationsNote": "Keynotes, advisory panels, health-authority and community partnerships. Usually a reply within the week.",
     "subjects": [
       "Speaking invitation",
@@ -37,7 +38,8 @@
       "Media or press",
       "Something else"
     ],
-    "consent": "Your message and the address you give are sent to the lab by email and are not stored on this site."
+    "consent": "Your message and the address you give are sent to the lab by email and are not stored on this site.",
+    "attachNote": "Optional: attach a PDF (agenda, call for speakers, project brief) up to 5 MB."
   },
   "types": [
     {
@@ -253,7 +255,9 @@
       "title": "LANTERN: Learning and AI Navigation for Transformative Education and Research in Nursing",
       "funding": "UBCO Aspire-2040 Learning Transformations Fund",
       "co": "Burton, Douglas-Campbell, Harvey, Lawrence, Munro, Nanyonjo, Rush, Wilson",
-      "description": "An educator-designed and educator-controlled ensemble of AI agents that builds graduate nursing students’ critical thinking through Socratic dialogue."
+      "description": "An educator-designed and educator-controlled ensemble of AI agents that builds graduate nursing students’ critical thinking through Socratic dialogue.",
+      "match": [],
+      "papers": []
     },
     {
       "status": "Developing ethics",
@@ -262,7 +266,9 @@
       "title": "Thinking Aloud with AI: nursing students’ cognitive processes using GenAI for clinical reasoning",
       "funding": "UBC SoTL Seed Program",
       "co": "Wilson, Willson, Garcia Chua, Moralejo, Kennedy, Sturgess",
-      "description": "What actually happens in an undergraduate nursing student’s head when they reach for a generative AI tool during a complex clinical reasoning task."
+      "description": "What actually happens in an undergraduate nursing student’s head when they reach for a generative AI tool during a complex clinical reasoning task.",
+      "match": [],
+      "papers": []
     },
     {
       "status": "Data collection",
@@ -271,7 +277,11 @@
       "title": "Stakeholder perspectives and impacts of explainable artificial intelligence: a case study in a British Columbia health authority",
       "funding": "SSHRC Insight Development Grant 2023–25 · UBC HIFI 2022–23",
       "co": "Conati, Currie, Hamarneh, Janke, Li, Block, Beschastnikh",
-      "description": "Realist methods on what explainable AI and clinical decision support mean for health system operations and for the clinicians who have to use them."
+      "description": "Realist methods on what explainable AI and clinical decision support mean for health system operations and for the clinicians who have to use them.",
+      "match": [],
+      "papers": [
+        "Fairness in Classifying and Grouping Health Equity Information"
+      ]
     },
     {
       "status": "Knowledge outputs",
@@ -280,93 +290,127 @@
       "title": "Mapping trust in nurses with dimensions of trustworthy artificial intelligence: a scoping review",
       "funding": "UBC Hampton Fund Research Grant 2022–25",
       "co": "Booth, Janke, Chan, Recsky",
-      "description": "Can an AI model be trustworthy the way the world’s most trusted profession is thought to be? Or are some dimensions of trust only demonstrable by humans?"
+      "description": "Can an AI model be trustworthy the way the world’s most trusted profession is thought to be? Or are some dimensions of trust only demonstrable by humans?",
+      "match": [],
+      "papers": [
+        "Mapping trust in nurses with dimensions of trustworthy artificial intelligence: a scoping review"
+      ]
     }
   ],
   "past": [
     {
       "title": "Identifying patient-validated compassion and equity concepts in community care clinical notes through natural language processing",
-      "funding": "AMS Healthcare"
+      "funding": "AMS Healthcare",
+      "year": "2024",
+      "match": [],
+      "papers": [],
+      "co": ""
     },
     {
       "title": "Pre-processing community nursing and allied health data for equity-informed AI in interdisciplinary wound care",
-      "funding": "Study complete"
+      "funding": "Study complete",
+      "year": "2023",
+      "match": [],
+      "papers": [],
+      "co": ""
     },
     {
       "title": "Capturing health equity in community nursing electronic documentation",
-      "funding": ""
+      "funding": "",
+      "year": "2022",
+      "match": [],
+      "papers": [],
+      "co": ""
     },
     {
       "title": "A mobile makerspace to support inclusive patient and community-led technology solutions for rural health",
-      "funding": "UBCO MURPH 2021–22"
+      "funding": "UBCO MURPH 2021–22",
+      "year": "2022",
+      "match": [],
+      "papers": [],
+      "co": "Li E., Rush K."
     },
     {
       "title": "Artificial Intelligence for Nursing: ethical, legal and social implications",
-      "funding": "Brocher Foundation, Switzerland"
+      "funding": "Brocher Foundation, Switzerland",
+      "year": "2022",
+      "match": [],
+      "papers": [],
+      "co": "Topaz M., Pruinelli L., Peltonen L.M., Nibber R., DeForest H."
     },
     {
       "title": "Adoption of speech recognition technology in community healthcare nursing",
-      "funding": "Helen Shore Nursing Endowment Fund"
+      "funding": "Helen Shore Nursing Endowment Fund",
+      "year": "2021",
+      "match": [],
+      "papers": [],
+      "co": "Al-Masslawi D., Block L."
     },
     {
       "title": "The impact of COVID-19 on health informatics",
-      "funding": "Ryerson FCS Rapid Response"
+      "funding": "Ryerson FCS Rapid Response",
+      "year": "2020",
+      "match": [],
+      "papers": [],
+      "co": "Topaz M., Peltonen L.M., Alhuwail D., Mitchell J., Risling T."
     },
     {
       "title": "MOBile-health and Implementation Leadership Evaluation (MOBILE) Nurse Study",
-      "funding": "Helen Shore Nursing Endowment Fund"
+      "funding": "Helen Shore Nursing Endowment Fund",
+      "year": "2019",
+      "match": [],
+      "papers": [],
+      "co": "Currie L., Dahinten S., Bungay V."
     }
   ],
   "team": [
     {
       "name": "Dr. Chantelle Recsky",
       "role": "Research Associate",
-      "photo": "assets/images/team/chantelle-r.jpg"
+      "photo": "assets/images/team/chantelle-r.jpg",
+      "bio": "Dr. Recsky is a Registered Nurse and her areas of interest include health information technologies, quality and safety, and knowledge translation, as well as supporting students to gain knowledge and experience in research."
     },
     {
       "name": "Andrea Burrows",
       "role": "PhD Candidate",
-      "photo": "assets/images/team/andrea-burrows.jpg"
+      "photo": "assets/images/team/andrea-burrows.jpg",
+      "bio": "Andrea is a Registered Nurse and PhD candidate in the Faculty of Health and Social Development at the University of British Columbia, Okanagan Campus. Her doctoral research explores how nurses use digital technologies to provide individualised care for families in enhanced family visiting programs from across Canada. Andrea holds a Masters of Science in Nursing from UBC and a Bachelors of Science in Nursing from the University of Alberta. Outside her research, Andrea enjoys spending time with her family."
     },
     {
       "name": "Naureen Mukhi",
       "role": "Masters Trainee, thesis",
-      "photo": "assets/images/team/naureen-mukhi.jpg"
+      "photo": "assets/images/team/naureen-mukhi.jpg",
+      "bio": "Naureen Mukhi is a Registered Nurse and Graduate Research Assistant working on her Masters in Nursing at the University of British Columbia (Okanagan). Her thesis is on investigating health system stakeholders' perspectives use of Explainable Artificial Intelligence (XAI) for clinical decision support. Naureen has completed her diploma in Digital Health and Data Analytics from the Michener Institute of Education in Ontario. In parallel with her studies, she also works as Digital Health Clinical Lead at Royal Columbian Hospital with Fraser Health in BC. Naureen enjoys nature, running and spends time volunteering in her community prayer place."
     },
     {
       "name": "Josephine Nanyonjo",
       "role": "Masters Trainee, thesis",
-      "photo": "assets/images/team/josephine-nanyonjo.png"
-    },
-    {
-      "name": "Kathryn Sturgess",
-      "role": "Research Assistant, Y4 BSN",
-      "photo": "assets/images/team/kathryn-sturgess.jpeg"
-    },
-    {
-      "name": "Amrit Kaur Dhami",
-      "role": "Research Assistant, Y4 BSN",
-      "photo": "assets/images/team/amrit-kaur-dhami.jpg"
+      "photo": "assets/images/team/josephine-nanyonjo.png",
+      "bio": "Josephine is deeply committed to addressing the persistent health inequities that exist globally. As a Registered Nurse, she has dedicated the past few years to improving healthcare in rural and underserved areas of Uganda, utilizing her knowledge, skills, and time to make a tangible impact. She is particularly enthusiastic about the potential of technology to provide innovative solutions to this enduring global challenge. Josephine is a social person who values spending time with friends and family, and enjoys swimming, hiking and spending time in nature."
     },
     {
       "name": "Jianan Wang",
       "role": "Visiting PhD Candidate",
-      "photo": "assets/images/team/jianan-wang.jpg"
+      "photo": "assets/images/team/jianan-wang.jpg",
+      "bio": "Jianan is a nursing PhD student from Zhejiang University, China, and is currently a visiting international research student at UBCO. She received her B.S. in Nursing from Beijing University of Chinese Medicine, China. Her research focuses on the ethical implications of information technology in the nursing field, with a particular interest in understanding how these technologies influence nurses' behaviors."
     },
     {
       "name": "Dr. Hilal Yıldırım",
       "role": "Visiting Scientist, Associate Professor",
-      "photo": "assets/images/team/hilal-yildirim.jpeg"
+      "photo": "assets/images/team/hilal-yildirim.jpeg",
+      "bio": "Dr Hilal Yıldırım is a Visiting Scientist at the University of British Columbia Okanagan, working under the supervision of Charlene Ronquillo, whose work in digital health and health equity has been highly influential in shaping her current research direction. She is an Associate Professor in the Department of Public Health Nursing at Inonu University, Türkiye, where she continues her academic and research activities. Dr. Yıldırım has been actively engaged in academia since 2011, following her clinical experience in hospital settings between 2009 and 2011. With over a decade of experience, her work focuses on public health nursing, social determinants of health, and vulnerable populations, with a growing emphasis on healthy aging and equitable access to care. Her current research centers on digital health and remote care technologies for older adults, particularly in disaster-affected and resource-constrained settings. She is especially interested in how innovative, technology-supported approaches can enhance accessibility, usability, and continuity of care for aging populations within community and public health systems."
     },
     {
       "name": "Nicole Ketter",
       "role": "Research Associate",
-      "photo": "assets/images/team/nicole-ketter.jpg"
+      "photo": "assets/images/team/nicole-ketter.jpg",
+      "bio": "Nicole is currently working on her BScN at the University of Calgary. She previously completed her BSc in Biology from UBCO and her MSc in Rehabilitation Sciences from UBC. She has been part of the HIE lab since 2022 and enjoys contributing to developing knowledge on responsible AI use."
     },
     {
       "name": "Diana Shim",
       "role": "Research Assistant, Y3 BSN",
-      "photo": "assets/images/team/diana-shim.jpg"
+      "photo": "assets/images/team/diana-shim.jpg",
+      "bio": "Diana Shim is a third-year nursing student at UBC Okanagan. She has clinical experience as an Employed Student Nurse, has contributed to the Interior Health New Grad Steering Committee, and has supported students as a simulation lab monitor. She is excited to develop her skills in academic writing, literature reviews, qualitative research, and technology-enabled equity work. Outside of academics, Diana enjoys spending time with friends, baking, and cooking."
     }
   ],
   "pieIntro": "Patient/Provider/Process Involvement Engagement — the lab's standing group of patient partners, providers and process advisors. Long-term members who shape research questions, priorities, study design and knowledge translation across all of our work, keeping it grounded in lived experience and real-world practice.",
@@ -405,7 +449,7 @@
     "name": "Maya T. Butts, Shiba Inu",
     "likes": "playing ball on the beach, cheese, attention from strangers, extreme temperatures, taking herself for a walk.",
     "dislikes": "fireworks, fruit, baths, affection.",
-    "alumni": "Eighteen alumni have passed through the lab since 2021."
+    "alumni": "Twenty alumni have passed through the lab since 2021."
   },
   "speaking": {
     "intro": "I speak on AI, equity and nursing practice — keynotes, rounds, panels, workshops and board education. What I charge depends on who is asking and what the work is.",
@@ -648,5 +692,52 @@
       "pageHref": "https://betterimagesofai.org/images?artist=FannyMaurel&title=AmbientScribes",
       "alt": "The image shows a superimposition of colourful illustrations representing different objects in a secretariat: in the background, printed minutes. Above, the hands of a medical secretary typing on her keyboard, the hands of another stamping envelopes. The headset and foot pedal in the foreground are essential tools for typing. In the foreground, the red zig-zags typical of ambient scribe errors streak across the image."
     }
-  ]
+  ],
+  "coLinks": {
+    "Beschastnikh": "",
+    "Block": "",
+    "Booth": "",
+    "Burton": "",
+    "Chan": "",
+    "Conati": "",
+    "Currie": "",
+    "Douglas-Campbell": "",
+    "Garcia Chua": "",
+    "Hamarneh": "",
+    "Harvey": "",
+    "Janke": "",
+    "Kennedy": "",
+    "Lawrence": "",
+    "Li": "",
+    "Moralejo": "",
+    "Munro": "",
+    "Nanyonjo": "",
+    "Recsky": "",
+    "Rush": "",
+    "Sturgess": "",
+    "Willson": "",
+    "Wilson": ""
+  },
+  "coNames": {
+    "Beschastnikh": "Ivan Beschastnikh",
+    "Block": "Lorraine Block",
+    "Booth": "Richard Booth",
+    "Burton": "Lindsay Burton",
+    "Chan": "Ryan Chan",
+    "Conati": "Christina Conati",
+    "Currie": "Leanne M Currie",
+    "Douglas-Campbell": "Kathryn Douglas-Campbell",
+    "Garcia Chua": "Rina Garcia Chua",
+    "Hamarneh": "Ghassan Hamarneh",
+    "Harvey": "Clare Harvey",
+    "Janke": "Robert Janke",
+    "Kennedy": "Lindsay Kennedy",
+    "Li": "Xiaoxiao Li",
+    "Moralejo": "Lisa Moralejo",
+    "Munro": "Taylor Munro",
+    "Recsky": "Chantelle Recsky",
+    "Rush": "Kathy Rush",
+    "Willson": "Melanie Willson",
+    "Wilson": "Ryan Wilson"
+  }
 }
