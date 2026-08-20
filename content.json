@@ -249,7 +249,7 @@
   ],
   "projects": [
     {
-      "status": "Starting up",
+      "status": "Developing ethics",
       "color": "#FEC415",
       "short": "LANTERN",
       "title": "LANTERN: Learning and AI Navigation for Transformative Education and Research in Nursing",
@@ -260,7 +260,7 @@
       "papers": []
     },
     {
-      "status": "Developing ethics",
+      "status": "Under ethics review",
       "color": "#43C4D9",
       "short": "Thinking Aloud with AI",
       "title": "Thinking Aloud with AI: nursing students’ cognitive processes using GenAI for clinical reasoning",
@@ -271,7 +271,7 @@
       "papers": []
     },
     {
-      "status": "Data collection",
+      "status": "Data analyses",
       "color": "#EE447F",
       "short": "Explainable AI in a health authority",
       "title": "Stakeholder perspectives and impacts of explainable artificial intelligence: a case study in a British Columbia health authority",
@@ -279,9 +279,7 @@
       "co": "Conati, Currie, Hamarneh, Janke, Li, Block, Beschastnikh",
       "description": "Realist methods on what explainable AI and clinical decision support mean for health system operations and for the clinicians who have to use them.",
       "match": [],
-      "papers": [
-        "Fairness in Classifying and Grouping Health Equity Information"
-      ]
+      "papers": []
     },
     {
       "status": "Knowledge outputs",
@@ -293,7 +291,7 @@
       "description": "Can an AI model be trustworthy the way the world’s most trusted profession is thought to be? Or are some dimensions of trust only demonstrable by humans?",
       "match": [],
       "papers": [
-        "Mapping trust in nurses with dimensions of trustworthy artificial intelligence: a scoping review"
+        "Mapping Trust in Nurses with Dimensions of Trustworthy Artificial Intelligence: A Scoping Review"
       ]
     }
   ],
@@ -311,7 +309,9 @@
       "funding": "Study complete",
       "year": "2023",
       "match": [],
-      "papers": [],
+      "papers": [
+        "Fairness in Classifying and Grouping Health Equity Information"
+      ],
       "co": ""
     },
     {
@@ -319,7 +319,9 @@
       "funding": "",
       "year": "2022",
       "match": [],
-      "papers": [],
+      "papers": [
+        "Fairness in Classifying and Grouping Health Equity Information"
+      ],
       "co": ""
     },
     {
@@ -335,7 +337,11 @@
       "funding": "Brocher Foundation, Switzerland",
       "year": "2022",
       "match": [],
-      "papers": [],
+      "papers": [
+        "Artificial intelligence in nursing: Priorities and opportunities from an international invitational think‐tank of the Nursing and Artificial Intelligence Leadership Collaborative",
+        "Artificial Intelligence -based technologies in nursing: A scoping literature review of the evidence",
+        "The ChatGPT Effect: Nursing Education and Generative Artificial Intelligence"
+      ],
       "co": "Topaz M., Pruinelli L., Peltonen L.M., Nibber R., DeForest H."
     },
     {
@@ -343,7 +349,10 @@
       "funding": "Helen Shore Nursing Endowment Fund",
       "year": "2021",
       "match": [],
-      "papers": [],
+      "papers": [
+        "Adoption of Speech Recognition Technology in Community Healthcare Nursing.",
+        "SuperNurse: Nurses' Workarounds Informing the Design of Interactive Technologies for Home Wound Care"
+      ],
       "co": "Al-Masslawi D., Block L."
     },
     {
@@ -351,7 +360,11 @@
       "funding": "Ryerson FCS Rapid Response",
       "year": "2020",
       "match": [],
-      "papers": [],
+      "papers": [
+        "Evidence-Based Health Informatics as the Foundation for the COVID-19 Response: A Joint Call for Action",
+        "Health Informatics Solutions in Response to COVID-19: Preliminary Insights from an International Survey.",
+        "A nursing informatics response to COVID‐19: Perspectives from five regions of the world"
+      ],
       "co": "Topaz M., Peltonen L.M., Alhuwail D., Mitchell J., Risling T."
     },
     {
@@ -359,7 +372,11 @@
       "funding": "Helen Shore Nursing Endowment Fund",
       "year": "2019",
       "match": [],
-      "papers": [],
+      "papers": [
+        "Differing Effects of Implementation Leadership Characteristics on Nurses’ Use of mHealth Technologies in Clinical Practice: Cross-Sectional Survey Study",
+        "The Nurse LEADership for Implementing Technologies - Mobile Health Model (Nurse LEAD-IT - mHealth)",
+        "The MOBile-Health and Implementation Leadership Evaluation (MOBILE) Nurse Study: Developing a Testable Conceptual Model."
+      ],
       "co": "Currie L., Dahinten S., Bungay V."
     }
   ],
@@ -390,13 +407,13 @@
     },
     {
       "name": "Jianan Wang",
-      "role": "Visiting PhD Candidate",
+      "role": "Visiting PhD Candidate (Zhejiang University, China)",
       "photo": "assets/images/team/jianan-wang.jpg",
       "bio": "Jianan is a nursing PhD student from Zhejiang University, China, and is currently a visiting international research student at UBCO. She received her B.S. in Nursing from Beijing University of Chinese Medicine, China. Her research focuses on the ethical implications of information technology in the nursing field, with a particular interest in understanding how these technologies influence nurses' behaviors."
     },
     {
       "name": "Dr. Hilal Yıldırım",
-      "role": "Visiting Scientist, Associate Professor",
+      "role": "Visiting Scientist, Associate Professor ( Inonu University, Türkiye)",
       "photo": "assets/images/team/hilal-yildirim.jpeg",
       "bio": "Dr Hilal Yıldırım is a Visiting Scientist at the University of British Columbia Okanagan, working under the supervision of Charlene Ronquillo, whose work in digital health and health equity has been highly influential in shaping her current research direction. She is an Associate Professor in the Department of Public Health Nursing at Inonu University, Türkiye, where she continues her academic and research activities. Dr. Yıldırım has been actively engaged in academia since 2011, following her clinical experience in hospital settings between 2009 and 2011. With over a decade of experience, her work focuses on public health nursing, social determinants of health, and vulnerable populations, with a growing emphasis on healthy aging and equitable access to care. Her current research centers on digital health and remote care technologies for older adults, particularly in disaster-affected and resource-constrained settings. She is especially interested in how innovative, technology-supported approaches can enhance accessibility, usability, and continuity of care for aging populations within community and public health systems."
     },
@@ -460,7 +477,7 @@
       "Explainable AI in health systems",
       "AI scribes and documentation burden",
       "Participatory design with patients and providers",
-      "Nursing informatics competencies"
+      "AI and the future of health research and training"
     ],
     "audiences": [
       "Patient or community group",
@@ -485,14 +502,14 @@
         "color": "#43C4D9",
         "who": "Patient-led and community organisations, volunteer-run nursing chapters, student societies, public libraries, K-12 and undergraduate classes.",
         "fee": "Honorarium waived",
-        "detail": "In person: travel and accommodation covered. Two of these a term, first come."
+        "detail": "In person: travel and accommodation coverage. Two of these a term, first come."
       },
       {
         "tier": "Academic and public good",
         "color": "#FEC415",
         "who": "Universities, hospital rounds and grand rounds, non-profit research conferences, professional associations, health charities.",
         "fee": "Standard rate",
-        "detail": "Virtual talks sit at the lower end of the range, in-person keynotes at the upper. Waived where the host has no honorarium budget."
+        "detail": "Virtual talks sit at the lower end of the range, in-person keynotes at the upper. "
       },
       {
         "tier": "Public sector and health systems",
@@ -506,7 +523,7 @@
         "color": "#8670B2",
         "who": "Vendors, consultancies, for-profit conferences, sponsored webinars and podcasts, commercial advisory boards.",
         "fee": "Commercial rate",
-        "detail": "Keynotes, workshops, advisory days and hourly consultations are each quoted on request. Fees are directed to trainee support."
+        "detail": "Keynotes, workshops, advisory days and hourly consultations are each quoted on request. "
       }
     ],
     "notes": [
@@ -520,13 +537,13 @@
       },
       {
         "head": "Booking",
-        "body": "Six to eight weeks' notice preferred · commercial bookings confirm on a deposit, with the balance due after the event · cancellation inside two weeks is invoiced at half · industry fees go to trainee stipends and travel, not to me."
+        "body": "Six to eight weeks' notice preferred · commercial bookings confirm on a deposit, with the balance due after the event · cancellation inside two weeks is invoiced at half "
       }
     ]
   },
   "join": {
-    "openLabel": "Open now",
-    "openHead": "Accepting Masters thesis-stream students for the 2027 intakes.",
+    "openLabel": "Working with me",
+    "openHead": "Not accepting graduate students for the 2027 intakes.",
     "body": "Across every level of collaboration and supervision I encourage applicants from groups underrepresented in nursing research and academia. Note: I do not take on supervision inquiries made within one month of an application deadline.",
     "columns": [
       {
@@ -603,11 +620,6 @@
       "url": "https://imia-medinfo.org/wp/sig-ni-nursing-informatics/"
     },
     {
-      "role": "EDI AI Co-Lead",
-      "org": "UBC Data Science and Health (DASH) Cluster",
-      "url": "https://datascienceandhealth.ubc.ca/"
-    },
-    {
       "role": "Affiliated Investigator",
       "org": "Vancouver Coastal Health Research Institute",
       "url": "https://www.vchri.ca/"
@@ -631,13 +643,8 @@
     },
     {
       "src": "assets/images/gallery/005.jpg",
-      "cap": "Charlene presenting on health equity and artificial intelligence",
+      "cap": "NI2026 keynote on health equity and artificial intelligence in nursing",
       "w": 300
-    },
-    {
-      "src": "assets/images/gallery/001.jpg",
-      "cap": "Lab team meeting",
-      "w": 230
     },
     {
       "src": "assets/images/gallery/008.jpg",
@@ -646,38 +653,18 @@
     },
     {
       "src": "assets/images/gallery/003.jpg",
-      "cap": "Collaborators at the Brocher Foundation, Switzerland",
+      "cap": "NAIL Collaborative at the Brocher Foundation, Switzerland",
       "w": 300
-    },
-    {
-      "src": "assets/images/gallery/002.jpg",
-      "cap": "Lab members at conference",
-      "w": 230
     },
     {
       "src": "assets/images/gallery/sandpits1.jpg",
-      "cap": "Lab team at conference",
-      "w": 300
-    },
-    {
-      "src": "assets/images/gallery/007.jpg",
-      "cap": "At the CMDO research event",
-      "w": 230
-    },
-    {
-      "src": "assets/images/gallery/sandpits2.jpg",
-      "cap": "Conference reception",
+      "cap": "New and current collaborators at the Doing AI Differently: AI Humanities Sandpits Workshops",
       "w": 300
     },
     {
       "src": "assets/images/gallery/004.jpg",
       "cap": "Conference dinner",
       "w": 230
-    },
-    {
-      "src": "assets/images/furry/maya.jpg",
-      "cap": "Maya, the actual PI",
-      "w": 190
     }
   ],
   "art": [
