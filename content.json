@@ -430,7 +430,7 @@
       "bio": "Diana Shim is a third-year nursing student at UBC Okanagan. She has clinical experience as an Employed Student Nurse, has contributed to the Interior Health New Grad Steering Committee, and has supported students as a simulation lab monitor. She is excited to develop her skills in academic writing, literature reviews, qualitative research, and technology-enabled equity work. Outside of academics, Diana enjoys spending time with friends, baking, and cooking."
     }
   ],
-  "pieIntro": "Patient/Provider/Process Involvement Engagement — the lab's standing group of patient partners, providers and process advisors. Long-term members who shape research questions, priorities, study design and knowledge translation across all of our work, keeping it grounded in lived experience and real-world practice.",
+  "pieIntro": "Patient/Provider/Process Involvement Engagement — the HIE lab's standing group of patient partners, providers and process advisors. Long-term members who shape research questions, priorities, study design and knowledge translation across all of our work, keeping it grounded in lived experience and real-world practice.",
   "pie": [
     {
       "name": "Lyn Brooks",
@@ -566,11 +566,11 @@
   "about": {
     "photo": "assets/images/director.jpg",
     "kicker": "Filipina scholar · Registered nurse · Health informatician",
-    "lead": "The lab's work is interdisciplinary and underpinned by critical theories and implementation science, aimed at meaningful inclusion of non-dominant groups in how health technologies are conceived, designed, built and implemented.",
-    "body": "Charlene works in mixed methods, participatory and co-production approaches and HCI: nursing informatics competencies, usability research, person-centred design, rapid prototyping, and technology adoption.",
+    "lead": "Our work is interdisciplinary and underpinned by critical theories, implementation science, and complex systems thinking. Aimed at meaningful inclusion of non-dominant groups in how health technologies are conceived, designed, built and implemented.",
+    "body": "Charlene works in mixed methods, participatory and co-production approaches: nursing AI & informatics competencies, usability research, person-centred design, and technology adoption.",
     "funders": "Funded by AMS Healthcare, Brocher Foundation, Canadian Nurses Foundation, Roche Canada, SSHRC, and UBC internal grants.",
-    "researchQuote": "Non-dominant groups belong in the conceptualization, design and implementation of health technology — not only in its evaluation.",
-    "peopleQuote": "Above all we value doing good work with good people — compassion, justice, equity, humility, transparency, interdisciplinarity."
+    "researchQuote": "Non-dominant groups belong throughout the system development pipeline, not just at the start or evaluation.",
+    "peopleQuote": "Above all we value doing good work with good people — centering humility, compassion, justice, transparency, interdisciplinarity."
   },
   "themes": [
     {
@@ -681,29 +681,29 @@
     }
   ],
   "coLinks": {
-    "Beschastnikh": "",
-    "Block": "",
-    "Booth": "",
-    "Burton": "",
-    "Chan": "",
-    "Conati": "",
-    "Currie": "",
-    "Douglas-Campbell": "",
-    "Garcia Chua": "",
-    "Hamarneh": "",
-    "Harvey": "",
-    "Janke": "",
-    "Kennedy": "",
-    "Lawrence": "",
-    "Li": "",
-    "Moralejo": "",
-    "Munro": "",
-    "Nanyonjo": "",
-    "Recsky": "",
-    "Rush": "",
-    "Sturgess": "",
-    "Willson": "",
-    "Wilson": ""
+    "Beschastnikh": "Ivan Beschastnikh",
+    "Block": "Lorraine Block",
+    "Booth": "Richard Booth",
+    "Burton": "Lindsay Burton",
+    "Chan": "Ryan Chan",
+    "Conati": "Christina Conati",
+    "Currie": "Leanne Currie",
+    "Douglas-Campbell": "Kathryn Douglas-Campbell",
+    "Garcia Chua": "Rina Garcia Chua",
+    "Hamarneh": "Ghassan Hamarneh",
+    "Harvey": "Clare Harvey",
+    "Janke": "Robert Janke",
+    "Kennedy": "Lindsay Kennedy",
+    "Lawrence": "Ramon Lawrence",
+    "Li": "Xiaoxiao Li",
+    "Moralejo": "Lisa Moralejo",
+    "Munro": "Taylor Munro",
+    "Nanyonjo": "Josephine Nanyonjo",
+    "Recsky": "Chantelle Recsky",
+    "Rush": "Kathy Rush",
+    "Sturgess": "Kathryn Sturgess",
+    "Willson": "Melanie Willson",
+    "Wilson": "Ryan Wilson"
   },
   "coNames": {
     "Beschastnikh": "Ivan Beschastnikh",
