@@ -641,8 +641,28 @@
   ],
   "gallery": [
     {
+      "src": "assets/images/gallery/HIELAB-dinner-Aug2026.jpg",
+      "cap": "HIE Lab Dinner, Summer 2026, Kelowna, Canada",
+      "w": 300
+    },
+    {
+      "src": "assets/images/gallery/FIGEPS-Brasil_May2026.jpg",
+      "cap": "Fellow speakers and panelists at FIGEPS-CONTIS 2026, Chapeco, Brasil",
+      "w": 300
+    },
+    {
+      "src": "assets/images/gallery/FIGEPS2026-Chapeco.jpg",
+      "cap": "Catching a local football game while at FIGEPS 2026, Chapeco, Brasil",
+      "w": 300
+    },
+    {
       "src": "assets/images/gallery/HIELab_Apr2026.jpg",
       "cap": "HIE Lab members at the UBCO Nursing clinical labs, Spring 2026, Kelowna, Canada",
+      "w": 300
+    },
+    {
+      "src": "assets/images/gallery/sandpits1.jpg",
+      "cap": "Current and new collaborators (and pals!) at the Doing AI Differently: AI Humanities Sandpits Workshops, Winter 2026, Montreal, Canada",
       "w": 300
     },
     {
@@ -651,23 +671,23 @@
       "w": 300
     },
     {
-      "src": "assets/images/gallery/008.jpg",
-      "cap": "Panel discussion on AI in healthcare, Kelowna, Canada",
+      "src": "assets/images/gallery/Ronquillo-Celi_Nov2025.jpg",
+      "cap": "With Leo Celi (MIT Critical Data) at UBC, Autumn 2025, Vancouver, Canada",
       "w": 300
     },
     {
       "src": "assets/images/gallery/003.jpg",
-      "cap": "NAIL Collaborative at the Brocher Foundation, Switzerland",
+      "cap": "NAIL Collaborative at the Brocher Foundation, Autumn 2024, Hermance, Switzerland",
       "w": 300
     },
     {
-      "src": "assets/images/gallery/sandpits1.jpg",
-      "cap": "New and current collaborators (and pals!) at the Doing AI Differently: AI Humanities Sandpits Workshops, Montreal, Canada",
+      "src": "assets/images/gallery/008.jpg",
+      "cap": "Panel discussion on AI in healthcare, Autumn 2024, Kelowna, Canada",
       "w": 300
     },
     {
       "src": "assets/images/gallery/004.jpg",
-      "cap": "Dinner with new Conference friends at NI2024, Manchester, UK",
+      "cap": "Dinner with new Conference friends at NI2024, Summer 2024, Manchester, UK",
       "w": 230
     }
   ],
