@@ -11,7 +11,7 @@
     "links": [
       {
         "label": "ORCID",
-        "url": "http://orcid.org/0000-0002-6520-1765"a
+        "url": "http://orcid.org/0000-0002-6520-1765"
       },
       {
         "label": "GitHub",
@@ -642,17 +642,17 @@
   "gallery": [
     {
       "src": "assets/images/gallery/HIELab_Apr2026.jpg",
-      "cap": "The lab at the UBCO Nursing clinical labs, April 2026",
+      "cap": "HIE Lab members at the UBCO Nursing clinical labs, Spring 2026, Kelowna, Canada",
       "w": 300
     },
     {
       "src": "assets/images/gallery/005.jpg",
-      "cap": "NI2026 keynote on health equity and artificial intelligence in nursing",
+      "cap": "NI2024 closing keynote on health equity and artificial intelligence in nursing, Manchester, UK",
       "w": 300
     },
     {
       "src": "assets/images/gallery/008.jpg",
-      "cap": "Panel discussion on AI in healthcare",
+      "cap": "Panel discussion on AI in healthcare, Kelowna, Canada",
       "w": 300
     },
     {
@@ -662,12 +662,12 @@
     },
     {
       "src": "assets/images/gallery/sandpits1.jpg",
-      "cap": "New and current collaborators at the Doing AI Differently: AI Humanities Sandpits Workshops",
+      "cap": "New and current collaborators (and pals!) at the Doing AI Differently: AI Humanities Sandpits Workshops, Montreal, Canada",
       "w": 300
     },
     {
       "src": "assets/images/gallery/004.jpg",
-      "cap": "Conference dinner",
+      "cap": "Dinner with new Conference friends at NI2024, Manchester, UK",
       "w": 230
     }
   ],
