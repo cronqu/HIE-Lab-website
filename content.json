@@ -5,7 +5,7 @@
     "pronouns": "she / they / siya",
     "title": "Assistant Professor, School of Nursing",
     "place": "UBC Okanagan, Kelowna, BC",
-    "tagline": "We study who gets to decide what and how health technologies get built and used, why they get to decide, who is affected by those decisions, and how.",
+    "tagline": "We study who gets to decide what and how health technologies get built and used, why they get to decide, and who is affected by those decisions, and how.",
     "land": "Racialized settler on the unceded and traditional territories of the Syilx Okanagan.",
     "address": "ART360, Arts Building\n1147 Research Road\nKelowna, BC V1V 1V7",
     "links": [
@@ -570,7 +570,7 @@
   "about": {
     "photo": "assets/images/director.jpg",
     "kicker": "Filipina scholar · Registered nurse · Health informatician",
-    "lead": "Our work is interdisciplinary and underpinned by critical theories, implementation science, and complex systems thinking. Aimed at meaningful inclusion of impacted non-dominant groups in how health technologies are conceived, designed, built and implemented.",
+    "lead": "Our work is interdisciplinary and underpinned by critical theories, implementation science, and complex systems thinking. Aimed at meaningful inclusion of non-dominant groups in how health technologies are conceived, designed, built and implemented.",
     "body": "Charlene works in mixed methods, participatory and co-production approaches: nursing AI & informatics competencies, usability research, person-centred design, and technology adoption.",
     "funders": "Funded by AMS Healthcare, Brocher Foundation, Canadian Nurses Foundation, Roche Canada, SSHRC, and UBC internal grants.",
     "researchQuote": "Those impacted by health technologies belong throughout the system development pipeline, not just at the start or evaluation.",
@@ -704,31 +704,7 @@
       "alt": "The image shows a superimposition of colourful illustrations representing different objects in a secretariat: in the background, printed minutes. Above, the hands of a medical secretary typing on her keyboard, the hands of another stamping envelopes. The headset and foot pedal in the foreground are essential tools for typing. In the foreground, the red zig-zags typical of ambient scribe errors streak across the image."
     }
   ],
-  "coLinks": {
-    "Beschastnikh": "Ivan Beschastnikh",
-    "Block": "Lorraine Block",
-    "Booth": "Richard Booth",
-    "Burton": "Lindsay Burton",
-    "Chan": "Ryan Chan",
-    "Conati": "Christina Conati",
-    "Currie": "Leanne Currie",
-    "Douglas-Campbell": "Kathryn Douglas-Campbell",
-    "Garcia Chua": "Rina Garcia Chua",
-    "Hamarneh": "Ghassan Hamarneh",
-    "Harvey": "Clare Harvey",
-    "Janke": "Robert Janke",
-    "Kennedy": "Lindsay Kennedy",
-    "Lawrence": "Ramon Lawrence",
-    "Li": "Xiaoxiao Li",
-    "Moralejo": "Lisa Moralejo",
-    "Munro": "Taylor Munro",
-    "Nanyonjo": "Josephine Nanyonjo",
-    "Recsky": "Chantelle Recsky",
-    "Rush": "Kathy Rush",
-    "Sturgess": "Kathryn Sturgess",
-    "Willson": "Melanie Willson",
-    "Wilson": "Ryan Wilson"
-  },
+  "coLinks": {},
   "coNames": {
     "Beschastnikh": "Ivan Beschastnikh",
     "Block": "Lorraine Block",
@@ -743,11 +719,14 @@
     "Harvey": "Clare Harvey",
     "Janke": "Robert Janke",
     "Kennedy": "Lindsay Kennedy",
+    "Lawrence": "Ramon Lawrence",
     "Li": "Xiaoxiao Li",
     "Moralejo": "Lisa Moralejo",
     "Munro": "Taylor Munro",
+    "Nanyonjo": "Josephine Nanyonjo",
     "Recsky": "Chantelle Recsky",
     "Rush": "Kathy Rush",
+    "Sturgess": "Kathryn Sturgess",
     "Willson": "Melanie Willson",
     "Wilson": "Ryan Wilson"
   }
