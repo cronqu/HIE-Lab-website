@@ -501,10 +501,10 @@
     ],
     "tiers": [
       {
-        "tier": "No fee",
+        "tier": "Volunteer-run organisations",
         "color": "#43C4D9",
-        "who": "Patient-led and community organisations, volunteer-run nursing chapters, student societies, public libraries, K-12 and undergraduate classes.",
-        "fee": "Honorarium waived",
+        "who": "Not-for-profits, patient-led/community/volunteer-run organisations, student societies, public libraries, K-12 and undergraduate classes.",
+        "fee": "Minimal/waived honorarium - let's chat",
         "detail": "In person: travel and accommodation coverage. Two of these a term, first come."
       },
       {
