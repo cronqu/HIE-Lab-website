@@ -426,12 +426,12 @@
       "bio": "Diana Shim is a third-year nursing student at UBC Okanagan. She has clinical experience as an Employed Student Nurse, has contributed to the Interior Health New Grad Steering Committee, and has supported students as a simulation lab monitor. She is excited to develop her skills in academic writing, literature reviews, qualitative research, and technology-enabled equity work. Outside of academics, Diana enjoys spending time with friends, baking, and cooking."
     }
   ],
-  "pieIntro": "Patient/Provider/Process Involvement Engagement — the HIE lab's standing group of patient partners, providers and process advisors. Long-term members who shape research questions, priorities, study design and knowledge translation across all of our work, keeping it grounded in lived experience and real-world practice.",
+  "pieIntro": "Patient/Provider/Process(P3) Involvement Engagement — HIE PIE is the HIE lab's standing group of patient partner, clinicians, and health systems advisors. Long-term members who shape research questions, priorities, study design and knowledge translation across all of our work, keeping it grounded in lived experience and real-world practice.",
   "pie": [
     {
-      "name": "Lyn Brooks",
+      "name": "Lyn B",
       "role": "Patient partner",
-      "photo": "assets/images/advisory/lyn-brooks.png",
+      "photo": "assets/images/advisory/lyn-b.png",
       "color": "#43C4D9",
       "focus": "Founder of dHub Group, eMHIC Ambassador, and a member of the AI Ethics Advisory Panel at Canada’s Digital Governance Council. Advocates for data sovereignty by design, community data commons and platform cooperativism."
     },
@@ -443,18 +443,25 @@
       "focus": "Lifelong experience of complex chronic illness, brought to research, quality improvement, health technology assessment, standards development and governance. Background in instructional design and web technologies; interests in AI, interoperability and health data literacy."
     },
     {
-      "name": "Katie Tong",
+      "name": "Katie T",
       "role": "Patient partner",
-      "photo": "assets/images/team/katie-tong.jpeg",
+      "photo": "assets/images/team/katie-t.jpeg",
       "color": "#FEC415",
       "focus": "Navigates a chronic health condition while also a parent and a caregiver to elderly parents. A corporate tech team lead by profession, a patient partner since 2019, and committed to research that weighs lived experience equally with evidence."
     },
     {
-      "name": "Michel White",
+      "name": "Michel W",
       "role": "Patient partner",
-      "photo": "assets/images/advisory/michel-white.jpeg",
+      "photo": "assets/images/advisory/michel-w.jpeg",
       "color": "#8670B2",
       "focus": "Twenty-five years as a patient partner across dozens of committees, including the Physician Quality Improvement steering committee. Lives with panhypopituitarism and is a transplant caregiver. Speaks for patients who cannot or do not know how to speak for themselves."
+    }
+    {
+      "name": "Michael L",
+      "role": "Strategic Advisor",
+      "photo": "assets/images/advisory/michael-l.jpeg",
+      "color": "#8670B2",
+      "focus": "Michael Li is Founding Partner at 8-Bit Spark, helping organizations optimize technology, analytics, and AI. Formerly Senior Director of Data & Analytics at Vancouver Coastal Health and Founding Chair of the Vancouver Analytics Board, he brings healthcare and cross-industry leadership. Michael is also Adjunct Faculty at the University of Toronto."
     }
   ],
   "maya": {
