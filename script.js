@@ -83,7 +83,11 @@ const projectsFor = f => f.type !== 'Paper' ? [] : C.projects.filter(p => (p.pap
 const PAST_CUTOFF = () => new Date().getFullYear() - 4;
 const pastRecent = () => C.past.filter(p => Number(p.year) >= PAST_CUTOFF());
 const coName = n => (C.coNames && C.coNames[n]) || n;
-const scholarHref = n => (C.coLinks && C.coLinks[n]) || ('https://scholar.google.com/scholar?q=' + encodeURIComponent('"' + coName(n) + '"'));
+const scholarHref = n => {
+  const u = C.coLinks && C.coLinks[n];
+  if (u && /^https?:\/\//i.test(u.trim())) return u.trim();
+  return 'https://scholar.google.com/scholar?q=' + encodeURIComponent('"' + coName(n) + '"');
+};
 const coLink = n => `<a href="${esc(scholarHref(n))}" target="_blank" rel="noopener" title="Google Scholar — ${esc(coName(n))}">${esc(coName(n))}</a>`;
 
 function decorate(f) {
