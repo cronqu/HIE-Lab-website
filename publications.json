@@ -1,5 +1,27 @@
 [
   {
+    "title": "Aplicación del modelo DI KW en la informática de enfermería: transformación de datos en conocimiento para la toma de decisiones clínicas",
+    "year": 2026,
+    "month": 9,
+    "day": 7,
+    "date": "2026-09-07",
+    "date_precision": "day",
+    "vancouver_citation": "Gómez-Flores MI, Lozada-Perezmitre E, Ronquillo C. Aplicación del modelo DI KW en la informática de enfermería: transformación de datos en conocimiento para la toma de decisiones clínicas. Revista Mexicana de Enfermería. 2026;14(2).",
+    "doi": "10.24875/enf.25000123",
+    "url": "https://doi.org/10.24875/enf.25000123"
+  },
+  {
+    "title": "Implementation, Governance, and Trustworthy AI in Nursing",
+    "year": 2026,
+    "month": 9,
+    "day": null,
+    "date": "2026-09",
+    "date_precision": "month",
+    "vancouver_citation": "Pruinelli L, Topaz M, Peltonen L, Ronquillo C, Michalowski M. Implementation, Governance, and Trustworthy AI in Nursing. CIN: Computers, Informatics, Nursing. 2026;44(9).",
+    "doi": "10.1097/CIN.0000000000001620",
+    "url": "https://doi.org/10.1097/CIN.0000000000001620"
+  },
+  {
     "title": "Sociotechnical safety risks in oncology: a framework-guided qualitative study",
     "year": 2026,
     "month": 7,
@@ -174,6 +196,17 @@
     "vancouver_citation": "Burton L, Rush KL, Seaton CL, Li EP, Corman K, Ronquillo CE, et al. Generating user-driven patient personas to support preventive health care activities of rural-living unattached patients. PEC Innovation. 2024;4:100274.",
     "doi": "10.1016/J.PECINN.2024.100274",
     "url": "https://doi.org/10.1016/J.PECINN.2024.100274"
+  },
+  {
+    "title": "Social Determinants of Health in Digital Health Policies: an International Environmental Scan",
+    "year": 2024,
+    "month": 8,
+    "day": null,
+    "date": "2024-08",
+    "date_precision": "month",
+    "vancouver_citation": "Song J, Hobensack M, Sequeira L, Shin HD, Davies S, Peltonen L, et al. Social Determinants of Health in Digital Health Policies: an International Environmental Scan. Yearbook of Medical Informatics. 2024;33(01):283-291.",
+    "doi": "10.1055/s-0044-1800759",
+    "url": "https://doi.org/10.1055/s-0044-1800759"
   },
   {
     "title": "Fairness in Classifying and Grouping Health Equity Information",
