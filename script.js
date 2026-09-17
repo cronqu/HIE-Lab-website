@@ -53,7 +53,9 @@ function mergedFeed() {
 }
 
 function leadPaper() {
-  const p = PUBS[0];
+  const top = PUBS.slice(0, 3);
+  const want = ((C && C.site && C.site.leadPaperDoi) || '').trim().toLowerCase();
+  const p = (want && top.find(x => String(x.doi || '').toLowerCase() === want || NORM(x.title) === NORM(want))) || top[0];
   if (!p) {
     const f = C.feed.find(x => x.type === 'Paper') || {};
     return { label: 'Paper · Peer-reviewed · loading the ORCID record', title: f.title || '', citation: f.venue || '', url: f.href || '#' };
