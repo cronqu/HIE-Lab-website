@@ -27,7 +27,7 @@
       }
     ],
     "headlineImage": "Ambient Scribes",
-    "leadPaperDoi": "10.1097/CIN.0000000000001620",
+    "leadPaperDoi": "doi:10.1097/CIN.0000000000001620",
     "showFigures": true,
     "abstractFields": true,
     "marginalia": true,
@@ -117,6 +117,14 @@
     }
   ],
   "feed": [
+    {
+      "date": "SEP 2026",
+      "type": "Lab",
+      "title": "Welcoming new lab members and a new academic year",
+      "venue": "HIE Lab welcome new members: Fariha Munia (LANTERN project), Yujie (Stella) Su (UBCO Nursing PhD Student; Canada Impact+ Research Training Award recipient); Michael L (HIE PIE Strategic Advisor) - get to know them a little on our People tab.  We also send our best wishes to previous HIE Lab members Nicole Ketter and Kate Sturgess who are both starting their med school journeys! 🎉",
+      "href": "#/stream",
+      "actions": []
+    },
     {
       "date": "JUL 2026",
       "type": "Workshop",
