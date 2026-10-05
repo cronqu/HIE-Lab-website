@@ -1,5 +1,16 @@
 [
   {
+    "title": "Posthumous health data donation: an emerging framework for equitable healthcare AI",
+    "year": 2026,
+    "month": 9,
+    "day": 29,
+    "date": "2026-09-29",
+    "date_precision": "day",
+    "vancouver_citation": "Gupta P, Topaz M, Pruinelli L, Wall A, Ronquillo CE, Michalowski M, et al. Posthumous health data donation: an emerging framework for equitable healthcare AI. Journal of the American Medical Informatics Association. 2026.",
+    "doi": "10.1093/jamia/ocag156",
+    "url": "https://doi.org/10.1093/jamia/ocag156"
+  },
+  {
     "title": "Aplicación del modelo DI KW en la informática de enfermería: transformación de datos en conocimiento para la toma de decisiones clínicas",
     "year": 2026,
     "month": 9,
@@ -53,17 +64,6 @@
     "vancouver_citation": "Abdulai A, Goldsmith K, Hartman C, Nicol K, Esteban Ronquillo C, Recsky C, et al. Priorities on trauma-informed design of sexual and reproductive health-related digital technologies: A modified nominal group technique. DIGITAL HEALTH. 2026;12.",
     "doi": "10.1177/20552076261431882",
     "url": "https://doi.org/10.1177/20552076261431882"
-  },
-  {
-    "title": "Posthumous Health Data Donation: An Emerging Framework for Equitable Healthcare AI",
-    "year": 2026,
-    "month": null,
-    "day": null,
-    "date": "2026",
-    "date_precision": "year",
-    "vancouver_citation": "Posthumous Health Data Donation: An Emerging Framework for Equitable Healthcare AI. 2026.",
-    "doi": "10.1093/jamia/ocag156",
-    "url": "https://doi.org/10.1093/jamia/ocag156"
   },
   {
     "title": "Inovações tecnológicas na atenção primária para a gestão de situações de desastres: revisão de escopo",
