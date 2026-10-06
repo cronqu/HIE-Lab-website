@@ -26,8 +26,8 @@
         "url": "https://www.linkedin.com/in/cronquillo/"
       }
     ],
-    "headlineImage": "Ambient Scribes",
-    "leadPaperDoi": "doi:10.1097/CIN.0000000000001620",
+    "headlineImage": "Algorithmic memory",
+    "leadPaperDoi": "",
     "showFigures": true,
     "abstractFields": true,
     "marginalia": true,
@@ -117,14 +117,6 @@
     }
   ],
   "feed": [
-    {
-      "date": "SEP 2026",
-      "type": "Lab",
-      "title": "Welcoming new lab members and a new academic year",
-      "venue": "HIE Lab welcome new members: Fariha Munia (LANTERN project), Yujie (Stella) Su (UBCO Nursing PhD Student; Canada Impact+ Research Training Award recipient); Michael L (HIE PIE Strategic Advisor) - get to know them a little on our People tab.  We also send our best wishes to previous HIE Lab members Nicole Ketter and Kate Sturgess who are both starting their med school journeys! 🎉",
-      "href": "#/stream",
-      "actions": []
-    },
     {
       "date": "JUL 2026",
       "type": "Workshop",
@@ -441,42 +433,58 @@
       "role": "Research Assistant, Y3 BSN",
       "photo": "assets/images/team/diana-shim.jpg",
       "bio": "Diana Shim is a third-year nursing student at UBC Okanagan. She has clinical experience as an Employed Student Nurse, has contributed to the Interior Health New Grad Steering Committee, and has supported students as a simulation lab monitor. She is excited to develop her skills in academic writing, literature reviews, qualitative research, and technology-enabled equity work. Outside of academics, Diana enjoys spending time with friends, baking, and cooking."
+    },
+    {
+      "name": "Yujie Su",
+      "role": "PhD Student, MSN",
+      "pronouns": "she/her",
+      "photo": "assets/images/team/yujie-su.jpg",
+      "bio": "Yujie is a PhD student whose doctoral research focuses on developing an AI-supported decision-making system to help older adults manage physical activity while living with multiple chronic conditions. Her interests include multimorbidity, chronic disease management, digital health interventions, and user-centred healthcare technology. Yujie holds a Master of Science in Nursing from Lanzhou University, a Bachelor of Science in Nursing from Zhengzhou University, and a Bachelor of Health Studies from Fort Hays State University. She has completed clinical rotations at Shenzhen People's Hospital, worked as a project assistant on an RNAO Best Practice Spotlight Organization designation initiative, and has authored or co-authored 14 academic papers. Outside her research, Yujie enjoys listening to music, watching TV series and movies, shopping, and exercising.",
+      "awards": "2026 Canada Impact+ Research Training Awards - Doctoral",
+      "email": "yujie.su@ubc.ca"
+    },
+    {
+      "name": "Fariha Islam Munia",
+      "role": "Graduate Academic Assistant (Project Coordinator), LANTERN; MA in Global Studies, UBCO",
+      "pronouns": "she/her",
+      "photo": "assets/images/team/fariha-islam-munia.jpg",
+      "bio": "Fariha is a second-year MA student in Interdisciplinary Studies (Global Studies) at UBC Okanagan, bringing together training in economics with experience in public health and health research. Her work and interest lie in the intersection of health economics, digital health, gender and health equity, mental health, and health systems, with a particular interest in how social and economic inequalities shape health outcomes among underserved populations. Her current research examines the relationship between mental health and multimorbidity in Canada, and she serves as Graduate Academic Assistant and Project Coordinator on LANTERN, a mixed-methods study evaluating a Socratic AI tutor for graduate nursing students. Before joining UBC, she worked across economics and public health research in Bangladesh, gaining experience in mixed-methods research, community and stakeholder engagement, and research communication. Outside of research, Fariha enjoys singing, music, reading, and travelling."
     }
   ],
   "pieIntro": "Patient/Provider/Process(P3) Involvement Engagement — HIE PIE is the HIE lab's standing group of patient partner, clinicians, and health systems advisors. Long-term members who shape research questions, priorities, study design and knowledge translation across all of our work, keeping it grounded in lived experience and real-world practice.",
   "pie": [
     {
-      "name": "Lyn Brooks",
+      "name": "Lyn B.",
       "role": "Patient partner",
-      "photo": "assets/images/advisory/lyn-brooks.png",
+      "photo": "assets/images/advisory/lyn-b.png",
       "color": "#43C4D9",
       "focus": "Founder of dHub Group, eMHIC Ambassador, and a member of the AI Ethics Advisory Panel at Canada’s Digital Governance Council. Advocates for data sovereignty by design, community data commons and platform cooperativism."
     },
     {
-      "name": "Chris J",
+      "name": "Chris J.",
       "role": "Patient partner",
       "photo": "assets/images/advisory/chris-j.png",
       "color": "#EE447F",
       "focus": "Lifelong experience of complex chronic illness, brought to research, quality improvement, health technology assessment, standards development and governance. Background in instructional design and web technologies; interests in AI, interoperability and health data literacy."
     },
     {
-      "name": "Katie Tong",
+      "name": "Katie T.",
       "role": "Patient partner",
-      "photo": "assets/images/team/katie-tong.jpeg",
+      "photo": "assets/images/advisory/katie-t.jpeg",
       "color": "#FEC415",
       "focus": "Navigates a chronic health condition while also a parent and a caregiver to elderly parents. A corporate tech team lead by profession, a patient partner since 2019, and committed to research that weighs lived experience equally with evidence."
     },
     {
-      "name": "Michel White",
+      "name": "Michel W.",
       "role": "Patient partner",
-      "photo": "assets/images/advisory/michel-white.jpeg",
+      "photo": "assets/images/advisory/michel-w.jpeg",
       "color": "#8670B2",
       "focus": "Twenty-five years as a patient partner across dozens of committees, including the Physician Quality Improvement steering committee. Lives with panhypopituitarism and is a transplant caregiver. Speaks for patients who cannot or do not know how to speak for themselves."
     },
     {
-      "name": "Michael Li",
+      "name": "Michael L.",
       "role": "Strategic Advisor",
-      "photo": "assets/images/advisory/michael-li.png",
+      "photo": "assets/images/advisory/michael-l.png",
       "color": "#8670B2",
       "focus": "Michael Li is Founding Partner at 8-Bit Spark, helping organizations optimize technology, analytics, and AI. Formerly Senior Director of Data & Analytics at Vancouver Coastal Health and Founding Chair of the Vancouver Analytics Board, he brings healthcare and cross-industry leadership. Michael is also Adjunct Faculty at the University of Toronto."
     }
@@ -708,6 +716,17 @@
     }
   ],
   "art": [
+    {
+      "title": "Algorithmic memory",
+      "local": "assets/images/headlines/JennyKidd-SyntheticPastsAlgorithmicmemory-1280x754.png",
+      "ar": "1280/754",
+      "artist": "Jenny Kidd",
+      "artistHref": "https://betterimagesofai.org/images?artist=JennyKidd",
+      "coName": "Synthetic Pasts",
+      "coHref": "https://betterimagesofai.org/images?artist=JennyKidd&title=Algorithmicmemory",
+      "pageHref": "https://betterimagesofai.org/images?artist=JennyKidd&title=Algorithmicmemory",
+      "alt": "A library of photos. One photo has been highlighted by the system, and a series of pointers suggest it has been marked as in some way meaningful by the archival and retrieval system."
+    },
     {
       "title": "Ambient Scribes",
       "local": "assets/images/headlines/FannyMaurel-DigitAmbientScribes-1280x720.png",
