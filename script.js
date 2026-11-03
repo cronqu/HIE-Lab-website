@@ -492,7 +492,7 @@ function externalize(root) {
   if (!root) return;
   root.querySelectorAll('a[href]').forEach(a => {
     const h = a.getAttribute('href') || '';
-    if (/^(https?:)?\/\//i.test(h)) { a.target = '_blank'; a.rel = 'noopener noreferrer'; }
+    if (/^(https?:)?\/\//i.test(h) || /\.pdf(#.*)?$/i.test(h)) { a.target = '_blank'; a.rel = 'noopener noreferrer'; a.removeAttribute('download'); }
   });
 }
 
