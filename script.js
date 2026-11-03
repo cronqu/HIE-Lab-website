@@ -53,9 +53,13 @@ function mergedFeed() {
 }
 
 function leadPaper() {
-  const top = PUBS.slice(0, 3);
   const want = ((C && C.site && C.site.leadPaperDoi) || '').trim().toLowerCase();
-  const p = (want && top.find(x => String(x.doi || '').toLowerCase() === want || NORM(x.title) === NORM(want))) || top[0];
+  const manual = ((C && C.feed) || [])
+    .filter(x => x && x.type === 'Paper' && x.title)
+    .map(x => ({ title: x.title, vancouver_citation: x.venue || '', url: x.href || '', doi: '' }));
+  const pool = PUBS.concat(manual);
+  const byKey = want && pool.find(x => ('doi:' + String(x.doi || '').toLowerCase()) === want || ('title:' + String(x.title || '')).toLowerCase() === want);
+  const p = byKey || (want && pool.find(x => String(x.doi || '').toLowerCase() === want || NORM(x.title) === NORM(want))) || PUBS[0];
   if (!p) {
     const f = C.feed.find(x => x.type === 'Paper') || {};
     return { label: 'Paper · Peer-reviewed · loading the ORCID record', title: f.title || '', citation: f.venue || '', url: f.href || '#' };
@@ -93,7 +97,7 @@ const scholarHref = n => {
 const coLink = n => `<a href="${esc(scholarHref(n))}" target="_blank" rel="noopener" title="Google Scholar — ${esc(coName(n))}">${esc(coName(n))}</a>`;
 
 function decorate(f) {
-  const t = typeOf(f.type), s = SPLIT[f.title] || { venue: f.venue, note: '' };
+  const t = typeOf(f.type), s = SPLIT[f.type + '|' + f.title] || { venue: f.venue, note: '' };
   return Object.assign({}, f, { color: t.color, format: t.format || '', venue: s.venue, note: C.site.marginalia === false ? '' : s.note });
 }
 
@@ -248,10 +252,12 @@ function otherOutputs(list, key) {
 }
 
 function paneResearch() {
+  const posters = C.feed.filter(f => f.type === 'Poster' && Number(YEAR_OF(f)) >= PAST_CUTOFF());
   const collab = (() => {
-    const m = {};
-    C.projects.forEach(p => String(p.co).split(', ').forEach(n => { m[n] = (m[n] || 0) + 1; }));
-    return Object.keys(m).sort((a, b) => m[b] - m[a] || a.localeCompare(b)).map(n => ({ name: n, dot: m[n] > 1 ? 'var(--lav)' : 'transparent' }));
+    const m = {}, first = {};
+    let k = 0;
+    C.projects.forEach(p => String(p.co || '').split(', ').map(n => n.trim()).filter(Boolean).forEach(n => { m[n] = (m[n] || 0) + 1; if (first[n] === undefined) first[n] = k++; }));
+    return Object.keys(m).sort((a, b) => m[b] - m[a] || first[a] - first[b]).map(n => ({ name: n, dot: m[n] > 1 ? 'var(--lav)' : 'transparent' }));
   })();
   return `<div data-reveal="1" style="padding-top:30px">
   ${C.site.abstractFields === false ? '' : `<div aria-hidden="true" style="position:relative;height:146px;margin-bottom:26px"><div style="position:absolute;inset:0;background-image:radial-gradient(circle at center,var(--mark) 1.1px,transparent 1.4px);background-size:13px 13px;-webkit-mask-image:radial-gradient(38% 122% at 66% 44%,transparent 0 32%,#000 62%);mask-image:radial-gradient(38% 122% at 66% 44%,transparent 0 32%,#000 62%)"></div><span style="position:absolute;left:66%;top:44%;width:8px;height:8px;border-radius:50%;background:var(--lav);transform:translate(-50%,-50%)"></span></div>`}
@@ -264,10 +270,22 @@ function paneResearch() {
     <div id="proj-${esc(p.short).replace(/[^A-Za-z0-9]+/g, '-')}">
       <h3 style="font:400 22px/1.32 'Source Serif 4',serif;color:var(--ink);margin:0 0 10px;max-width:56ch;text-wrap:pretty">${esc(p.title)}</h3>
       <p style="font:300 14px/1.7 Ubuntu,sans-serif;margin:0 0 10px;max-width:70ch">${esc(p.description)}</p>
-      <p style="font:300 11px/1.7 Ubuntu,sans-serif;letter-spacing:.05em;color:var(--muted);margin:0">With ${String(p.co).split(', ').map(n => coLink(n.trim())).join(', ')}</p>
+      ${p.co ? `<p style="font:300 11px/1.7 Ubuntu,sans-serif;letter-spacing:.05em;color:var(--muted);margin:0">With ${String(p.co).split(', ').map(n => coLink(n.trim())).join(', ')}</p>` : ''}
+      ${p.partners ? `<p style="font:300 11px/1.7 Ubuntu,sans-serif;letter-spacing:.05em;color:var(--muted);margin:0">In collaboration with ${esc(p.partners)}</p>` : ''}
       ${relatedPapers(papersFor(p), 'p:' + p.short)}
       ${otherOutputs(p.outputs, 'o:' + p.short)}
     </div></div>`).join('')}
+  ${posters.length ? `<div style="margin:38px 0 8px;border-top:1px solid var(--line);padding-top:20px;display:flex;flex-wrap:wrap;align-items:baseline;gap:16px">
+    <h3 class="hd" style="margin:0">Posters</h3>
+    <p style="font:300 11.5px Ubuntu,sans-serif;letter-spacing:.06em;color:var(--muted);margin:0">Conference posters from the lab and collaborations. Each opens as a PDF.</p>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px 44px;margin-bottom:8px">
+    ${posters.map(f => `<div>
+      <p style="display:flex;align-items:center;gap:6px;font:500 8.5px Ubuntu,sans-serif;letter-spacing:.17em;text-transform:uppercase;color:var(--muted);margin:0 0 5px"><span class="dot" style="width:5px;height:5px;background:${typeOf('Poster').color}"></span>${esc(f.date)}</p>
+      <a href="${esc(f.href)}" target="_blank" rel="noopener" style="font:400 14.5px/1.45 'Source Serif 4',serif;color:var(--ink);display:block;max-width:48ch;text-wrap:pretty">${esc(f.title)}</a>
+      <p style="font:300 11px/1.55 Ubuntu,sans-serif;color:var(--muted);margin:3px 0 0;max-width:60ch">${esc(f.venue)}</p>
+    </div>`).join('')}
+  </div>` : ''}
   <div style="margin:38px 0 16px;border-top:1px solid var(--line);padding-top:20px;display:flex;flex-wrap:wrap;align-items:baseline;gap:16px">
     <h3 class="hd" style="margin:0">Earlier work</h3>
     <p style="font:300 11.5px Ubuntu,sans-serif;letter-spacing:.06em;color:var(--muted);margin:0">Studies from ${PAST_CUTOFF()} onward. The full record is in the ORCID list.</p>
@@ -283,7 +301,7 @@ function paneResearch() {
   <div style="margin-top:14px;padding-top:18px;border-top:1px solid var(--line)">
     <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:16px;margin-bottom:14px">
       <h3 class="hd" style="margin:0">Co-investigators</h3>
-      <p style="font:300 11.5px Ubuntu,sans-serif;letter-spacing:.06em;color:var(--muted);margin:0">Across the four active studies. A filled mark means more than one shared study. Each name links to their Google Scholar.</p>
+      <p style="font:300 11.5px Ubuntu,sans-serif;letter-spacing:.06em;color:var(--muted);margin:0">Across the active studies, most frequent and most recent first. A filled mark means more than one shared study. Each name links to their Google Scholar.</p>
     </div>
     <div style="display:flex;flex-wrap:wrap;gap:10px 22px">
       ${collab.map(c => `<p style="display:flex;align-items:center;gap:7px;font:400 14.5px 'Source Serif 4',serif;color:var(--ink);margin:0"><span class="dot" style="width:6px;height:6px;background:${c.dot};box-shadow:inset 0 0 0 1px var(--lav)"></span>${coLink(c.name)}</p>`).join('')}
@@ -730,7 +748,7 @@ Promise.all([
     const parts = String(f.venue).split(' · ');
     let note = '', venue = f.venue;
     if (parts.length > 1 && MARGIN_RX.test(parts[parts.length - 1])) { note = parts.pop(); venue = parts.join(' · '); }
-    SPLIT[f.title] = { venue, note };
+    SPLIT[f.type + '|' + f.title] = { venue, note };
   });
   $('#socials').innerHTML = C.site.links.map(l => `<a href="${esc(l.url)}" style="color:var(--teal)">${esc(l.label)}</a>`).join('');
   externalize($('#socials'));

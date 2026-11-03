@@ -60,6 +60,12 @@
       "format": "Invited"
     },
     {
+      "key": "Poster",
+      "color": "#F5845A",
+      "fg": "#2E2A6A",
+      "format": "Conference poster"
+    },
+    {
       "key": "Project",
       "color": "#FEC415",
       "fg": "#2E2A6A",
@@ -117,6 +123,45 @@
     }
   ],
   "feed": [
+    {
+      "date": "NOV 2026",
+      "type": "Poster",
+      "title": "From AI Literacy to AI Agents: Building Preparedness Across Undergraduate and Graduate Nursing Education",
+      "venue": "Ronquillo et al. · NETNEP 2026, 10th International Nurse Education Conference · Edinburgh, UK",
+      "href": "outputs/2026-NETNEP-poster_Ronquillo_AIWR-LANTERN/",
+      "actions": [
+        {
+          "label": "View poster",
+          "href": "outputs/2026-NETNEP-poster_Ronquillo_AIWR-LANTERN/"
+        }
+      ]
+    },
+    {
+      "date": "NOV 2026",
+      "type": "Poster",
+      "title": "Nursing Informatics Education for Digital Health",
+      "venue": "Chu et al. · NETNEP 2026, 10th International Nurse Education Conference · Edinburgh, UK",
+      "href": "outputs/2026-NETNEP-poster_Chu_NI-dighealtheduc-SR/",
+      "actions": [
+        {
+          "label": "View poster",
+          "href": "outputs/2026-NETNEP-poster_Chu_NI-dighealtheduc-SR/"
+        }
+      ]
+    },
+    {
+      "date": "NOV 2026",
+      "type": "Poster",
+      "title": "Whose Voice in the Scenario?",
+      "venue": "Forsyth et al. · NETNEP 2026, 10th International Nurse Education Conference · Edinburgh, UK",
+      "href": "outputs/2026-NETNEP-poster_Forsyth_simDEI-SR/",
+      "actions": [
+        {
+          "label": "View poster",
+          "href": "outputs/2026-NETNEP-poster_Forsyth_simDEI-SR/"
+        }
+      ]
+    },
     {
       "date": "JUL 2026",
       "type": "Workshop",
@@ -219,6 +264,14 @@
       "actions": []
     },
     {
+      "date": "2025 →",
+      "type": "Project",
+      "title": "AI Workforce Readiness (AIWR): AI in Nursing and Healthcare Practices Curriculum Resource Package",
+      "venue": "Alberta Machine Intelligence Institute (Amii) · program rollout plan in development",
+      "href": "#/research",
+      "actions": []
+    },
+    {
       "date": "2023 →",
       "type": "Project",
       "title": "Stakeholder perspectives and impacts of explainable AI in a British Columbia health authority",
@@ -262,7 +315,41 @@
       "co": "Burton, Douglas-Campbell, Harvey, Lawrence, Munro, Nanyonjo, Rush, Wilson",
       "description": "An educator-designed and educator-controlled ensemble of AI agents that builds graduate nursing students’ critical thinking through Socratic dialogue.",
       "match": [],
-      "papers": []
+      "papers": [],
+      "outputs": [
+        {
+          "kind": "Poster",
+          "title": "From AI Literacy to AI Agents: Building Preparedness Across Undergraduate and Graduate Nursing Education",
+          "href": "outputs/2026-NETNEP-poster_Ronquillo_AIWR-LANTERN/",
+          "note": "NETNEP 2026 · Edinburgh, UK"
+        }
+      ]
+    },
+    {
+      "status": "Program rollout plan in development",
+      "color": "#2E2A6A",
+      "short": "AIWR",
+      "title": "AI Workforce Readiness (AIWR): AI in Nursing and Healthcare Practices Curriculum Resource Package",
+      "funding": "Alberta Machine Intelligence Institute (Amii) AI Workforce Readiness program · 2025–ongoing",
+      "co": "",
+      "partners": "Alberta Machine Intelligence Institute (Amii), Bow Valley College, MacEwan University and British Columbia Institute of Technology (BCIT)",
+      "description": "A ready-to-use toolkit for post-secondary instructors to bring AI competencies into nursing and healthcare programs, so students learn to use AI tools safely and effectively for clinical decision support, predictive patient monitoring and resource management.",
+      "match": [],
+      "papers": [],
+      "outputs": [
+        {
+          "kind": "Poster",
+          "title": "From AI Literacy to AI Agents: Building Preparedness Across Undergraduate and Graduate Nursing Education",
+          "href": "outputs/2026-NETNEP-poster_Ronquillo_AIWR-LANTERN/",
+          "note": "NETNEP 2026 · Edinburgh, UK"
+        },
+        {
+          "kind": "Announcement",
+          "title": "Five AI Learning Resources Now in Development Under Amii’s AI Workforce Readiness Initiative",
+          "href": "https://www.amii.ca/updates-insights/five-ai-learning-resources-workforce-readiness",
+          "note": "Amii · December 2025"
+        }
+      ]
     },
     {
       "status": "Under ethics review",
