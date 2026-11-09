@@ -1,5 +1,16 @@
 [
   {
+    "title": "Integrating diversity, equity, and inclusion in generative AI applications for healthcare education: a scoping review",
+    "year": 2026,
+    "month": 11,
+    "day": null,
+    "date": "2026-11",
+    "date_precision": "month",
+    "vancouver_citation": "Shin HD, Ronquillo CE, Lee J, Lokmic-Tomkins Z, Reid L, You SB, et al. Integrating diversity, equity, and inclusion in generative AI applications for healthcare education: a scoping review. International Journal of Medical Informatics. 2026;220:106582.",
+    "doi": "10.1016/j.ijmedinf.2026.106582",
+    "url": "https://doi.org/10.1016/j.ijmedinf.2026.106582"
+  },
+  {
     "title": "Code With Care: A Strategic Blueprint for Nurse‐Led AI in Healthcare",
     "year": 2026,
     "month": 10,
@@ -66,6 +77,39 @@
     "url": "https://doi.org/10.2196/101190"
   },
   {
+    "title": "The era of agentic AI: Should nurses and midwives learn about vibe coding and AI agents for better health and care?",
+    "year": 2026,
+    "month": 5,
+    "day": null,
+    "date": "2026-05",
+    "date_precision": "month",
+    "vancouver_citation": "O’Connor S, Zhang M, Hui V, Chen LA, Delgado J, Chu CH, et al. The era of agentic AI: Should nurses and midwives learn about vibe coding and AI agents for better health and care?. Nurse Education in Practice. 2026;93:104837.",
+    "doi": "10.1016/j.nepr.2026.104837",
+    "url": "https://doi.org/10.1016/j.nepr.2026.104837"
+  },
+  {
+    "title": "Intersecting Social Identities and Health in Arthritis: A Latent Class Analysis of the Canadian Longitudinal Study on Aging",
+    "year": 2026,
+    "month": 4,
+    "day": 29,
+    "date": "2026-04-29",
+    "date_precision": "day",
+    "vancouver_citation": "Thomas MM, Sayre EC, Harrison M, Barnabe C, Ronquillo CE, Avina‐Zubieta JA, et al. Intersecting Social Identities and Health in Arthritis: A Latent Class Analysis of the Canadian Longitudinal Study on Aging. ACR Open Rheumatology. 2026;8(5).",
+    "doi": "10.1002/acr2.90038",
+    "url": "https://doi.org/10.1002/acr2.90038"
+  },
+  {
+    "title": "“What do you want this information for?”: cognitive interviews with arthritis researchers to inform the development of a health equity-focused demographic survey for outcomes research",
+    "year": 2026,
+    "month": 2,
+    "day": 12,
+    "date": "2026-02-12",
+    "date_precision": "day",
+    "vancouver_citation": "Thomas MM, Oveisi N, Ronquillo CE, Harrison M, Barnabe C, Primeau C, et al. “What do you want this information for?”: cognitive interviews with arthritis researchers to inform the development of a health equity-focused demographic survey for outcomes research. BMC Rheumatology. 2026;10(1).",
+    "doi": "10.1186/s41927-026-00614-2",
+    "url": "https://doi.org/10.1186/s41927-026-00614-2"
+  },
+  {
     "title": "Priorities on trauma-informed design of sexual and reproductive health-related digital technologies: A modified nominal group technique",
     "year": 2026,
     "month": 2,
@@ -119,6 +163,17 @@
     "vancouver_citation": "Reading Turchioe M, Pepingco C, Ronquillo C, Ferrara SA, Topaz M, Austin R, et al. Education, empowerment, and elevating nursing voices: Nursing informatics leaders’ perspectives on the path forward with artificial intelligence in nursing. Nursing Outlook. 2025;73(5):102484.",
     "doi": "10.1016/j.outlook.2025.102484",
     "url": "https://doi.org/10.1016/j.outlook.2025.102484"
+  },
+  {
+    "title": "Exploring Nurse Perspectives on Technology-Related Safety Events in Oncology",
+    "year": 2025,
+    "month": 8,
+    "day": 7,
+    "date": "2025-08-07",
+    "date_precision": "day",
+    "vancouver_citation": "Recsky C, Ronquillo C, Tam M, Lauck S, Lambert L. Exploring Nurse Perspectives on Technology-Related Safety Events in Oncology. Studies in Health Technology and Informatics. 2025.",
+    "doi": "10.3233/SHTI251160",
+    "url": "https://doi.org/10.3233/SHTI251160"
   },
   {
     "title": "Teaching Informatics Competencies within Nursing Education: A Scoping Review of Teaching Strategies",
@@ -209,7 +264,7 @@
     "url": "https://doi.org/10.1016/J.PECINN.2024.100274"
   },
   {
-    "title": "Social Determinants of Health in Digital Health Policies: an International Environmental Scan",
+    "title": "Social Determinants of Health in Digital Health Policies: An International Environmental Scan",
     "year": 2024,
     "month": 8,
     "day": null,
@@ -240,6 +295,17 @@
     "vancouver_citation": "Ronquillo CE, Booth RG, Adzo Vittor W, Mendoza I, Wood N, Gomes van Berlo O, et al. Mapping Trust in Nurses with Dimensions of Trustworthy Artificial Intelligence: A Scoping Review. Studies in Health Technology and Informatics. 2024.",
     "doi": "10.3233/SHTI240295",
     "url": "https://doi.org/10.3233/SHTI240295"
+  },
+  {
+    "title": "Future Needs in Nursing Informatics-Preliminary Findings from the Global Nursing Informatics Survey",
+    "year": 2024,
+    "month": 7,
+    "day": 24,
+    "date": "2024-07-24",
+    "date_precision": "day",
+    "vancouver_citation": "von Gerich H, Alhuwail D, Badger MK, Block LJ, Eler GJ, Georgsson M, et al. Future Needs in Nursing Informatics – Preliminary Findings from the Global Nursing Informatics Survey. Studies in Health Technology and Informatics. 2024.",
+    "doi": "10.3233/SHTI240165",
+    "url": "https://doi.org/10.3233/SHTI240165"
   },
   {
     "title": "Technological Challenges and Solutions in Emergency Remote Teaching for Nursing: An International Cross-Sectional Survey",
@@ -275,6 +341,17 @@
     "url": ""
   },
   {
+    "title": "Harnessing Digital Technology to Provide Research Evidence for Nursing and Midwifery Practice",
+    "year": 2024,
+    "month": null,
+    "day": null,
+    "date": "2024",
+    "date_precision": "year",
+    "vancouver_citation": "Harnessing Digital Technology to Provide Research Evidence for Nursing and Midwifery Practice. Harnessing Digital Technology and Data for Nursing Practice. 2024.",
+    "doi": "10.1016/B978-0-443-11160-0.00014-9",
+    "url": "https://doi.org/10.1016/B978-0-443-11160-0.00014-9"
+  },
+  {
     "title": "Escenarios y situaciones de racismo y clasismo durante el cuidado de enfermería: Una revisión de la literatura",
     "year": 2023,
     "month": 12,
@@ -308,6 +385,17 @@
     "url": "https://doi.org/10.1093/jamia/ocad153"
   },
   {
+    "title": "Nursing Informatics’ Contribution to One Health",
+    "year": 2023,
+    "month": 8,
+    "day": null,
+    "date": "2023-08",
+    "date_precision": "month",
+    "vancouver_citation": "Peltonen L, O'Connor S, Conway A, Cook R, Currie LM, Goossen W, et al. Nursing Informatics' Contribution to One Health. Yearbook of Medical Informatics. 2023;32(01):065-075.",
+    "doi": "10.1055/s-0043-1768738",
+    "url": "https://doi.org/10.1055/s-0043-1768738"
+  },
+  {
     "title": "A Framework for Embedding Artificial Intelligence in Nursing: Education, Innovation, Collaboration, and Implementation – the ALIGN Model",
     "year": 2023,
     "month": 2,
@@ -317,6 +405,17 @@
     "vancouver_citation": "O'Connor S, Peltonen L, Ronquillo CE, Chu C, Topaz M, Chen LA, et al. A Framework for Embedding Artificial Intelligence in Nursing: Education, Innovation, Collaboration, and Implementation – the ALIGN Model. 2023.",
     "doi": "10.31219/osf.io/3b8pc",
     "url": "https://doi.org/10.31219/osf.io/3b8pc"
+  },
+  {
+    "title": "Explainable Machine Learning Model to Predict COVID-19 Severity Among Older Adults in the Province of Quebec",
+    "year": 2023,
+    "month": null,
+    "day": null,
+    "date": "2023",
+    "date_precision": "year",
+    "vancouver_citation": "Rahimi S, Chu CH, Grad R, Karanofsky M, Arsenault M, Ronquillo CE, et al. Explainable Machine Learning Model to Predict COVID-19 Severity Among Older Adults in the Province of Quebec. Big data. 2023:3619.",
+    "doi": "10.1370/afm.21.s1.3619",
+    "url": "https://doi.org/10.1370/afm.21.s1.3619"
   },
   {
     "title": "Differing Effects of Implementation Leadership Characteristics on Nurses’ Use of mHealth Technologies in Clinical Practice: Cross-Sectional Survey Study (Preprint)",
@@ -337,8 +436,41 @@
     "date": "2022-10",
     "date_precision": "month",
     "vancouver_citation": "Rush KL, Burton L, Seaton CL, Smith MA, Li EP, Ronquillo CE, et al. A cross-sectional study of the preventive health care activities of western Canadian rural-living patients unattached to primary care providers. Preventive Medicine Reports. 2022;29:101913.",
-    "doi": "10.1016/J.PMEDR.2022.101913",
-    "url": "https://doi.org/10.1016/J.PMEDR.2022.101913"
+    "doi": "10.1016/j.pmedr.2022.101913",
+    "url": "https://doi.org/10.1016/j.pmedr.2022.101913"
+  },
+  {
+    "title": "Towards Automated Screening of Literature on Artificial Intelligence in Nursing",
+    "year": 2022,
+    "month": 6,
+    "day": 6,
+    "date": "2022-06-06",
+    "date_precision": "day",
+    "vancouver_citation": "Moen H, Alhuwail D, Björne J, Block L, Celin S, Jeon E, et al. Towards Automated Screening of Literature on Artificial Intelligence in Nursing. Studies in Health Technology and Informatics. 2022.",
+    "doi": "10.3233/SHTI220155",
+    "url": "https://doi.org/10.3233/SHTI220155"
+  },
+  {
+    "title": "The Untapped Potential of Nursing and Allied Health Data for Improved Representation of Social Determinants of Health and Intersectionality in Artificial Intelligence Applications: A Rapid Review",
+    "year": 2022,
+    "month": 6,
+    "day": 2,
+    "date": "2022-06-02",
+    "date_precision": "day",
+    "vancouver_citation": "Ronquillo CE, Mitchell J, Alhuwail D, Peltonen L, Topaz M, Block LJ. The Untapped Potential of Nursing and Allied Health Data for Improved Representation of Social Determinants of Health and Intersectionality in Artificial Intelligence Applications: A Rapid Review. Yearbook of Medical Informatics. 2022;31(01):094-099.",
+    "doi": "10.1055/s-0042-1742504",
+    "url": "https://doi.org/10.1055/s-0042-1742504"
+  },
+  {
+    "title": "The impact of digital technologies, data analytics and AL on nursing informatics: The new skills and knowledge nurses need for the 21st century",
+    "year": 2022,
+    "month": 3,
+    "day": 14,
+    "date": "2022-03-14",
+    "date_precision": "day",
+    "vancouver_citation": "Chu CH, Conway A, Jibb L, Ronquillo CE. The Impact of Digital Technologies, Data Analytics and AI on Nursing Informatics:. Nursing and Informatics for the 21st Century – Embracing a Digital World, 3rd Edition, Book 4. 2022:149-170.",
+    "doi": "10.4324/9781003281047-9",
+    "url": "https://doi.org/10.4324/9781003281047-9"
   },
   {
     "title": "Artificial Intelligence -based technologies in nursing: A scoping literature review of the evidence",
@@ -348,8 +480,8 @@
     "date": "2022-03",
     "date_precision": "month",
     "vancouver_citation": "von Gerich H, Moen H, Block LJ, Chu CH, DeForest H, Hobensack M, et al. Artificial Intelligence -based technologies in nursing: A scoping literature review of the evidence. International Journal of Nursing Studies. 2022;127:104153.",
-    "doi": "10.1016/J.IJNURSTU.2021.104153",
-    "url": "https://doi.org/10.1016/J.IJNURSTU.2021.104153"
+    "doi": "10.1016/j.ijnurstu.2021.104153",
+    "url": "https://doi.org/10.1016/j.ijnurstu.2021.104153"
   },
   {
     "title": "Technology Recommendations to Support Person-Centered Care in Long-Term Care Homes during the COVID-19 Pandemic and Beyond",
@@ -374,7 +506,7 @@
     "url": "https://doi.org/10.3233/SHTI210317"
   },
   {
-    "title": "Artificial intelligence in nursing: Priorities and opportunities from an international invitational think‐tank of the Nursing and Artificial Intelligence Leadership Collaborative",
+    "title": "Artificial intelligence in nursing: Priorities and opportunities from an international invitational think-tank of the Nursing and Artificial Intelligence Leadership Collaborative",
     "year": 2021,
     "month": 5,
     "day": 18,
@@ -385,7 +517,18 @@
     "url": "https://doi.org/10.1111/jan.14855"
   },
   {
-    "title": "COVID-19 restrictions: experiences of immigrant parents in Toronto.",
+    "title": "How to Improve Information Technology to Support Healthcare to Address the COVID-19 Pandemic: an International Survey with Health Informatics Experts",
+    "year": 2021,
+    "month": 4,
+    "day": 21,
+    "date": "2021-04-21",
+    "date_precision": "day",
+    "vancouver_citation": "Topaz M, Peltonen L, Mitchell J, Alhuwail D, Barakati S, Lewis A, et al. How to Improve Information Technology to Support Healthcare to Address the COVID-19 Pandemic: an International Survey with Health Informatics Experts. Yearbook of Medical Informatics. 2021;30(01):061-068.",
+    "doi": "10.1055/s-0041-1726491",
+    "url": "https://doi.org/10.1055/s-0041-1726491"
+  },
+  {
+    "title": "COVID-19 restrictions: experiences of immigrant parents in Toronto",
     "year": 2021,
     "month": null,
     "day": null,
@@ -403,22 +546,22 @@
     "date": "2020-12",
     "date_precision": "month",
     "vancouver_citation": "Fernandez-Luque L, Kushniruk AW, Georgiou A, Basu A, Petersen C, Ronquillo C, et al. Evidence-Based Health Informatics as the Foundation for the COVID-19 Response: A Joint Call for Action. Methods of Information in Medicine. 2020;59(06):183-192.",
-    "doi": "10.1055/S-0041-1726414",
-    "url": "https://doi.org/10.1055/S-0041-1726414"
+    "doi": "10.1055/s-0041-1726414",
+    "url": "https://doi.org/10.1055/s-0041-1726414"
   },
   {
-    "title": "Health Informatics Solutions in Response to COVID-19: Preliminary Insights from an International Survey.",
+    "title": "Health informatics solutions in response to COVID-19: Preliminary insights from an international survey",
     "year": 2020,
     "month": 11,
     "day": 23,
     "date": "2020-11-23",
     "date_precision": "day",
     "vancouver_citation": "Barakati S, Topaz M, Peltonen L, Mitchell J, Alhuwail D, Risling T, et al. Health Informatics Solutions in Response to COVID-19: Preliminary Insights from an International Survey. Studies in Health Technology and Informatics. 2020.",
-    "doi": "10.3233/shti200727",
-    "url": "https://doi.org/10.3233/shti200727"
+    "doi": "10.3233/SHTI200727",
+    "url": "https://doi.org/10.3233/SHTI200727"
   },
   {
-    "title": "A nursing informatics response to COVID‐19: Perspectives from five regions of the world",
+    "title": "A nursing informatics response to COVID-19: Perspectives from five regions of the world,护理信息学对新冠肺炎的反应：来自世界五个地区的观点",
     "year": 2020,
     "month": 7,
     "day": 22,
@@ -429,7 +572,7 @@
     "url": "https://doi.org/10.1111/jan.14417"
   },
   {
-    "title": "Data visualization in health care: The Florence effect.",
+    "title": "Data visualization in health care: The Florence effect,医疗数据可视化:佛罗伦萨效应",
     "year": 2020,
     "month": 3,
     "day": 8,
@@ -440,7 +583,7 @@
     "url": "https://doi.org/10.1111/jan.14334"
   },
   {
-    "title": "Emerging Professionals' Observations of Opportunities and Challenges in Nursing Informatics",
+    "title": "Emerging Professionals’ Observations of Opportunities and Challenges in Nursing Informatics",
     "year": 2019,
     "month": 6,
     "day": 28,
@@ -451,7 +594,7 @@
     "url": "https://doi.org/10.12927/cjnl.2019.25965"
   },
   {
-    "title": "The Nurse LEADership for Implementing Technologies - Mobile Health Model (Nurse LEAD-IT - mHealth)",
+    "title": "The Nurse LEADership for Implementing Technologies – Mobile Health Model (Nurse LEAD-IT – mHealth)",
     "year": 2019,
     "month": 6,
     "day": 28,
@@ -471,6 +614,17 @@
     "vancouver_citation": "Peltonen L, Pruinelli L, Ronquillo C, Nibber R, Peresmitre EL, Block L, et al. The current state of Nursing Informatics – An international cross-sectional survey. Finnish Journal of eHealth and eWelfare. 2019;11(3):220-231.",
     "doi": "10.23996/FJHW.77584",
     "url": "https://doi.org/10.23996/FJHW.77584"
+  },
+  {
+    "title": "mhealth geographies: Mobile technologies and health in the global south",
+    "year": 2018,
+    "month": 6,
+    "day": 14,
+    "date": "2018-06-14",
+    "date_precision": "day",
+    "vancouver_citation": "Cinnamon J, Ronquillo C. mHealth geographies. Routledge Handbook of Health Geography. 2018:279-287.",
+    "doi": "10.4324/9781315104584-40",
+    "url": "https://doi.org/10.4324/9781315104584-40"
   },
   {
     "title": "4 Enhanced dissemination of evidence syntheses to support emerging new models of care",
@@ -526,17 +680,6 @@
     "vancouver_citation": "Hudson RB. Gerontology’s Political Blind Spot. Public Policy &amp; Aging Report. 2018;28(1):4-8.",
     "doi": "10.1093/PPAR/PRY032",
     "url": "https://doi.org/10.1093/PPAR/PRY032"
-  },
-  {
-    "title": "MHEALTH GEOGRAPHIES Mobile technologies and health in the Global South",
-    "year": 2018,
-    "month": null,
-    "day": null,
-    "date": "2018",
-    "date_precision": "year",
-    "vancouver_citation": "MHEALTH GEOGRAPHIES Mobile technologies and health in the Global South. Routledge Handbook of Health Geography. 2018.",
-    "doi": null,
-    "url": ""
   },
   {
     "title": "SuperNurse: Nurses' Workarounds Informing the Design of Interactive Technologies for Home Wound Care",
